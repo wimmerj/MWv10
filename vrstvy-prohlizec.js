@@ -2517,10 +2517,9 @@ function loadSectionsState() {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Rozbalovací sekce inicializovány');
     
-    // Pokusit se načíst uložený stav, jinak ponechat výchozí (expanded)
-    setTimeout(() => {
-        loadSectionsState();
-    }, 100); // Malé zpoždění pro jistotu, že DOM je připraven
+    // Nastavíme výchozí stav - všechny sekce zabalené kromě "Užitečné funkce"
+    // Necháme výchozí HTML stav (pouze "Užitečné funkce" má třídu expanded)
+    // a nebudeme načítat uložený stav
     
     console.log('Dostupné funkce pro ovládání sekcí:');
     console.log('- collapseAllSections() - sbalí všechny sekce');
