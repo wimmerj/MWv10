@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Železniční a elektrotechnický Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <a href="index.html" style="text-decoration: none; color: #2563eb; font-size: 14px; padding: 8px 16px; border: 1px solid #2563eb; border-radius: 4px; background: white; transition: all 0.3s;">← Zpět na hlavní stránku</a>
+            </div>
+            <h1>🚂⚡ Železniční a elektrotechnický Quiz</h1>
+            <div class="category-info">
+                <span id="category-name">Všechny kategorie</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="question-counter">
+                <span id="current-question">1</span> / <span id="total-questions">10</span>
+            </div>
+        </header>
+
+        <main>
+            <div id="category-selection" class="category-selection">
+                <h2>🚂 Železniční a elektrotechnický quiz</h2>
+                <p class="intro-text">Vyberte kategorii otázek z oblasti drážních zabezpečovacích zařízení a elektrotechniky</p>
+                <div class="categories-grid" id="categories-grid">
+                    <div class="category-card" onclick="selectCategory('all')">
+                        <h3>Všechny kategorie</h3>
+                        <p id="all-count">0 otázek</p>
+                    </div>
+                </div>
+                <div class="quiz-settings">
+                    <label for="question-count">Počet otázek:</label>
+                    <select id="question-count">
+                        <option value="10">10 otázek</option>
+                        <option value="20">20 otázek</option>
+                        <option value="50">50 otázek</option>
+                        <option value="all">Všechny otázky</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="quiz-container" class="quiz-container hidden">
+                <div class="question-section">
+                    <h2 id="question-text">Načítání otázky...</h2>
+                </div>
+                
+                <div class="answers-section">
+                    <button class="answer-btn" id="answer-0" onclick="selectAnswer(0)">
+                        <span class="answer-letter">A</span>
+                        <span class="answer-text" id="answer-text-0">Odpověď A</span>
+                    </button>
+                    <button class="answer-btn" id="answer-1" onclick="selectAnswer(1)">
+                        <span class="answer-letter">B</span>
+                        <span class="answer-text" id="answer-text-1">Odpověď B</span>
+                    </button>
+                    <button class="answer-btn" id="answer-2" onclick="selectAnswer(2)">
+                        <span class="answer-letter">C</span>
+                        <span class="answer-text" id="answer-text-2">Odpověď C</span>
+                    </button>
+                </div>
+
+                <div class="controls">
+                    <button id="next-btn" onclick="nextQuestion()" disabled>Další otázka</button>
+                    <button id="end-quiz-btn" onclick="endQuiz()" class="secondary-btn">Ukončit quiz</button>
+                </div>
+            </div>
+
+            <div id="result-container" class="result-container hidden">
+                <h2>🎉 Quiz dokončen!</h2>
+                <div class="score">
+                    <div class="score-circle">
+                        <span id="score-percentage">0%</span>
+                    </div>
+                    <p>Vaše skóre: <span id="final-score">0</span> z <span id="final-total">10</span> správných odpovědí</p>
+                </div>
+                
+                <div class="result-details">
+                    <h3>Detaily výsledků:</h3>
+                    <div class="result-summary">
+                        <p><strong>Kategorie:</strong> <span id="result-category">Všechny kategorie</span></p>
+                        <p><strong>Vysvětlení k nesprávným odpovědím:</strong></p>
+                    </div>
+                    <div id="result-list"></div>
+                </div>
+
+                <div class="result-actions">
+                    <button onclick="restartQuiz()" class="restart-btn">Zkusit znovu</button>
+                    <button onclick="backToCategories()" class="secondary-btn">Změnit kategorii</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Modální okno pro potvrzení ukončení -->
+        <div id="end-quiz-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>⚠️ Ukončit quiz?</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Opravdu chcete ukončit quiz? Zobrazí se vám výsledky za dosud zodpovězené otázky.</p>
+                    <div class="quiz-progress-info">
+                        <p><strong>Dokončeno:</strong> <span id="modal-progress">0 z 0</span> otázek</p>
+                        <p><strong>Aktuální skóre:</strong> <span id="modal-score">0</span> správných odpovědí</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="confirmEndQuiz()" class="danger-btn">Ano, ukončit</button>
+                    <button onclick="cancelEndQuiz()" class="primary-btn">Pokračovat v quizu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modální okno pro vysvětlení -->
+        <div id="explanation-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="explanation-title">Vysvětlení správné odpovědi</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="correct-answer-info">
+                        <p><strong>Správná odpověď:</strong> <span id="modal-correct-answer"></span></p>
+                        <p><strong>Vaše odpověď:</strong> <span id="modal-user-answer"></span></p>
+                    </div>
+                    <div class="explanation-content">
+                        <h4>Vysvětlení:</h4>
+                        <p id="explanation-text"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="continue-btn" onclick="continueQuiz()" class="primary-btn">Pokračovat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

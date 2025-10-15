@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Jak je charakterizována doba trvání blesku T?",
+    "answers": [
+      "doba vyjádřená časovým integrálem bleskového proudu za celou dobu trvání úderu blesku",
+      "doba, než bleskový proud dosáhne nejvyšší hodnoty",
+      "doba, po kterou v místě úderu protéká bleskový proud"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.15) Doba trvání blesku T (flash duration) je doba, po kterou v místě úderu protéká bleskový proud.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 2,
+    "question": "Jak lze charakterizovat chráněnou stavbu?",
+    "answers": [
+      "stavba umístěná v ochranném pásmu vedlejšího objektu",
+      "stavba, pro kterou se vyžaduje ochrana před účinky blesku",
+      "podzemní inženýrská síť připojená ke stavbě"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.22) Chráněná stavba je stavba, pro kterou se vyžaduje ochrana před účinky blesku v souladu s normou. (Chráněná stavba může být částí rozsáhlejší stavby.)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 3,
+    "question": "Jak je charakterizována rázová vlna?",
+    "answers": [
+      "jako zóna ochrany před bleskem kde dojde k přímému úderu",
+      "jako přechodná vlna způsobená LEMP projevující se jako přepětí a/nebo impulzní proud",
+      "jako prudký nárůst napětí na podzemní inženýrské síti připojené ke stavbě"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.35; ČSN EN 62305-2 ed. 2, čl. 3.1.24) Rázová vlna (surge) je přechodná vlna způsobená LEMP projevující se jako přepětí a/nebo impulzní proud. Může vzniknout z (dílčích) bleskových proudů, účinky indukce v instalačních smyčkách a jako zbytkový nebezpečný jev za SPD. Informace: LEMP elektromagnetický impulz vyvolaný bleskem, SPD přepěťové ochranné zařízení.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 4,
+    "question": "Normy řady ČSN EN 62305 využívají v celém rozsahu zkrácené názvy. Co znamená označení LPZ?",
+    "answers": [
+      "označení hromosvodní ochrany",
+      "zóna ochrany před bleskem",
+      "pravděpodobnosti ochrany před bleskem"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.36 a ČSN EN 62305-2 ed. 2, čl. 3.1.36) Zóna ochrany před bleskem (lightning protection zone) LPZ - zóna, ve které je definováno elektromagnetické prostředí. Poznámka: Hranice zón LPZ nemusí nutně být hmotné hranice (například stěny, podlaha nebo strop).",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 5,
+    "question": "Normy řady ČSN EN 62305 využívají v celém rozsahu zkrácené názvy. Co znamená označení LPL?",
+    "answers": [
+      "hladina ochrany před bleskem",
+      "zóna ochrany před bleskem",
+      "pravděpodobnosti ochrany před bleskem"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.39 a ČSN EN 62305-2 ed. 2, čl. 3.1.37) Hladina ochrany před bleskem (lightning protection level) LPL - číslo vztažené k souboru hodnot parametrů bleskového proudu, odpovídající pravděpodobnosti, že příslušné maximální a minimální návrhové hodnoty nebudou u blesků vyskytujících se v přírodě překročeny. (Hladina ochrany před bleskem se používá pro návrh ochranných opatření podle odpovídajícího souboru parametrů bleskového proudu.)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 6,
+    "question": "Normy řady ČSN EN 62305 využívají v celém rozsahu zkrácené názvy. Co znamená označení LPS?",
+    "answers": [
+      "systém ochrany před bleskem",
+      "hladina ochrany před bleskem",
+      "zóna ochrany před bleskem"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.42 a ČSN EN 62305-2 ed. 2, čl. 3.1.40) Systém ochrany před bleskem (lightning protection system) LPS - kompletní systém používaný pro snížení hmotných škod způsobených údery blesku do stavby. Poznámka: Sestává jak z vnějšího, tak i z vnitřního systému ochrany před bleskem.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 7,
+    "question": "Normy řady ČSN EN 62305 využívají v celém rozsahu zkrácené názvy. Co znamená označení SPD?",
+    "answers": [
+      "zóna ochrany před bleskem",
+      "přepěťové ochranné zařízení určené k omezení přechodných přepětí",
+      "hladina ochrany před bleskem"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 3.53 a ČSN EN 62305-4 ed. 2, čl. 3.16) Přepěťové ochranné zařízení (surge protective device) SPD - zařízení určené k omezení přechodných přepětí a ke svedení impulzních proudů; obsahuje alespoň jeden nelineární prvek.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 8,
+    "question": "Podle řady ČSN EN 62305 jsou znázorněny příčiny a typy poškození staveb a sítí písmeny S1, S2, S3, S4. Co toto označení představuje?",
+    "answers": [
+      "klasifikaci úrazů osob krokovými a dotykovými napětími",
+      "stupeň přímého mechanického poškození stavby",
+      "poškození způsobené údery do stavby, v blízkosti stavby, do sítí a v jejich blízkosti"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 5.1.2) Příčiny a typy poškození staveb jsou způsobené bleskovým proudem. Z hlediska polohy místa úderu vzhledem ke stavbě se musí brát v úvahu následující situace: S1: údery do stavby; S2: údery v blízkosti stavby; S3: údery do inženýrských sítí připojených ke stavbě; S4: údery v blízkosti sítí připojených ke stavbě.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 9,
+    "question": "Jaká je maximální uvažovaná vrcholová hodnota bleskového proudu I v závislosti na třídě LPS?",
+    "answers": [
+      "I - 200 kA; II - 150 kA; III - 100 kA; IV - 100 kA",
+      "I - 400 kA; II - 250 kA; III - 200 kA; IV - 50 kA",
+      "I - 300 kA; II - 200 kA; III - 150 kA; IV - 100 kA"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 8.2 tabulka č. 3 a podle ČSN EN 62305-3 ed. 2, čl. 4.1) Pro každou ze čtyř hladin LPL je stanoven soubor maximálních a minimálních parametrů blesku. Maximální hodnoty parametrů proudů blesku jsou pro různé hladiny ochrany před bleskem stanoveny v tabulce 3. Používají se pro návrh komponentů ochrany před bleskem (například průřezu vodičů atd).",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 10,
+    "question": "Jaký je poloměr valácí se koule r v závislosti na třídě LPS?",
+    "answers": [
+      "I - 20 m; II - 30 m; III - 45 m; IV - 60 m",
+      "I - 10 m; II - 30 m; III - 45 m; IV - 45 m",
+      "I - 10 m; II - 20 m; III - 30 m; IV - 45 m"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 8.2 tabulka č. 4 a podle ČSN EN 62305-3 ed. 2, čl. 5.2.2) V závislosti na minimální hodnotě bleskového proudu jsou stanoveny poloměry valící se koule: LPL I - 20 m; LPL II - 30 m; LPL III - 45 m; LPL IV - 60 m.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 11,
+    "question": "V které části objektu se podle řady ČSN EN 62305 nacházejí zóny LPZ 0A a LPZ 0B?",
+    "answers": [
+      "vně objektu",
+      "v prostoru uložení zemní soustavy",
+      "uvnitř objektu"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, čl. 8.3, čl. 8.4.1 a obrázek 3) Zóny ochrany před bleskem (LPZ) LPZ 0A a LPZ 0B se nacházejí vně objektu. (Čím vyšší je číslo jednotlivé zóny, tím nižší jsou parametry elektromagnetického prostředí.) (obecné pravidlo pro ochranu: chráněný objekt musí být v LPZ, jejíž elektromagnetické charakteristiky jsou kompatibilní se schopností stavby vydržet namáhání způsobující škodu, která má být omezena (hmotná škoda, porucha elektrických a elektronických systémů způsobená přepětím)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 12,
+    "question": "Průběh bleskového proudu se podle řady ČSN EN 62305 označuje jako poměr T1/T2 (μs/μs). Co toto označení ve skutečnosti představuje?",
+    "answers": [
+      "vrcholová hodnota proudu / napětí na kovových částech",
+      "doba čela / doba půltýlu",
+      "čas před úderem blesku / čas po úderu blesku"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, Příloha A, Obrázek A.1) Označení T1/T2 (μs/μs) představuje dobu čela / dobu půltýlu bleskového proudu.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 13,
+    "question": "Čím je charakteristický dlouhý výboj?",
+    "answers": [
+      "vrcholovou hodnotou proudu a dobou trvání",
+      "vrcholovou hodnotou proudu, dobou čela, dobou půltýlu",
+      "dobou trvání a nábojem výboje"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-1 ed. 2, Tabulka 5 a příloha A, část A.1, obrázky A.1 a A.2) Dlouhý výboj je charakterizován dobou trvání a nábojem výboje.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 14,
+    "question": "Co je považováno podle návrhu ochrany před bleskem za nebezpečný jev?",
+    "answers": [
+      "stavba objektu na vyvýšeném místě krajiny",
+      "riziko ztrát na veřejných službách",
+      "úder blesku do chráněné stavby nebo do její blízkosti"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 3.1.14) Nebezpečný jev je úder blesku do chráněné stavby nebo do její blízkosti.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 15,
+    "question": "Normy řady ČSN EN 62305 využívají v celém rozsahu zkrácené názvy. Co znamená označení LEMP?",
+    "answers": [
+      "rázová vlna způsobená bleskem",
+      "stanovení velikosti a stupně poškození elektronických zařízení",
+      "elektromagnetický impulz vyvolaný bleskem"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 3.1.23) LEMP (lightning electromagnetic impulse) je elektromagnetický impulz vyvolaný bleskem.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 16,
+    "question": "Jak je charakterizována rázová vlna?",
+    "answers": [
+      "jako mechanický úder způsobující mechanické poškození objektu",
+      "jako stále trvající vlna mezi jednotlivými údery",
+      "jako přechodná vlna způsobená LEMP projevující se jako přepětí a/nebo impulzní proud"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 3.1.24) Rázová vlna je přechodná vlna způsobená LEMP projevující se jako přepětí a/nebo impulzní proud.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 17,
+    "question": "Co je to přípustné riziko (RT) určované ve výpočtech?",
+    "answers": [
+      "minimální hodnota rizika, kterou je možno připustit pro chráněný objekt",
+      "maximální hodnota rizika, kterou je možno připustit pro chráněnou stavbu",
+      "průměrná hodnota rizika, kterou je možno připustit pro chráněný objekt"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 3.1.33) Přípustné riziko (RT-tolerable risk) je maximální hodnota rizika, kterou je možno připustit pro chráněnou stavbu.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 18,
+    "question": "Jak je charakterizován systém ochranných opatření proti LEMP?",
+    "answers": [
+      "komplexní systém ochranných opatření pro vnější a vnitřní systém ochrany před LEMP",
+      "komplexní systém ochranných opatření pro vnější systém ochrany před LEMP",
+      "opatření pro ochranu vnitřních systémů před účinky LEMP"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 3.1.41) Systém ochranných opatření proti LEMP je charakterizován jako opatření pro ochranu vnitřních systémů před účinky LEMP.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 19,
+    "question": "Jak jsou označovány základní typy škod při výpočtech?",
+    "answers": [
+      "D1 - úrazy osob; D2 - požár; D3 - porucha elektrických systémů",
+      "D1 - úraz živých bytostí; D2 - hmotná škoda; D3 - porucha elektrických a elektronických systémů",
+      "D1 - úrazy zvířat; D2 - hmotná škoda; D3 - porucha elektronických systémů"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 4.1.2) Jako následek úderů blesku mohou nastat tři základních typy škod.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 20,
+    "question": "Jaké základní typy ztrát rozeznáváme na chráněném objektu?",
+    "answers": [
+      "L1- ztráty na lidských životech; L2 - ztráty na zvířatech; L3 - ztráty na kulturním dědictví; L4 - ztráty ekonomické hodnoty",
+      "L1- ztráty na lidských životech; L2 - ztráty na telekomunikačních službách; L3 - ztráty na hradech a zámcích; L4 - ztráty na rodinných domech",
+      "L1- ztráty na lidských životech; L2 - ztráty na veřejných službách; L3 - ztráty na kulturním dědictví; L4 - ztráty ekonomické hodnoty"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 4.1.3) Každý typ škody může vyvolat různé následné ztráty v chráněném objektu. Musí se uvažovat 4 typy ztrát.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 21,
+    "question": "Jak je definováno riziko R a co tato hodnota představuje?",
+    "answers": [
+      "hodnotu pravděpodobných průměrných ztrát způsobených přepětím",
+      "hodnotu pravděpodobných průměrných ročních ztrát způsobených bleskem, vztaženou k celkové hodnotě objektu",
+      "hodnotu na základě pojistné smlouvy"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 4.2.1) Riziko R je poměrná hodnota pravděpodobných průměrných ročních ztrát způsobených bleskem. Pro každý typ ztrát, které mohou nastat, musí být oceněno odpovídající riziko (R1, R2, R3, R4). Každé riziko R je dáno součtem jeho součástí rizika.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 22,
+    "question": "Součástí každého návrhu konstrukce ochrany před bleskem je stanovení rizika a škod podle ČSN EN 62305-2 ed. 2:2013. Jaké riziko ztrát R je stanovováno u staveb?",
+    "answers": [
+      "riziko ztrát na lidských životech, na veřejných službách, na kulturním dědictví a ztrát ekonomických hodnot",
+      "riziko ztrát na životním prostředí a krajině v blízkosti objektu",
+      "riziko ztrát na lesním porostu"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 4.2.1 a čl. 6.1 a čl. 6.6) Riziko R je poměrná hodnota pravděpodobných průměrných ročních ztrát. Pro každý typ ztrát, které mohou nastat ve stavbě, musí být oceněno odpovídající riziko. Základní rovnice: Rx = Nx x Px x Lx. Nx - počet nebezpečných událostí za rok; Px - pravděpodobnost poškození stavby; Lx - následné ztráty;",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 23,
+    "question": "Na základě jakých údajů se rozhoduje o ochraně stavby před bleskem, stejně jako o výběru ochranných opatření?",
+    "answers": [
+      "na základě velikosti škod na okolních objektech",
+      "na základě určení všech typů ztrát ve stavbě a příslušných odpovídajících rizik",
+      "na základě rozhodnutí architekta a vzhledu stavby"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 5.1) Rozhodnutí o ochraně stavby nebo inženýrské sítě před bleskem, stejně jako výběr ochranných opatření, se musí provádět podle ČSN EN 62305-1 ed. 2. Musí se použít následující postup: identifikace chráněné stavby a její charakteristiky; určení všech typů ztrát ve stavbě a příslušných odpovídajících rizik R (R1 až R4); stanovení rizika R pro každý typ ztrát (R1 až R4); ocenění potřeby ochrany, porovnáním rizika R1, R2 a R3 pro stavbu s přípustným rizikem RT; ocenění efektivnosti nákladů na ochranu porovnáním nákladů na celkové ztráty s ochrannými opatřeními a bez nich. Pro ocenění těchto nákladů musí být v tomto případě proveden odhad součásti rizika R4.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 24,
+    "question": "Co zahrnuje výpočet při oceňování rizika u stavby?",
+    "answers": [
+      "vlastní stavbu, instalace ve stavbě, obsah stavby, osoby uvnitř a vně do 3 m od stavby, prostředí ovlivňované poškozením stavby.",
+      "vlastní stavbu, instalace ve stavbě, obsah stavby, osoby uvnitř a vně stavby",
+      "vlastní stavbu, instalace ve stavbě, obsah stavby, prostředí ovlivňované poškozením stavby"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 5.2) Pro ocenění rizika uvažované stavba zahrnujeme: vlastní stavbu; instalace ve stavbě; obsah stavby; osoby ve stavbě nebo stojící v zónách až do 3 m od vnějšku stavby; prostředí ovlivňované poškozením stavby. Ochrana nezahrnuje připojené inženýrské sítě vně stavby.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 25,
+    "question": "Co představuje vyjádření R = 10 na mínus třetí při stanovování rizika?",
+    "answers": [
+      "že riziko je tisíckrát vyšší než obvykle",
+      "že k rizikové události může dojít jednou za 1 000 let",
+      "že škoda rizikové události přesahuje 1000 Kč"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 5.4) Riziko R = 10-3 znamená, že riziková událost může nastat jednou za 1 000 let. (10-3 = 1/1000). Poznámka: R = 10 na mínus třetí je slovní přepis zápisu R = 10-3",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 26,
+    "question": "Jaké riziko je povolené tam, kde údery blesku zahrnují ztráty na lidských životech?",
+    "answers": [
+      "10-5 (k nebezpečné události může dojít 1 x za 100 000 let)",
+      "10-1 (k nebezpečné události může dojít 1 x za 10 let)",
+      "10-3 (k nebezpečné události může dojít 1 x za 1000 let)"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 5.3 tabulka 4) Přípustné riziko RT. Tam, kde při úderu blesku hrozí ztráty na životech nebo ztráty sociálních a kulturních hodnot, jsou v normě (v Tabulce 4) stanoveny typické hodnoty přípustného rizika.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 27,
+    "question": "Kdo zodpovídá za stanovení velikosti rizika u objektu?",
+    "answers": [
+      "revizní technik",
+      "za stanovení hodnoty přípustného rizika zodpovídá orgán, který má pro to kompetenci (provozovatel, majitel)",
+      "architekt stavby a projektant elektrických zařízení a ochrany proti LPS"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 5.3) Za stanovení hodnoty přípustného rizika RT zodpovídá orgán, který má pro to kompetenci.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 28,
+    "question": "Jaké postupy je nutné použít při zpracování projektové dokumentace LPS a k její následné kontrole při revizi?",
+    "answers": [
+      "postupy projektu vždy dohodne projektant s revizním technikem",
+      "určit, zda je stavba v ochranném pásmu a jestli se LPS vyplatí zhotovit",
+      "určit nejkritičtější součásti rizika a snížit je také s uvažováním ekonomických hledisek"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-2 ed. 2, čl. 5.7, obrázek 1) Výběr nejvhodnějších ochranných opatření musí být prováděn projektantem podle podílu jednotlivých rizik na celkovém riziku. Musí zohlednit technická a ekonomická hlediska různých ochranných opatření. Pokud je u některého rizika R > RT, musí být přijata ochranná opatření pro snížení na R ≤ RT.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 29,
+    "question": "Co představuje systém ochrany před bleskem LPS?",
+    "answers": [
+      "kompletní systém používaný pro snížení hmotných škod způsobených úderem blesku do stavby",
+      "systém používaný pro určení škod způsobených úderem blesku",
+      "vnější systém používaný pro snížení hmotných škod způsobených úderem blesku do stavby"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.1) LPS (lightning protection systém) = systém ochrany před bleskem, LPS je kompletní systém používaný pro snížení hmotných škod způsobených úderem blesku do stavby. Zahrnuje jak vnější, tak vnitřní systém ochrany před bleskem.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 30,
+    "question": "Z čeho se skládá vnější systém ochrany před bleskem (hromosvod)?",
+    "answers": [
+      "část LPS, se skládá z jímací soustavy, soustavy svodů a uzemnění",
+      "část LPS, se skládá z jímací soustavy a uzemnění",
+      "část LPS, se skládá z jímací soustavy a soustavy svodů"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.2) Vnější systém ochrany před bleskem (hromosvod - external lightning protection system) je část LPS, která se skládá z jímací soustavy, soustavy svodů a uzemnění.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 31,
+    "question": "Čemu musí odpovídat vnější izolovaný (oddálený) LPS?",
+    "answers": [
+      "jímací soustava a svody jsou umístěny tak, aby dráha bleskového proudu byla v dotyku s chráněnou stavbou jen omezeně",
+      "jímací soustava a svody jsou umístěny tak, aby dráha bleskového proudu nebyla v dotyku s chráněnou stavbou",
+      "jímací soustava je umístěna tak, aby dráha bleskového proudu nebyla v dotyku s chráněnou stavbou"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.3) Vnější LPS izolovaný (oddálený) od chráněné stavby je systém ochrany před bleskem (LPS), jehož jímací soustava a svody jsou umístěny tak, aby dráha bleskového proudu nebyla v dotyku s chráněnou stavbou. Tím je zabráněno nebezpečným jiskřením mezi LPS a stavbou.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 32,
+    "question": "Čemu musí odpovídat vnější neizolovaný (neoddálený) LPS?",
+    "answers": [
+      "jímací soustava a svody jsou umístěny tak, že dráha bleskového proudu může být v dotyku s chráněnou stavbou",
+      "jímací soustava a svody jsou umístěny tak, že dráha bleskového proudu nemůže být v dotyku s chráněnou stavbou",
+      "jímací soustava je umístěna tak, aby byla v dotyku s chráněnou stavbou"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.4) Vnější LPS neizolovaný (neoddálený) od chráněné stavby je systém ochrany před bleskem (LPS), jehož jímací soustava a svody jsou umístěny tak, že dráha bleskového proudu může být v dotyku s chráněnou stavbou.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 33,
+    "question": "Co je náhodná součást LPS?",
+    "answers": [
+      "vodivá součást, která nebyla instalována pro ochranu před bleskem, ale která byla dodatečně použita k LPS nebo může v mnohých případech jednou nebo více částmi zabezpečit funkci LPS",
+      "vodivá součást instalována pro ochranu před bleskem, která byla dodatečně k LPS použita",
+      "vodivá součást, která nebyla instalována pro ochranu před bleskem, ale která může v mnohých případech jednou nebo více částmi částečně doplnit funkci LPS"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.15) Náhodná součást LPS je vodivá součást, která nebyla instalována pro ochranu před bleskem, ale která byla dodatečně k LPS použita, nebo může v mnohých případech jednou nebo více částmi zabezpečit funkci LPS. (Například „náhodná“ jímací soustava, „náhodný“ svod, „náhodný“ zemnič.)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 34,
+    "question": "Co je ekvipotenciální pospojování proti blesku (vyrovnání potenciálů při působení blesku) označované EB?",
+    "answers": [
+      "připojení náhodných kovových prvků k LPS nepřímým vodivým spojením (např. bleskojistkou)",
+      "připojení všech kovových prvků k LPS přímým i nepřímým vodivým spojením nebo přes přepěťové ochranné prvky určené pro snížení rozdílu potenciálů",
+      "připojení oddělených kovových prvků k LPS přímým vodivým spojením nebo připojením přes přepěťové ochranné zařízení pro snížení rozdílů potenciálů způsobeným bleskovým proudem"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.23) EB - \"lightning equipotential bonding\" = ekvipotenciální pospojování proti blesku = \"vyrovnání potenciálů při působení blesku\" je připojení oddělených kovových prvků k systému ochrany před bleskem (LPS) přímým vodivým spojením nebo připojením přes přepěťové ochranné zařízení pro snížení rozdílů potenciálů způsobeným bleskovým proudem.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 35,
+    "question": "K čemu slouží sběrnice pospojování (přípojnice vyrovnání potenciálů)?",
+    "answers": [
+      "kovová sběrnice, přes kterou se vybrané vodivé části z objektu spojují s LPS",
+      "kovová sběrnice, přes kterou mohou být kovové instalace, vstupující vodivé části do objektu, napájecí síť nn, telekomunikační vedení a jiná kabelová vedení spojena s LPS",
+      "kovová sběrnice, přes kterou mohou být instalace, napájecí síť nn, telekomunikační vedení a jiná kabelová vedení přímo spojena"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 3.24) Sběrnice pospojování (přípojnice vyrovnání potenciálů) je kovová sběrnice, přes kterou mohou být kovové instalace, vstupující vodivé části do objektu, napájecí síť nn, telekomunikační vedení a jiná kabelová vedení spojena s LPS.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 36,
+    "question": "Jaká data (parametry) jsou závislá na třídě LPS? (Poznámka: Čím je LPS charakterizována?)",
+    "answers": [
+      "parametry blesku, poloměr valící se koule, velikostí ok a ochranným úhlem, vodiči, minimální délkou zemničů",
+      "materiál LPS a minimální rozměry spojovacích vodičů",
+      "ekvipotenciální pospojování proti blesku, materiál, tvary a minimální rozměry jímací soustavy, svodů a uzemňovací soustavy"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 4.1) Parametry LPS (systému ochrany před bleskem) jsou určeny charakteristickými vlastnostmi chráněné stavby a uvažovanou hladinou ochrany před bleskem LPL.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 37,
+    "question": "Může technicky a ekonomicky optimalizovaný návrh ochrany před bleskem (LPS) využívat kovových konstrukcí v objektu?",
+    "answers": [
+      "projekt stavby může využít kovové konstrukce pouze u železobetonových staveb spojených se základovým zemničem",
+      "projekt stavby by měl především využít kovové konstrukce stavby jako součásti LPS",
+      "projekt stavby nesmí využívat kovové konstrukce, naopak musí dbát na dodržování dostatečných vzdáleností konstrukcí od LPS"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 4.2) Technicky a ekonomicky optimalizovaný návrh LPS je možný zejména tehdy, pokud jsou jednotlivé kroky během projektování a montáže LPS koordinovány s postupy projektování a realizaci chráněné stavby. Projekt stavby by měl především využít kovové konstrukce stavby jako součásti LPS.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 38,
+    "question": "U staveb ze železobetonu musí být elektrické propojení armování stanoveno elektrickou zkouškou mezi nejhořejším dílem a úrovní země. Jaká má být hodnota elektrického odporu, aby mohlo být použito ocelové armování jako náhodný svod?",
+    "answers": [
+      "armování musí být použito vždy jako součást svodů LPS, odpor celého armování není rozhodující",
+      "odpor celého armování objektu nesmí být větší než 2 Ω",
+      "celkový elektrický odpor armování by neměl být větší než 0,2 Ω"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 4.3) Propojení ocelového armování stavby ze železobetonu. U staveb ze železobetonu (včetně prefabrikátů, dílů z předpjatého betonu) musí být elektrické propojení armování stanoveno elektrickou zkouškou mezi nejhořejším dílem a úrovní země. Při měření zařízením vhodným pro tyto účely, by neměl být celkový elektrický odpor větší než 0,2 Ω.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 39,
+    "question": "Pokud použijeme ve stavbách z železobetonu pro návrh LPS ocelové armování, je nutné elektrické propojení svislých a vodorovných prutů svařením nebo jiný způsob spojení. Kdo stanovuje takovéto konstrukční uspořádání?",
+    "answers": [
+      "projektant nebo montážní organizace ve spolupráci se stavební firmou a stavebním inženýrem",
+      "stavební dozor",
+      "dodavatel železobetonových konstrukcí"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 4.3) Ocelové armování ve stavbách z železobetonu je považováno za elektricky propojené, je-li větší díl spojení svislých a vodorovných prutů svařen nebo jiným způsobem bezpečně spojen. Spojení svislých prutů musí být svařeno, sevřeno nebo překryto s přesahem rovným minimálně 20násobku průměru prutu nebo je nutno spojení zajistit jiným bezpečným způsobem. Spojení mezi jednotlivými prvky armování u nových staveb musí být stanoveno projektantem nebo montážní organizací ve spolupráci se stavební firmou a stavebním inženýrem.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 40,
+    "question": "V jakých případech by měl být na chráněné stavbě použit izolovaný (oddálený) vnější LPS?",
+    "answers": [
+      "když tepelné účinky v místě úderu do částí, které nevedou bleskový proud, mohou způsobit škody",
+      "když tepelné a výbušné účinky v místě úderu nebo ve vodičích, které vedou bleskový proud, nemohou způsobit škody na stavbě nebo na jejím vybavení",
+      "když tepelné a výbušné účinky v místě úderu nebo ve vodičích, které vedou bleskový proud, mohou způsobit škody na stavbě nebo na jejím vybavení"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.1.2) Ve většině případů smí být vnější LPS uchycen k chráněné stavbě. Izolovaný (oddálený) vnější LPS od chráněné stavby by měl být použit v případě, že tepelné a výbušné účinky v místě úderu nebo ve vodičích, které vedou bleskový proud, mohou způsobit škody na stavbě nebo na jejím obsahu (vybavení, zboží atd.). Typickými příklady jsou stavby s hořlavou krytinou, stavby s hořlavými stěnami a s prostředím s nebezpečím výbuchu a požáru.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 41,
+    "question": "Jaké části může obsahovat jímací soustava?",
+    "answers": [
+      "tyče, samostatně stojící stožáry, radioaktivní jímače, konstrukce objektu",
+      "konstrukce objektu, zavěšená lana, náhodné svody",
+      "tyče, samostatně stojící stožáry, zavěšená lana, mřížové vodiče"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.1 a čl. 5.2.5) Jímací soustava může být vytvořena kombinací následujících částí: tyče (včetně samostatně stojících stožárů); zavěšená lana; mřížové vodiče; náhodné jímače. U všech typů jímačů musí být pro určení ochranného prostoru použity pouze reálné fyzické rozměry kovových jímacích soustav. To platí i pro aktivní jímače ESE. Radioaktivní jímače jsou nepřípustné.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 42,
+    "question": "Jaké jsou přípustné metody pro stanovení umístění jímací soustavy?",
+    "answers": [
+      "metoda valící se koule, ostatní metody jsou pouze podpůrné pro dosažení lepších výsledků LPS",
+      "metoda ochranného úhlu, metoda valící se koule a metoda mřížové soustavy",
+      "metoda mřížové soustavy a metoda ochranného úhlu s maximálním úhlem 112°, u aktivních jímačů max 120°"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.2) Metody přípustné pro stanovení umístění jímací soustavy jsou tyto: metoda ochranného úhlu; metoda valící se koule; metoda mřížové soustavy.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 43,
+    "question": "Jaký je přípustný vrcholový úhel pro vyšetření jímací soustavy při metodě pomocí ochranného úhlu?",
+    "answers": [
+      "úhel není stanoven, je závislý na výšce objektu",
+      "maximálně 112°",
+      "maximálně 120°"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.2, obrázek 1 a Příloha A) Ochranný prostor svislé jímací tyče bude vytvořen pravoúhlým kuželem s vrcholem umístěným v ose jímací tyče, polovičním vrcholovým úhlem α, který je závislý na třídě LPS a na výšce jímací soustavy. Konkrétní hodnoty pro ochranný úhel (poloviční vrcholový úhel α) jsou vyjádřeny graficky a závisí na třídě LPS a na výšce jímací soustavy. (Pohybuje se přibližně od 23° do 78°)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 44,
+    "question": "Jaké jsou přípustné poloměry valící se koule pro vyšetření jímací soustavy?",
+    "answers": [
+      "pro všechny třídy LPS je jednotný poloměr 30 m",
+      "pro třídu LPS I - III je poloměr 10 až 40 m",
+      "pro třídu LPS I - IV je poloměr 20 až 60 m"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.2 Tabulka 2) Přípustné poloměry valící se koule jsou určeny třídou LPS: Třída LPS I = r = 20 m, LPS II = r = 30 m, LPS III = r = 45 m, LPS IV = r = 60 m",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 45,
+    "question": "Pro jaké případy stanovení umístění jímací soustavy je vhodná metoda valící se koule?",
+    "answers": [
+      "pro všechny případy",
+      "pro ochranu jednoduchých staveb",
+      "pro ochranu rovinných střech"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.2) Metoda valící se koule je vhodná pro všechny případy. Metoda ochranného úhlu je vhodná pro jednoduché tvary budov, ale je ohraničena výškou jímací soustavy, která je v normě uvedena v tabulce 2. Metoda mřížové soustavy je vhodná pro ochranu rovinných ploch.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 46,
+    "question": "Pro jaké případy stanovení umístění jímací soustavy je vhodná metoda ochranného úhlu?",
+    "answers": [
+      "pro ochranu vysokých rovinných střech",
+      "pro všechny případy",
+      "pro ochranu jednoduchých staveb, ale je ohraničena výškou"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.2) Metoda valící se koule je vhodná pro všechny případy. Metoda ochranného úhlu je vhodná pro jednoduché tvary budov, ale je ohraničena výškou jímací soustavy, která je v normě uvedena v tabulce 2. (do 20 m, 30 m, 45 m nebo 60 m, podle třídy LPS). Metoda mřížové soustavy je vhodná pro ochranu rovinných ploch.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 47,
+    "question": "Pro jaké případy stanovení umístění jímací soustavy je vhodná metoda mřížové soustavy?",
+    "answers": [
+      "pro ochranu jednoduchých staveb s nízkou výškou",
+      "pro ochranu rovinných ploch",
+      "pro všechny případy"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.2) Metoda valící se koule je vhodná pro všechny případy. Metoda ochranného úhlu je vhodná pro jednoduché tvary budov, ale je ohraničena výškou jímací soustavy, která je v normě uvedena v tabulce 2. Metoda mřížové soustavy je vhodná pro ochranu rovinných ploch.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 48,
+    "question": "U jakých staveb může vzniknout nebezpečí úderu do boku stavby?",
+    "answers": [
+      "u staveb s výškou nad 120 m",
+      "u staveb s výškou 30 až 50 m",
+      "u staveb s výškou nad 60 m"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.3.2) U staveb vyšších než 60 m mohou blesky udeřit i do boku stavby, obzvlášť do hrotů, hran a rohů vnějších ploch. Jímací soustava musí být umístěna tak, aby chránila horní část vysokých staveb (obvykle horních 20 % výšky stavby ale ne pod 60 m výšky stavby) a na ni uchycená zařízení.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 49,
+    "question": "V jakých případech mohou být vodiče jímací soustavy položeny na střeše stavby?",
+    "answers": [
+      "pokud je střecha z lehce hořlavého materiálu",
+      "pokud je střecha z nehořlavého materiálu",
+      "vodiče jímací soustavy nesmí přímo ležet na střeše stavby"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.4) V případě, že je střecha provedena z nehořlavého materiálu, mohou se vodiče jímací soustavy položit na střechu stavby.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 50,
+    "question": "Jaké části stavby nemohou být považovány za náhodné jímače a součásti LPS?",
+    "answers": [
+      "kovová potrubí a nádrže na střeše z pozinkované oceli o tloušťce 4 mm",
+      "kovová oplechování bude-li zajištěno trvalé elektrické propojení mezi různými díly",
+      "kovová oplechování potažená izolační hmotou PVC o tloušťce minimálně 2 mm"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.2.5 a Tabulka 3) Za náhodné jímače mohou být považovány tyto součásti stavby: kovové oplechování (předepsané tloušťky, s trvalým el. spojením) - Vrstva 1 mm asfaltu nebo 0,5 mm PVC se nepovažuje za izolaci; kovové součásti střešní konstrukce; kovové díly (předepsaného průřezu) jako zábradlí, ozdoby; kovová potrubí a nádrže na střeše (při splnění podmínek z Tabulky 6) Poznámka Tabulka 3 uvádí sice pro FeZn minimum 4 mm, ale to neplatí pro nádrže na střeše. Potrubí s lehce hořlavými nebo výbušnými látkami nesmí být považováno za náhodný jímač, není-li těsnění přírub kovové nebo nejsou-li příruby jinak vodivě spojeny.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 51,
+    "question": "Jak je nutno umísťovat svody, aby se snížila pravděpodobnost škod způsobených bleskem?",
+    "answers": [
+      "tak, aby mezi místem úderu blesku a zemí byla délka dráhy proudu co možná nejkratší",
+      "v dostatečném množství a v místech podle požadavků architekta",
+      "tak, aby všechny kovové části v blízkosti svodu byly připojeny"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.1) Aby se snížila pravděpodobnost škod způsobených bleskem, který proteče LPS, je nutné umísťovat svody tak, aby mezi místem úderu se zemí: bylo více paralelních drah proudu; délka dráhy proudu byla co možná nejkratší; bylo ekvipotenciální pospojování k vodivým součástem stavby.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 52,
+    "question": "Kolik svodů je nutno instalovat u izolovaného (oddáleného) LPS, je-li jímací soustava tvořena ze zavěšených drátů nebo lan?",
+    "answers": [
+      "je nutno pro každou nosnou konstrukci instalovat jeden svod",
+      "minimálně jeden svod",
+      "soustava se opatřuje vždy dvěma svody"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.2) Jestliže je jímací soustava tvořena ze zavěšených drátů nebo lan (nebo jednoho drátu nebo lana), je nutné pro každou nosnou konstrukci instalovat jeden svod.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 53,
+    "question": "Kolik svodů je nutno instalovat u neizolovaného (neoddáleného) LPS?",
+    "answers": [
+      "jeden svod",
+      "minimálně dva svody",
+      "tři svody a více"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.3) Pro každý neizolovaný (neoddálený) LPS se musí v každém případě použít minimálně dva svody. Měly by se rozmísťovat po obvodu chráněné stavby s ohledem na architektonické a praktické požadavky. Svody by měly být rozmístěny po obvodu ve stejných rozestupech (LPS I = 10 m; LPS II = 10 m; LPS III = 15 m; LPS IV = 20 m).",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 54,
+    "question": "Jaké jsou typické hodnoty vzdáleností mezi svody u neizolovaného (neoddáleného) LPS ve vztahu k třídám LPS?",
+    "answers": [
+      "třída LPS I - 10 m; třída LPS II a III - 15 m; třída LPS IV - 20 m",
+      "třída LPS I - 10 m; třída LPS II - 15 m; třída LPS III a IV - 20 m",
+      "třída LPS I a II - 10 m; třída LPS III - 15 m; třída LPS IV - 20 m"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.3) Svody by měly být rozmístěny po obvodu ve stejných rozestupech. V normě jsou stanoveny pro jednotlivé třídy LPS tyto typické vzdálenosti mezi svody: LPS I = 10 m; LPS II = 10 m; LPS III = 15 m; LPS IV = 20 m (Je-li to možné, měl by být na každý nechráněný roh budovy umístěn jeden svod.)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 55,
+    "question": "Jakým požadavkům má odpovídat konstrukce a instalace svodů LPS?",
+    "answers": [
+      "vždy mají být vedeny souběžně, v těsné blízkosti a nebo v okapových svodech",
+      "musí být instalovány přímo a svisle, aby bylo vytvořeno co nejkratší přímé spojení se zemí a musí být zabráněno vytvoření instalačních smyček",
+      "musí být rozmístěny pokud možno tak, aby byla vytvořena co nejhustější ochranná síť na objektu"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.4) Svody musí být rozmístěny pokud možno tak, aby bylo vytvořeno přímé pokračování jímací soustavy. Svody musí být instalovány přímo a svisle, aby bylo vytvořeno co nejkratší přímé spojení se zemí. Musí být zabráněno vytvoření instalačních smyček. Není-li možno tomu zabránit, musí se zajistit dostatečná vzdálenost s, měřená mezi dvěma body svodu, které se k sobě navzájem přiblíží. Svody nesmí být uloženy v okapech ani v okapových trubkách. (zvenčí ale na trubkách být mohou)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 56,
+    "question": "Mohou se umístit svody neoddáleného LPS na stěnu z lehce hořlavého materiálu?",
+    "answers": [
+      "nesmí se umísťovat na stěny z lehce hořlavého materiálu",
+      "svody se smí umísťovat na stěny z lehce hořlavého materiálu, jen pokud zvýšení teploty způsobené průchodem bleskového proudu není nebezpečné s ohledem na materiál stěny",
+      "svody se smí umísťovat na stěny z lehce hořlavého materiálu, za předpokladu, že v nebezpečných částech je vzdálenost mezi svody a stěnou zvětšena na minimálně 0,2 m"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.4) Svody LPS neoddáleného od chráněné stavby smí být instalovány podle následujících pravidel:",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 57,
+    "question": "Které náhodné části stavby by neměly být považovány za náhodné svody?",
+    "answers": [
+      "kovové instalace za předpokladu, že elektricky vodivá spojení mezi různými částmi jsou provedena trvanlivě",
+      "kovové oplechování nebo kovová potrubí o tloušťce minimálně 0,2 mm",
+      "profilové lišty a kovové spodní konstrukce fasády o tloušťce minimálně 0,5 mm"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.5) Následující části stavby mohou být použity jako náhodné svody (při splnění podmínek):",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 58,
+    "question": "Kde by měly být umístěny zkušební spojky na svodech LPS?",
+    "answers": [
+      "vždy nad zemí",
+      "na každém připojení svodu k uzemňovací soustavě",
+      "na náhodných svodech, které jsou spojeny se základovým zemničem"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.3.6) Zkušební spojky by měly být umÍstěny na každém připojení svodu k uzemňovací soustavě, mimo náhodné svody, které jsou spojeny se základovým zemničem. Pro účely měření musí být možno spojku rozpojit pomocí nářadí. Za normálního provozu musí zůstat spojena.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 59,
+    "question": "Jaká je doporučovaná hodnota zemního odporu zemniče pro LPS měřená při nízkém kmitočtu?",
+    "answers": [
+      "nižší než 15 Ω",
+      "nižší než 5 Ω",
+      "nižší než 10 Ω"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.4.1) Všeobecně je doporučen nízký zemní odpor, pokud možno nižší než 10 Ω, měřený při nízkém kmitočtu.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 60,
+    "question": "Jaký smí být nejmenší celkový počet zemničů (uspořádaných z vodorovných nebo svislých zemničů) v uspořádání typu A instalovaného vně chráněné stavby?",
+    "answers": [
+      "stačí jeden základový zemnič",
+      "nesmí být nižší než dva",
+      "jeden"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.4.2.1) Uspořádání typu A se skládá z vodorovných nebo svislých zemničů, instalovaných vně chráněné stavby, které jsou spojeny s každým svodem nebo ze základových zemničů, které netvoří uzavřenou smyčku. Pro uspořádání typu A nesmí být celkový počet zemničů nižší než dva.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 61,
+    "question": "Z čeho se skládá uzemňovací soustava v uspořádání typu A?",
+    "answers": [
+      "ze základového zemniče a minimálně dvou náhodných zemničů",
+      "z vodorovného nebo svislého zemniče napojeného na základový zemnič",
+      "z vodorovného nebo svislého zemniče, instalovaného vně chráněné stavby, který je spojen s každým svodem"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.4.2.1) Uspořádání typu A se skládá z vodorovných nebo svislých zemničů, instalovaných vně chráněné stavby, které jsou spojeny s každým svodem nebo ze základových zemničů, které netvoří uzavřenou smyčku.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 62,
+    "question": "Z čeho se skládá obvodová uzemňovací soustava vně objektu v uspořádání typu B?",
+    "answers": [
+      "z obvodového zemniče vně chráněného objektu, který je uložen minimálně 80% své celkové délky v zemině, nebo ze základového zemniče tvořícího uzavřenou smyčku",
+      "z vodorovného nebo svislého zemniče instalovaného vně chráněné stavby, který je spojen s každým svodem",
+      "ze základového zemniče a minimálně dvou náhodných zemničů spojených s každým svodem"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.4.2.2) Uspořádání typu B se skládá buď z obvodového zemniče vně chráněného objektu, který je uložen minimálně 80% své celkové délky v zemině, nebo ze základového zemniče tvořícího uzavřenou smyčku. Takový zemnič může být také doplněn na mřížový. (Obvodový zemnič musí být vždy zcela propojen v celé své délce.)",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 63,
+    "question": "V jaké hloubce a vzdálenosti od zdí objektu má být přednostně uložen obvodový zemnič typu B?",
+    "answers": [
+      "v hloubce minimálně 0,3 m v zemi a ve vzdálenosti minimálně 0,5 m od vnitřních zdí objektu",
+      "v hloubce minimálně 0,5 m v zemi a ve vzdálenosti asi 1 m od vnějších zdí objektu",
+      "v hloubce minimálně 1 m v zemi a ve vzdálenosti asi 1,5 m od vnějších zdí objektu"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.4.3) Obvodový zemnič v uspořádání typu B by měl být přednostně uložen v hloubce minimálně 0,5 m v zemi a ve vzdálenosti asi 1 m od vnějších zdí objektu.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 64,
+    "question": "Jaké zemniče se mají přednostně používat jako zemniče náhodné?",
+    "answers": [
+      "zapuštěné nosníky stavby a uzemňovací tyče",
+      "vzájemně spojené ocelové armování v základovém betonu nebo jiné vhodné podzemní kovové konstrukce",
+      "vzájemně spojené ocelové armování a přicházející a odcházející potrubí"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.4.4) Přednostně by se mělo používat vzájemně spojené ocelové armování v základovém betonu nebo jiné vhodné podzemní kovové konstrukce.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 65,
+    "question": "Jaké spoje se provádí na uzemnění k zařízení LPS?",
+    "answers": [
+      "výhradně svařováním a pájením natvrdo",
+      "šroubováním nebo nýtováním, tyto spoje nesmí být použity v zemi",
+      "pájením natvrdo, svařováním, svorkováním, lisováním, falcováním, šroubováním nebo nýtováním"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 5.5.3 a čl. 4.3) Počet spojů ve svodech musí být omezen na minimum. Spoje musí být provedeny spolehlivě pájením natvrdo, svařováním, svorkováním, lisováním, falcováním, šroubováním nebo nýtováním. Ocelové armování ve stavbách z železobetonu je považováno za elektricky propojené, je-li větší díl spojení svislých a vodorovných prutů svařen nebo jiným způsobem bezpečně spojen. Spojení svislých prutů musí být svařeno, sevřeno nebo překryto s přesahem rovným minimálně 20násobku průměru prutu nebo je nutno spojení zajistit jiným bezpečným způsobem.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 66,
+    "question": "K jakým účelům se zřizuje vnitřní systém LPS?",
+    "answers": [
+      "musí zabránit nebezpečným jiskřením uvnitř chráněné stavby, která mohou být způsobena průchodem bleskového proudu",
+      "musí zabránit, aby nedošlo k přeskoku nebezpečných napětí do ekvipotenciálního pospojování",
+      "musí zabránit, aby nedošlo k úderu blesku do stavby"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 6.1) Vnitřní LPS musí zabránit nebezpečným jiskřením uvnitř chráněné stavby, která mohou být způsobena průchodem bleskového proudu nejen ve vnějším LPS, ale také v jiných vodivých částech stavby.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 67,
+    "question": "Jakým způsobem lze dosáhnout při ekvipotenciálním pospojování proti blesku vyrovnání potenciálů s LPS?",
+    "answers": [
+      "vzájemným propojením LPS a ochranných vodičů",
+      "musí se vždy zabránit, aby nedošlo k úderu blesku do vnějších vodivých částí a do vedení připojených ke stavbě",
+      "vzájemným propojením LPS s kovovými částmi stavby, kovovými instalacemi a vnitřními systémy"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 6.2.1) Vyrovnání potenciálů se dosáhne vzájemným propojením LPS s: kovovými instalacemi (v předchozí normě bylo bylo i „s kovovými částmi stavby“); vnitřními systémy; vnějšími vodivými částmi a vedeními připojenými ke stavbě.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 68,
+    "question": "Kde se provádí ekvipotenciální pospojování proti blesku pro vnější vodivé části?",
+    "answers": [
+      "co možná nejblíže vstupu chráněné stavby",
+      "v prvním dostupném rozváděči",
+      "možná nejblíže vstupu chráněné stavby, kde jsou umístěny ostatní sítě"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 6.2.3) Ekvipotenciální pospojování proti blesku musí být pro vnější kovové části provedeno co možná nejblíže vstupu chráněné stavby. Vodiče pospojování musí vydržet část bleskového proudu IF, který může téct přes ně a je vypočten podle přílohy E normy IEC 62305-1. Jestliže přímé pospojování není přípustné, musí být použit ISG (oddělovací jiskřiště (isolating spark gap)) s těmito charakteristikami: Iimp ≥ IF, kde IF  je bleskový proud tekoucí příslušnou vnější vodivou částí; jmenovité impulsní přeskokové napětí URIMP musí být nižší než impulzní výdržná hladina izolace mezi částmi.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 69,
+    "question": "Jak se vypočte dostatečná vzdálenost mezi jímací soustavou a kovovými částmi stavby?",
+    "answers": [
+      "s = ( ki/km ). kc .l",
+      "s = ki . kc . km",
+      "s ≥ 0,2 R + l/10 n"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 6.3.1) Elektrické izolace mezi jímací soustavou nebo svody na jedné straně a kovovými částmi stavby, kovovými instalacemi a vnitřními systémy na straně druhé může být dosaženo vzdáleností mezi těmito částmi, která je větší než dostatečná vzdálenost s.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 70,
+    "question": "Jaký je účel revize LPS?",
+    "answers": [
+      "vyhodnotit spolehlivost zařízení LPS",
+      "zjistit, zda projekt LPS a montáž LPS odpovídá normě ČSN EN 62305",
+      "zjistit, zda nově přidané inženýrské sítě mají vlastní dokumentaci"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 7.2) Účelem revize LPS je zjistit, že: LPS odpovídá projektu podle této normy; všechny součásti LPS jsou v dobrém technickém stavu a mohou plnit navrhované funkce a nejsou zkorodovány; všechny nově přidané inženýrské sítě nebo konstrukce jsou začleněny do LPS.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 71,
+    "question": "Co není nutné kontrolovat v průběhu revize nového LPS?",
+    "answers": [
+      "korozi zemničů",
+      "uložení zemničů",
+      "vlastní instalaci LPS"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 7.2) Již během stavby by se měl zrevidovat uložený zemnič a při ukončení i provedení instalace LPS. Během periodických revizí je obzvlášť důležité kontrolovat: zhoršení a korozi součástí jímací soustavy, vodičů a spojů; korozi zemničů (Poznámka: až při periodických revizích); hodnotu zemního odporu; stav spojů a uchycení",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 72,
+    "question": "Jaká dodatečná opatření před dotykovým napětím mohou být použita u svodů LPS?",
+    "answers": [
+      "oplocení zamezující vstup ke svodu do vzdálenosti alespoň 5 m",
+      "ochrana svodu před náhodným dotykem vodivou uzemněnou trubkou nebo uzemněným úhelníkem",
+      "izolace svodu zajišťující impulzní výdržné napětí 100 kV, 1,2/50 μs, fyzická zábrana nebo výstražná tabulka"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 8.1) V okolí svodů LPS vně stavby mohou za určitých podmínek vzniknout životu nebezpečná dotyková napětí. Toto nebezpečí může být zmenšeno, když budou splněny následující podmínky:",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 73,
+    "question": "Jaká dodatečná opatření je možno použít před vznikem krokových napětí vzniklé v okolí vnějších svodů LPS?",
+    "answers": [
+      "izolací svodu a výstražnou tabulkou zabraňující přístup k ekvipotenciální vyrovnávací uzemňovací soustavě",
+      "oplocením zamezujícím vstup do nebezpečné oblasti v okruhu do 5 m od svodu",
+      "ekvipotenciální vyrovnání mřížovou uzemňovací soustavou, fyzickou zábranou nebo výstražnou tabulkou, aby se snížila pravděpodobnost vstupu do nebezpečné oblasti v okruhu do 3 m od svodu"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. 8.2) V blízkosti svodů vně stavby může být za určitých podmínek nebezpečná (krokové napětí). Toto nebezpečí může být zmenšeno na přípustnou úroveň, když budou splněny následující podmínky",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 74,
+    "question": "Co musí být vzato v úvahu, použijeme-li pro stanovení ochranných prostorů metodu ochranného úhlu?",
+    "answers": [
+      "postačující je výška stavby",
+      "skutečné fyzické rozměry kovové jímací soustavy",
+      "ochranný poloměr jímací soustavy"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2 + ZMĚNA Z1, Příloha A, čl. A.1.1, Příloha NA, čl. NA.2) Umístění jímací soustavy je považováno za dostatečné, je-li chráněná stavba (zařízení) zcela umístěna uvnitř ochranného prostoru, který je vytvořen jímací soustavou. Pro určení ochranných prostorů musí být vzaty jen skutečné fyzické rozměry kovové jímací soustavy. Zde se zohlední fyzická délka všech jímačů, tj. klasických nebo alternativních, včetně aktivního jímače ESE. Velikost ochranného úhlu závisí také na třídě LPS a na výšce jímací tyče nad referenční rovinou.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 75,
+    "question": "Pro ochranu rovinných ploch je určena mřížová soustava. Kam se umisťují vodiče této jímací soustavy?",
+    "answers": [
+      "nad nejvyšší části střechy",
+      "na hřebenech střechy, je-li sklon střechy menší než 1/10",
+      "na okrajích střechy, na převisech střechy"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, Příloha A čl. A.3) Pro ochranu rovinných ploch je určena mřížová soustava, která bude chránit celkovou plochu, pokud budou splněny všechny následující podmínky",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 76,
+    "question": "Na čem bude záviset koeficient rozdělení (kc) bleskového proudu mezi svody?",
+    "answers": [
+      "na počtu svodů a jejich umístění",
+      "na sklonu střechy a na jejím tvaru",
+      "na průřezu armovacích prutů umístěných ve stavbě"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, Příloha C) Koeficient rozdělení (kc) bleskového proudu mezi jímači/svody závisí na typu jímací soustavy, celkovém počtu svodů (n), na jejich umístění a na propojení obvodovými vodiči a typu uzemňovací soustavy.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 77,
+    "question": "Mohou být armovací pruty stěn nebo díly z betonu a ocelový skelet použity jako náhodné svody?",
+    "answers": [
+      "ano",
+      "ne",
+      "jen pokud jsou viditelně propojeny"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, Příloha E, čl. E.4.3.1 a čl. E.4.3.7) Ocelové armování ve stavbách ze železobetonu může být použito jako náhodná součást LPS. Tyto součásti musí splňovat požadavky na svody a uzemňovací soustavy.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 78,
+    "question": "Jak může být zabráněno nebezpečným jiskřením mezi LPS a kovovými, elektrickými a telekomunikačními instalacemi?",
+    "answers": [
+      "izolovaným LPS izolací nebo oddálením",
+      "vytvořením hlídaných jiskřišť",
+      "jiskření v elektrických a telekomunikačních instalacích nelze zabránit"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, Příloha E 5.1.3) Nebezpečným jiskřením mezi LPS a kovovými, elektrickými a telekomunikačními instalacemi může být zabráněno: izolovaným LPS izolací nebo oddálením; neizolovaným LPS ekvipotenciálním pospojováním nebo izolací nebo oddálením.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 79,
+    "question": "Jaké jsou minimální intervaly mezi kontrolami a revizemi LPS hladiny I a II?",
+    "answers": [
+      "vizuální kontrola 1 rok, úplná revize 4 roky, úplná revize kritických systémů 2 roky",
+      "vizuální kontrola 0,5 roku, úplná revize 1 rok, úplná revize kritických systémů 1 rok",
+      "vizuální kontrola 1 rok, úplná revize 2 roky, úplná revize kritických systémů 1 rok"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. E.7, tabulka E.2) Maximální intervaly mezi revizemi LPS:",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 80,
+    "question": "Jaké jsou minimální intervaly mezi kontrolami a revizemi LPS hladiny III a IV?",
+    "answers": [
+      "vizuální kontrola 1 rok, úplná revize 4 roky, úplná revize kritických systémů 1 rok",
+      "vizuální kontrola 4 roky, úplná revize 4 roky, úplná revize kritických systémů 2 roky",
+      "vizuální kontrola 2 roky, úplná revize 6 roků, úplná revize kritických systémů 1 rok"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-3 ed. 2, čl. E.7, tabulka E.2) Maximální intervaly mezi revizemi LPS:",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 81,
+    "question": "Jaká základní ochranná opatření v SPM (dříve LPMS) lze zahrnout mezi základní ochranná opatření proti LEMP?",
+    "answers": [
+      "uzemnění míst jiskření v elektrických a telekomunikačních instalacích, kterým nelze zabránit",
+      "uzemnění a pospojování, magnetické stínění a trasy vedení, koordinovaný SPD systém a izolační rozhraní",
+      "stínění vnějších vedení vstupujících do stavby s použitím stíněných kabelů nebo kabelových kanálů"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 4.4) (SPM = Sourge Protection Measures = vnitřní systém ochrany před LEMP - elektromagnetický impulz vyvolaný bleskem - přepětí, vyšší proudový impulz. Základní ochranná opatření proti LEMP zahrnují viz. odpověď. SPM musí vydržet provozní namáhání předpokládaná v místě instalace (například vliv teploty, vlhkosti, korozní atmosféry, vibrací, napětí a proudu). EB bude chránit jen před nebezpečným jiskřením. Ochrana vnitřních systémů proti rázovým vlnám vyžaduje koordinovanou SPD ochranu.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 82,
+    "question": "Vhodné uzemnění a pospojování je založeno na kompletním systému uzemnění. Co tento systém zahrnuje?",
+    "answers": [
+      "uzemňovací soustavu a soustavu pospojování",
+      "jímací soustavu a soustavu svodů LPS",
+      "zemnící soustavu s minimálně dvěmi tyčemi"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.1) Vhodné uzemnění a pospojování je založeno na kompletním systému uzemnění spojující uzemňovací soustavu (rozptylující bleskový proud do země) a soustavu pospojování (minimalizující rozdíly potenciálů a snižující magnetické pole).",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 83,
+    "question": "Jaký typ uzemňovací soustavy se upřednostňuje ve stavbách, kde jsou instalovány elektronické systémy?",
+    "answers": [
+      "soustava tyčová s minimálně dvěmi tyčemi",
+      "je doporučeno uspořádání uzemnění typu B",
+      "je doporučeno uspořádání uzemnění typu A"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.2) Ve stavbách s elektronickými systémy je doporučeno uspořádání uzemnění typu B.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 84,
+    "question": "K zabránění nebezpečných rozdílů potenciálů mezi všemi zařízeními uvnitř vnitřních LPZ je využívána mřížová soustava. Jaká je typická šířka ok této mřížové soustavy?",
+    "answers": [
+      "10 m",
+      "5 m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.3) Aby se zabránilo nebezpečným rozdílům potenciálů mezi všemi zařízeními uvnitř vnitřních LPZ, je potřebná nízká hodnota impedance soustavy pospojování. Soustava pospojování může být uspořádána jako trojrozměrná mřížová konstrukce s typickou šířkou ok mříže 5 m. Toto vyžaduje mnohonásobná vzájemná spojení kovových součástí uvnitř a vně stavby (jako armování v betonu, kolejnice výtahu, jeřábů, kovových střech, kovových fasád, kovových rámů oken a dveří, kovových rámů podlah, potrubí, inženýrských sítí a kabelových tras).",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 85,
+    "question": "Při provedení pospojování se využívá zapojení do hvězdy S, nebo zapojení mřížové M. Jak musí být zapojeny na systém uzemnění kovové části při systému S?",
+    "answers": [
+      "všechny kovové součásti vnitřních systémů musí být izolovány od systému uzemnění, připojení je pouze na referenční bod uzemnění",
+      "všechny kovové součásti vnitřních systémů musí být spojeny s uzemňovací soustavou všude, kde je to možné",
+      "při systému uzemnění S se kovové části odizolují a již více se s uzemněním nespojují"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.3) Pokud je použito zapojení S, musí být všechny kovové součásti (např. skříně, kryty, rozváděče) vnitřních systémů izolovány od systému uzemnění. Zapojení S musí být začleněna do uzemňovací soustavy pouze samostatnou přípojnicí pospojování provedenou jako referenční bod uzemnění (EPR) a vede k typu Ss.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 86,
+    "question": "Přípojnice pospojení by měla být připojena k uzemňovací soustavě co nejkratší cestou. Jak velká má být tato vzdálenost?",
+    "answers": [
+      "maximálně do 5 m",
+      "vzdálenost nemá překročit 50 m",
+      "co možná nejkratší cestou"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.4) Přípojnice pospojování by měla být připojena k uzemňovací soustavě co možná nejkratší cestou. V předchozí normě bylo doporučeno provést připojení použitím vodičů pospojování ne delších než 0,5 m.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 87,
+    "question": "Jak musí být provedeno pospojování tam, kde je definována zóna ochrany (LPZ) před bleskem?",
+    "answers": [
+      "vždy na kraji zóny, další pospojování postrádá smysl",
+      "na každých 5 m obvodu zóny",
+      "musí být pospojování provedeno pro všechny kovové části a inženýrské sítě překračující hranice LPZ"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.5) Tam, kde je definována LPZ, musí být pospojování provedeno pro všechny kovové části a inženýrské sítě (například kovová potrubí, napájecí vedení nebo signální vedení) překračující hranice LPZ.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 88,
+    "question": "Kde je nutné instalovat přepěťová ochranná opatření (SPD pro ekvipotenciální pospojování)?",
+    "answers": [
+      "na vstupu do LPZ",
+      "pouze v zóně, kde se nacházejí kovové předměty",
+      "uvnitř každé zóny"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.5) SPD pro ekvipotenciální pospojování (EB) je vždy nutné instalovat na vstupu do LPZ pro pospojování přicházejících vedení, která jsou připojena k vnitřním systémům uvnitř LPZ k přípojnicím pospojování. Použitím vzájemně spojených nebo rozšířených LPZ může být snížen počet požadovaných SPD.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 89,
+    "question": "Jaký smí být minimální průřez pro uzemňovací přívod od přípojnice pospojování k uzemňovací soustavě nebo jiným přípojnicím, při použití materiálu Fe?",
+    "answers": [
+      "50 mm2",
+      "25 mm2",
+      "100 mm2"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.6 Tabulka 1) Minimální průřezy pro uzemňovací přívody od přípojnice pospojování k uzemňovací soustavě nebo jiným přípojnicím: Cu = 16 mm2; Al = 25 mm2; Fe = 50 mm2",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 90,
+    "question": "Kde je vhodné použít prostorové stínění stavby?",
+    "answers": [
+      "vždy když vychází tato varianta levněji",
+      "tam, kde je účelnější a užitečnější chránit definovanou zónu stavby místo několika jednotlivých zařízení",
+      "tam, kde je použito jako stavební prvek dřevo a plasty"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 6.2) Prostorové stínění určuje ochranné zóny, které mohou pokrýt celou stavbu, nebo její část. Prostorové stínění je vhodné použít tam, kde je účelnější a užitečnější chránit definovanou zónu stavby místo několika jednotlivých zařízení.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 91,
+    "question": "Co zahrnuje systém stínění vnějších vedení vstupujících do stavby?",
+    "answers": [
+      "zahrnuje kontrolu technické dokumentace, vizuální kontroly a měření na kabelových sítích",
+      "zahrnuje připojení armovacích prutů objektu na zemní soustavu a konstrukci zemní sítě",
+      "zahrnuje stínění kabelů, uzavřených kabelových kanálů a betonových kabelových kanálů se vzájemně pospojovaným armováním"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 6.5) Stínění vnějších vedení vstupujících do stavby zahrnuje stínění kabelů, uzavřených kabelových kanálů a betonových kabelových kanálů se vzájemně pospojovaným armováním. Stínění vnějších vedení je užitečné, ale často projektant SPM nemůže stínění vnějších vedení realizovat (protože majitel vnějších vedení je mnohdy provozovatel sítě).",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 92,
+    "question": "Kdy se nemusí provádět revize systému ochranných opatření SPM (dříve LPMS)?",
+    "answers": [
+      "po provedení běžné údržby",
+      "po úderu blesku do stavby",
+      "po instalaci SPM"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 9.3.1) Revize zahrnuje kontrolu technické dokumentace, vizuální kontroly a měření. Předmětem revize je ověřit, že: SPM je v souladu s projektovou dokumentací; SPM je schopen plnit funkce dle projektové dokumentace; jakákoliv nově přidaná ochranná opatření jsou správně začleněna do SPM. Revize musí být provedeny: během instalace SPM; po instalaci SPM; periodicky; po jakýchkoliv změnách součástí příslušejících k SPM; eventuálně po úderu blesku do stavby.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 93,
+    "question": "Kdy se musí provádět revize systému ochranných opatření SPM (dříve LPMS)?",
+    "answers": [
+      "po výměně vadného prvku za nový stejných parametrů",
+      "po provedení běžné údržby",
+      "během instalace SPM"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 9.3.1) Revize musí být provedeny: během instalace SPM; po instalaci SPM; periodicky; po jakýchkoliv změnách součástí příslušejících k SPM; eventuálně po úderu blesku do stavby.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 94,
+    "question": "Co musí být kontrolováno po instalaci nového SPM (při revizi systému ochranných opatření)?",
+    "answers": [
+      "zda je technická dokumentace ve shodě s příslušnými normami a úplná",
+      "zda je instalace SPM cenově odpovídající",
+      "zda je SPM spolehlivá"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 9.3.2.1) Po instalaci nových opatření SPM se musí zkontrolovat technická dokumentace, zda je ve shodě s příslušnými normami a úplná. Proto se musí technická dokumentace nepřetržitě aktualizovat, např. po jakékoli změně nebo rozšíření SPM.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 95,
+    "question": "Jaké úkony se nepožadují při provádění vizuální prohlídky při revizi systému ochranných opatření SPM? (Poznámka: Zkratka SPM nahradila dříve používanou zkratku LPMS.)",
+    "answers": [
+      "zda nejsou porušeny vodiče pospojování a stínění kabelů, nejsou zjištěny žádné škody na SPD a jejich pojistkách nebo odpojovačích",
+      "zda nejsou uvolněné žádné spoje ani jakkoliv náhodně přerušené vodiče a spoje, žádná část systému nebyla zeslabena korozí",
+      "zda technická dokumentace je úplná a obsahuje měřené hodnoty a je ve shodě s příslušnými normami"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 3.11) SPM (Surge Protection Measures) = ochranná opatření pro vnitřní systém ochrany před LEMP (podle ČSN EN 62305-4 ed. 2, čl. 9.3.2.2) Vizuální prohlídka musí být provedena za účelem ověření, že:",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 96,
+    "question": "Jakým způsobem se při revizi u zařízení SPM kontrolují části systému uzemnění a soustavy pospojování, které není možno zkontrolovat vizuálně?",
+    "answers": [
+      "mělo by se provést měření elektrického propojení",
+      "nejsou stanoveny žádné dodatky nebo změny, které vyžadují další ochranná opatření",
+      "překontroluje se dotažení viditelných spojů, ostatní se považují za vyhovující"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 9.3.2.3) Pro ty části systému uzemnění a soustavy pospojování, které není možno vizuálně zkontrolovat, by mělo být provedeno měření elektrického propojení. Měří se i SPD, které nemají vizuální indikátor.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 97,
+    "question": "Revizní technik musí připravit revizní zprávu, která bude připojena k technické dokumentaci a k předcházejícím revizním zprávám. Jaké informace musí zpráva o revizi obsahovat?",
+    "answers": [
+      "informaci o provádění běžné údržby a kvalifikaci pracovníků, kteří revizi provádějí",
+      "informaci o všeobecném stavu SPM, odchylky oproti technické dokumentaci, výsledky provedených měření",
+      "informaci o metodách použitých při měření a zkušebních datech uvedených instalací v době uvedení do provozu"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 9.3.3) (Poznámka: SPM = LPMS) Revizní technik musí připravit revizní zprávu, která bude připojena k technické dokumentaci a k předcházejícím revizním zprávám. Revizní zpráva musí obsahovat informaci o:",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 98,
+    "question": "Jaká je optimální délka připojení přípojnice pospojování k uzemňovací soustavě?",
+    "answers": [
+      "délka propojovacích vodičů nemá být větší než 2 m",
+      "délka propojovacích vodičů má být co nejkratší",
+      "délka propojovacích vodičů pro napětí do 1 000 V není pro montáž důležitá"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 62305-4 ed. 2, čl. 5.4) Základem pro všechna opatření pospojování je nízká impedance soustavy pospojování. Přípojnice pospojování by měla být připojena k uzemňovací soustavě co možná nejkratší cestou. V předchozí normě bylo doporučeno provést připojení použitím vodičů pospojování ne delších než 0,5 m.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 99,
+    "question": "Pokud se použije u zemniče jednoho svodu několik zemních tyčí, jaká má být vzdálenost mezi jednotlivými tyčemi?",
+    "answers": [
+      "nemá být menší než 2 m",
+      "maximálně 5 m",
+      "na délku tyčového zemniče"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3, čl. NA.10.2.3) Použije-li se několik tyčových zemničů, nemá být s ohledem na jejich elektrické využití mezi nimi vzdálenost menší, než je délka tyčového zemniče.",
+    "category": "Elektro_Ochrana_Blesk"
+  },
+  {
+    "id": 100,
+    "question": "Jaký má být úhel mezi sousedními paprsky v případě, že se páskové nebo drátové zemniče kladou paprskovitě?",
+    "answers": [
+      "nemá být menší než 60°",
+      "nemá být menší než 30°",
+      "nemá být větší než 45°"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012 čl. NA.10.3.2) Klade-li se zemnič ve tvaru paprsku hvězdy, mají být jednotlivé paprsky rozděleny pravidelně, přičemž úhel mezi nimi nemá být menší než 60°. Zpravidla se nekladou více než čtyři paprsky.",
+    "category": "Elektro_Ochrana_Blesk"
+  }
+]

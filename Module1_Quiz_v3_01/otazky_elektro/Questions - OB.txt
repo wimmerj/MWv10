@@ -1,0 +1,489 @@
+1) Upravuje zákon č. 250/2021 Sb. požadavky na bezpečnost provozu vyhrazených technických zařízení a ochranu zdraví při práci po celou dobu jejich používání?
+ne
+pouze po dobu 10 let
+ano
+ano
+(podle § 1 odst. 1 písm. a) zákona č. 250/2021 Sb.) § 1 - Předmět úpravy: Tento zákon zapracovává příslušné předpisy Evropské unie a upravuje požadavky na bezpečnost provozu vyhrazených technických zařízení a ochranu zdraví při práci po celou dobu používání vyhrazených technických zařízení; v případě určených druhů již provozovaných vyhrazených technických zařízení stanoví i požadavky na jejich montáž a uvádění do provozu.
+
+2) Musí být průvodní dokumentace vyhrazeného technického zařízení dodaná výrobcem nebo dodavatelem k dispozici po celou dobu provozu zařízení?
+není stanoveno
+ano
+ne, pouze po dobu 10 let
+ano
+(podle § 2 odst. g) zákona č. 250/2021 Sb.) Pro účely tohoto zákona se rozumí průvodní dokumentací soubor dokumentů, dodaných výrobcem nebo dodavatelem vyhrazeného technického zařízení, v českém jazyce, který musí být k dispozici po celou dobu provozu zařízení
+
+3) Dochází při rekonstrukci vyhrazených technických zařízení ke změně základních technických nebo bezpečnostních parametrů zařízení?
+ne, v tomto případě se jedná o opravu zařízení
+nikdy
+ano
+ano
+(podle § 2 písm. i) zákona č. 250/2021 Sb.) Pro účely tohoto zákona se rozumí rekonstrukcí nahrazení stávající nevyhovující části již provozovaného vyhrazeného technického zařízení novou nebo modernější částí zařízení, přičemž dojde ke změně základních technických nebo bezpečnostních parametrů zařízení, a to zpravidla podle technické dokumentace.
+
+4) Jak se určuje základní technologická funkce vyhrazených technických zařízení?
+podle účelu jeho použití
+podle provozovatele
+podle dodavatele zařízení
+podle účelu jeho použití
+(podle § 3 odst. 4 zákona č. 250/2021 Sb.) Základní technologická funkce vyhrazeného technického zařízení se určuje podle účelu jeho použití, přičemž se zohledňuje míra rizika vyhrazeného technického zařízení v závislosti na jeho fyzikálních a technických vlastnostech, závažnosti možných následků nehodové události pro život, zdraví a bezpečnost fyzických osob nebo podle počtu fyzických osob v ohrožení.
+
+5) Jak se určuje stav vyhrazených technických zařízení při jejich kontrole, zkouškách nebo revizích až do doby jejich rekonstrukce?
+podle právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci platných a účinných v době uvedení těchto zařízení do provozu
+podle současně platných právních a ostatních předpisů
+podle projektu
+podle právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci platných a účinných v době uvedení těchto zařízení do provozu
+(podle § 3 odst. 5 zákona č. 250/2021 Sb.) Stav vyhrazených technických zařízení se při jejich kontrole, zkouškách nebo revizích až do doby jejich rekonstrukce posuzuje podle právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci platných a účinných v době uvedení těchto zařízení do provozu.
+
+6) Kdo vykonává státní správu v oblasti bezpečnosti provozu vyhrazených technických zařízení?
+pověřená organizace
+Ministerstvo práce a sociálních věcí, Státní úřad inspekce práce a Oblastní inspektorát práce
+Česká obchodní inspekce
+Ministerstvo práce a sociálních věcí, Státní úřad inspekce práce a Oblastní inspektorát práce
+(podle § 4 zákona č. 250/2021 Sb.) Státní správu v oblasti bezpečnosti provozu vyhrazených technických zařízení vykonává Ministerstvo práce a sociálních věcí, Státní úřad inspekce práce a oblastní inspektoráty práce.
+
+7) Kdo je nadřízeným správním orgánem pověřené organizace (TIČR)?
+není stanoveno
+Státní úřad inspekce práce
+Ministerstvo práce a sociálních věcí
+Ministerstvo práce a sociálních věcí
+(podle § 5 odst. 2 zákona č. 250/2021 Sb.) K plnění úkolů v oblasti bezpečnosti provozu vyhrazených technických zařízení podle tohoto zákona a právních předpisů vydaných k jeho provedení může ministerstvo zřídit státní příspěvkovou organizaci (pověřená organizace - v současné době TIČR).  Ministerstvo práce a sociálních věcí je nadřízeným správním orgánem pověřené organizace. TIČR byla do 30. 6. 2022 „organizace odborného dozoru“, Podle současného zákona č. 250/2021 Sb. je nyní „pověřená organizace“.
+
+8) Jaký doklad na vyžádání podává pověřená organizace (TIČR) o tom, zda jsou při projektování, konstrukci, montáži, provozu, obsluze, opravách, údržbě a revizi vyhrazených technických zařízení splněny požadavky bezpečnosti provozu vyhrazených technických zařízení?
+osvědčení
+odborné stanovisko
+žádný
+odborné stanovisko
+(podle § 6 odst. 1 písm. a) zákona č. 250/2021 Sb.) Pověřená organizace při výkonu činnosti v oblasti bezpečnosti provozu vyhrazených technických zařízení podává na vyžádání odborná stanoviska o tom, zda jsou při projektování, konstrukci, montáži, provozu, obsluze, opravách, údržbě a revizi vyhrazených technických zařízení splněny požadavky bezpečnosti provozu vyhrazených technických zařízení.
+
+9) Jakou činnost vykonává pověřená organizace (TIČR) pokud provádí u vyhrazených technických zařízení I. třídy prohlídky a zkoušky nebo se na těchto zařízeních zúčastňuje zkoušek?
+vydá osvědčení, zda tato vyhrazená technická zařízení splňují požadavky právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci, a potvrzuje úspěšné výsledky zkoušek
+vydá prohlášení o shodě
+vydá odborné stanovisko
+vydá osvědčení, zda tato vyhrazená technická zařízení splňují požadavky právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci, a potvrzuje úspěšné výsledky zkoušek
+(podle § 6 odst. 1 písm. b) zákona č. 250/2021 Sb.) Pověřená organizace provádí u vyhrazených technických zařízení I. třídy prohlídky a zkoušky nebo se na těchto zařízeních zúčastňuje zkoušek, na základě kterých vydává osvědčení, zda vyhrazená technická zařízení splňují požadavky právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci, a potvrzuje úspěšné výsledky zkoušek; u vyhrazených tlakových zařízení po opravách, a to parních a kapalinových kotlů s pracovním nebo nejvyšším dovoleným tlakem 16 bar a vyšším a tlakových nádob s pracovním nebo nejvyšším dovoleným tlakem 25 bar a vyšším provádí prohlídky a zkoušky nebo se zúčastňuje zkoušek na vyhrazených technických zařízeních bez ohledu na zařazení do třídy.
+
+10) Kdo je to odpovědná odborná osoba ve smyslu podmínky pro vydání oprávnění?
+osoba, která odpovídá za řádný výkon montáže, oprav, revizí, zkoušek vyhrazených technických zařízení a plnění nádob plyny u žadatele
+autorizovaná a akreditovaná osoba
+projektant
+osoba, která odpovídá za řádný výkon montáže, oprav, revizí, zkoušek vyhrazených technických zařízení a plnění nádob plyny u žadatele
+(podle § 8 odst. 2 písm. -a) zákona č. 250/2021 Sb.) Podmínkou pro vydání oprávnění k montáži, opravám, revizím, zkouškám vyhrazených technických zařízení a k plnění nádob plyny je určení jedné nebo více fyzických osob, které splňují předpoklady odborné způsobilosti pro požadovaný rozsah činností na vyhrazených technických zařízeních a které budou odpovídat za řádný výkon montáže, oprav, revizí, zkoušek vyhrazených technických zařízení a plnění nádob plyny u žadatele (dále jen „odpovědná odborná osoba“).
+
+11) Jaká je platnost oprávnění k odborné činnosti na vyhrazeném technickém zařízení ode dne nabytí právní moci rozhodnutí o vydání oprávnění?
+platnost není omezena
+5 let
+10 let
+10 let
+(podle § 8 odst. 4) zákona č. 250/2021 Sb. Splňuje-li žadatel podmínky pro řádné zajištění činnosti v požadovaném rozsahu, rozhodne pověřená organizace o tom, že právnické osobě nebo podnikající fyzické osobě vydá oprávnění. Platnost oprávnění je 10 let ode dne nabytí právní moci rozhodnutí o vydání oprávnění.
+
+12) Dojde k zániku oprávnění dnem, k němuž uplyne jeho doba platnosti?
+ano
+nikoliv, oprávnění bude platit ještě jeden měsíc
+ne
+ano
+(podle § 8 odst. 4 zákona č. 250/2021 Sb. a § 9 odst. 2 písm. d) zákona č. 250/2021 Sb.) K zániku oprávnění dochází dnem k němuž uplyne doba platnosti oprávnění; kdy nabude právní moci rozhodnutí o odnětí oprávnění.
+
+13) Kdo je správcem a provozovatelem evidence odborně způsobilých právnických osob a podnikajících fyzických osob k montáži, opravám, revizím a zkouškám vyhrazených technických zařízení a k plnění nádob plyny?
+pověřená organizace - Technická inspekce České republiky
+Státní úřad inspekce práce
+Ministerstvo práce a sociálních věcí
+pověřená organizace - Technická inspekce České republiky
+(podle § 10 odst. 1 zákona č. 250/2021 Sb.) Pověřená organizace vede evidenci odborně způsobilých právnických osob a podnikajících fyzických osob k montáži, opravám, revizím, zkouškám vyhrazených technických zařízení a k plnění nádob plyny. Tato evidence je informačním systémem veřejné správy. Správcem a provozovatelem evidence je pověřená organizace (TIČR).
+
+14) Je odborné vzdělání v oboru a stupni podle míry rizika a činnosti vykonávané na vyhrazeném technickém zařízení předpokladem odborné způsobilosti fyzické osoby provádějící revize a zkoušky vyhrazených technických zařízení?
+ne, není žádným předpisem stanoveno
+ne
+ano
+ano
+(podle § 11 odst. 1 písm. -c) zákona č. 250/2021 Sb.) Předpokladem odborné způsobilosti fyzické osoby provádějící revize a zkoušky vyhrazených technických zařízení, montáž, opravy vyhrazených plynových zařízení nebo obsluhu vyhrazených tlakových zařízení - parních a kapalinových kotlů je: dosažení věku 18 let a plná svéprávnost; zdravotní způsobilost k vykonávaným činnostem; odborné vzdělání v oboru a stupni podle míry rizika a činnosti vykonávané na vyhrazeném technickém zařízení; odborná praxe, atd.
+
+15) Jaká je platnost osvědčení o odborné způsobilosti k činnostem na vyhrazených technických zařízeních?
+platnost není omezena
+10 let
+5 let
+5 let
+(podle § 11 odst. 3 zákona č. 250/2021 Sb.) Osvědčení o odborné způsobilosti k činnostem na vyhrazených technických zařízeních je udělováno na základě úspěšného prověření odborné způsobilosti k činnostem na vyhrazených technických zařízeních zkouškou u pověřené organizace. Platnost osvědčení o odborné způsobilosti k činnostem na vyhrazených technických zařízeních je 5 let ode dne jeho udělení.
+
+16) Co je povinna zajistit dodavatelská organizace před uvedením elektrických zařízení třídy I. do provozu?
+dohodnout, zda bude instalace připojena na rozvodnou síť
+kontrolu zařízení (revize, zkoušky apod.) a vydání osvědčení pověřenou organizací
+vystavit na elektroinstalaci prohlášení o shodě ve smyslu obecně stanovených předpisů
+kontrolu zařízení (revize, zkoušky apod.) a vydání osvědčení pověřenou organizací
+(podle § 6 odst. 3 a odst. 6 Nařízení vlády č. 190/2022 Sb. a podle § 6 zákona č. 250/2021 Sb.) Po dokončení montáže vyhrazeného elektrického zařízení obdrží přebírající odběratel od dodavatele montáže spolu s vyhrazeným elektrickým zařízením: průvodní dokumentaci vyhrazeného elektrického zařízení odpovídající skutečnému provedení, umožňující provoz, údržbu a revize tohoto zařízení, jakož i výměnu jednotlivých částí vyhrazeného elektrického zařízení a další rozšiřování vyhrazeného elektrického zařízení; součástí průvodní dokumentace je posouzení vnějších vlivů; zprávu o výchozí revizi vyhrazeného elektrického zařízení, pokud není sjednán jiný způsob zajištění revize. Vyhrazené elektrické zařízení I. třídy podle § 4 odst. 1 lze uvést do provozu jen na základě osvědčení vydaného pověřenou organizací podle § 6 odst. 1 písm. b) zákona, které provozovatel uchovává po celou dobu provozu vyhrazeného elektrického zařízení.
+
+17) Co se rozumí ve smyslu platného nařízení vlády č. 190/2022 Sb. vyhrazeným elektrickým zařízením?
+zařízení pro výrobu, přeměnu a přenos s napětím vyšším jak 230 V
+jakékoliv elektrické zařízení napojené na elektrickou síť a zařízení určená k ochraně před účinky atmosférické nebo statické elektřiny
+zařízení pro výrobu, přeměnu, přenos, rozvod, distribuci a odběr elektrické energie a elektrické instalace staveb a technologií a zařízení určená k ochraně před účinky atmosférické nebo statické elektřiny
+zařízení pro výrobu, přeměnu, přenos, rozvod, distribuci a odběr elektrické energie a elektrické instalace staveb a technologií a zařízení určená k ochraně před účinky atmosférické nebo statické elektřiny
+(podle § 3 odst. 1 Nařízení vlády č. 190/2022 Sb.) Vyhrazenými elektrickými zařízeními jsou zařízení, která představují zvýšenou míru ohrožení života, zdraví a bezpečnosti fyzických osob, a to: elektrická zařízení pro výrobu, přeměnu, přenos, rozvod, distribuci a odběr elektrické energie a elektrické instalace staveb a technologií; zařízení určená k ochraně před účinky atmosférické nebo statické elektřiny. (Požadavky na vyhrazená elektrická zařízení do 30. 6. 2022 řešila vyhláška č. 73/2010 Sb., která nahradila od 1. 6. 2010 vyhlášku č.20/1979 Sb.)
+
+18) Jak se člení prostory podle platného nařízení vlády č. 190/2022 Sb. pro účely revizí?
+na prostory bez nebezpečí výbuchu (A) a prostory s nebezpečím výbuchu (B)
+na prostory bez nebezpečí výbuchu a prostory s nebezpečím výbuchu metanu
+na prostory civilní, vojenské, dopravní a prostory báňské správy
+na prostory bez nebezpečí výbuchu (A) a prostory s nebezpečím výbuchu (B)
+(podle přílohy č. 3 a přílohy č. 5 Nařízení vlády č. 190/2022 Sb.) Přílohy uvádí následující členění: Druh: A - Zařízení v prostorech bez nebezpečí výbuchu, B - Zařízení v prostorech s nebezpečím výbuchu. Rozsah: E1A (nebo B) - Zařízení bez omezení napětí, E2A (nebo B) - Zařízení s napětím do 1 kV střídavého nebo 1,5 kV stejnosměrného, E3A (nebo B) - Zařízení určená pro ochranu před účinky atmosférické elektřiny, přepětím a statickou elektřinou.
+
+19) Jaké doklady musí obdržet po dokončení montáže vyhrazeného elektrického zařízení odběratel?
+záleží jen na dohodě mezi předávajícím a přebírajícím
+průvodní dokumentaci skutečného provedení, vnější vlivy a zprávu o výchozí revizi
+dostačující je výchozí revize
+průvodní dokumentaci skutečného provedení, vnější vlivy a zprávu o výchozí revizi
+(podle § 6 odst. 3 Nařízení vlády č. 190/2022 Sb.) Po dokončení montáže vyhrazeného elektrického zařízení obdrží přebírající odběratel od dodavatele montáže spolu s vyhrazeným elektrickým zařízením: průvodní dokumentaci odpovídající skutečnému provedení, jejíž součástí je i posouzení vnějších vlivů; zprávu o výchozí revizi vyhrazeného elektrického zařízení, pokud není sjednán jiný způsob zajištění revize.
+
+20) Co nemusí ve smyslu nařízení vlády č. 190/2022 Sb. obsahovat zpráva o revizi?
+zhodnocení spolehlivosti provozu elektrické instalace
+závěrečné zhodnocení bezpečnosti zařízení
+jméno, popřípadě jména a příjmení, podpis a evidenční číslo revizního technika
+zhodnocení spolehlivosti provozu elektrické instalace
+(podle § 10 odst. 1 Nařízení vlády č. 190/2022 Sb.) Zpráva o revizi obsahuje zejména: název a sídlo provozovatele; identifikaci vyhrazeného elektrického zařízení včetně jeho umístění; vymezení rozsahu revize; jméno, popřípadě jména a příjmení, podpis a evidenční číslo revizního technika; určení druhu revize (výchozí, pravidelná nebo mimořádná); data zahájení a ukončení revize a data vypracování a předání zprávy o revizi; soupis použitých měřicích přístrojů; seznam podkladů použitých k provedení revize; soupis provedených úkonů; naměřené hodnoty; přehled zjištěných závad; slovní zhodnocení, zda je vyhrazené el. zařízení z hlediska bezpečnosti schopno provozu; vyhodnocení případných záznamů o odstraňování závad z předchozí revize; doporučení lhůty příští revize; potvrzení o převzetí nebo předání zprávy o revizi.
+
+21) Koho řídí Státní úřad inspekce práce?
+řídí činnost Hospodářské komory ČR
+řídí činnost cechů technických zařízení
+řídí činnost oblastních inspektorátů práce
+řídí činnost oblastních inspektorátů práce
+(podle § 4 odst. 1 zákona č. 251/2005 Sb.) Státní úřad inspekce práce: řídí oblastní inspektoráty práce: je vůči oblastním inspektorátům práce nadřízeným služebním úřadem v organizačních věcech státní služby a služebních vztazích zaměstnanců vykonávajících ve správních úřadech státní správu jako službu, kterou Česká republika poskytuje veřejnosti; odborně vede oblastní inspektoráty práce a poskytuje jim technickou pomoc
+
+22) Kdo rozhoduje o odejmutí osvědčení nebo oprávnění vydaného fyzické osobě, pokud je u ní zjištěno porušení předpisů k zajištění bezpečnosti práce a technických zařízení?
+Živnostenský, nebo finanční úřad
+Institut technické inspekce Praha
+Státní úřad inspekce práce a oblastní inspektoráty práce
+Státní úřad inspekce práce a oblastní inspektoráty práce
+(podle § 20 zákona č. 251/2005 Sb.) Přestupky na úseku vyhrazených technických zařízení řeší Státní úřad inspekce práce a oblastní inspektoráty práce. Fyzická osoba se dopustí přestupku na úseku bezpečnosti vyhrazených technických zařízení tím, že: v rozsahu oprávnění nebo osvědčení vydaného organizací státního odborného dozoru na provádění prohlídek, revizí nebo zkoušek při provozování vyhrazených technických zařízení nezajistí provedení prohlídek, revizí nebo zkoušek ve stanoveném rozsahu; bez oprávnění nebo osvědčení vydaného organizací státního odborného dozoru na provádění prohlídek, revizí nebo zkoušek při provozování vyhrazených technických zařízení provádí ve stanovených případech prohlídky, revize nebo zkoušky; nedodrží určenou lhůtu pro odstranění závad zjištěných při kontrole.
+
+23) Může inspektor oblastního inspektorátu práce ukládat organizacím a podnikajícím fyzickým osobám pokuty za porušení předpisů k zajištění bezpečnosti práce a technických zařízení?
+může
+nemůže
+může jen se souhlasem generálního inspektora
+může
+(podle § 7 odst. 1 zákona č. 251/2005 Sb.) souvisí se zákony č. 500/2004 Sb. a č. 255/2012 Sb. (V §7 jsou popsána práva a povinnosti inspektora při kontrole. O pokutách tam nic není. Z textu jednoznačně vyplývá, že pokutu uložit lze, i když nikde ale není výslovně napsáno, že jí ukládá přímo konkrétní inspektor. Za správnou odpověď se ale uznává „může“.)
+
+24) Komu jsou podřízeny inspektoráty bezpečnosti práce?
+Státnímu úřadu bezpečnosti práce
+byly zákonem č. 251/2005 Sb. zrušeny
+Českému úřadu bezpečnosti práce
+byly zákonem č. 251/2005 Sb. zrušeny
+(podle § 49 zákona č. 251/2005 Sb.) Závěrečná ustanovení: Zrušují se Český úřad bezpečnosti práce a inspektoráty bezpečnosti práce.
+
+25) Co se rozumí pojmem prevence rizik?
+zajištění všech opatření vyplývajících z právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci
+zajištění rizik je pro organizace v současné době pouze nepovinný úkol
+zajištění dodržování všech norem platných na území ČR
+zajištění všech opatření vyplývajících z právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci
+(podle § 102 zákona č. 262/2006 Sb., zákoníku práce) Zaměstnavatel je povinen vytvářet bezpečné a zdraví neohrožující pracovní prostředí a pracovní podmínky vhodnou organizací bezpečnosti a ochrany zdraví při práci a přijímáním opatření k předcházení rizikům; Prevencí rizik se rozumí všechna opatření vyplývající z právních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci a z opatření zaměstnavatele, která mají za cíl předcházet rizikům, odstraňovat je nebo minimalizovat působení neodstranitelných rizik.
+
+26) Co se rozumí ve smyslu zákoníku práce právními a ostatními předpisy k zajištění bezpečnosti a ochrany zdraví při práci?
+předpisy stanovené v kolektivní smlouvě organizace
+předpisy na ochranu života a zdraví, předpisy hygienické, technické předpisy, technické dokumenty a technické normy
+pouze české technické normy stanovené ve Věstníku
+předpisy na ochranu života a zdraví, předpisy hygienické, technické předpisy, technické dokumenty a technické normy
+(podle § 349 zákona č. 262/2006 Sb., zákoníku práce) Právní a ostatní předpisy k zajištění bezpečnosti a ochrany zdraví při práci jsou předpisy na ochranu života a zdraví, předpisy hygienické a protiepidemické, technické předpisy, technické dokumenty a technické normy, stavební předpisy, dopravní předpisy, předpisy o požární ochraně a předpisy o zacházení s hořlavinami, výbušninami, zbraněmi, radioaktivními látkami, chemickými látkami a chemickými přípravky a jinými látkami škodlivými zdraví, pokud upravují otázky týkající se ochrany života a zdraví.
+
+27) Co musí splňovat elektrická zařízení na staveništi ve smyslu nařízení vlády č. 591/2006 Sb.?
+musí splňovat normové požadavky a musí být podrobována pravidelným kontrolám a revizím
+musí mít napojení na náhradní zdroj, aby nedošlo k výpadku a následnému úrazu
+musí splňovat podmínky nepřetržitého provozu
+musí splňovat normové požadavky a musí být podrobována pravidelným kontrolám a revizím
+(podle Přílohy 1, části II , odst. 2 nařízení vlády č. 591/2006 Sb.) část II. - Zařízení pro rozvod energie:..
+
+28) Co upravuje místní provozní bezpečnostní předpis?
+žádný předpis nestanovuje, co má místní provozní bezpečnostní předpis obsahovat
+všechny činnosti prováděné v organizaci
+pracovní technologické postupy pro používání zařízení a pravidla pohybu zařízení a zaměstnanců v prostorech a na pracovištích zaměstnavatele
+pracovní technologické postupy pro používání zařízení a pravidla pohybu zařízení a zaměstnanců v prostorech a na pracovištích zaměstnavatele
+(podle § 2 nařízení vlády č. 378/2001 Sb.) Pro účely tohoto nařízení se rozumí .. g) místním provozním bezpečnostním předpisem předpis zaměstnavatele upravující zejména pracovní technologické postupy pro používání zařízení a pravidla pohybu zařízení a zaměstnanců v prostorech a na pracovištích zaměstnavatele; h) normovou hodnotou konkrétní technický požadavek obsažený v příslušné české technické normě.
+
+29) Kdo může provádět obsluhu, montáž, kontrolu nebo opravy technických zařízení, která představují zvýšenou míru ohrožení života a zdraví zaměstnanců?
+organizací poučení pracovníci
+jen zvlášť odborně způsobilí zaměstnanci
+žádný předpis konkrétně nestanovuje
+jen zvlášť odborně způsobilí zaměstnanci
+(podle § 11 odst. 2 zákona č. 309/2006 Sb.) Na technických zařízeních, která představují zvýšenou míru ohrožení života a zdraví zaměstnanců, pokud jde o jejich obsluhu, montáž, kontrolu nebo opravy, mohou práce a činnosti samostatně vykonávat a samostatně je obsluhovat jen zvlášť odborně způsobilí zaměstnanci. Předpokladem zvláštní odborné způsobilosti zaměstnance je: zdravotní způsobilost podle zvláštního právního předpisu; dosažení věku stanoveného zvláštním právním předpisem; tento věk však nesmí být nižší než 18 let; odborné vzdělání stanovené prováděcím právním předpisem; odborná praxe v délce stanovené prováděcím právním předpisem; splnění požadavků podle odstavce 3 určených osobou, která uvádí na trh nebo distribuuje, popřípadě uvádí do provozu výrobky, které by mohly ve zvýšené míře ohrozit oprávněný zájem; doklad o úspěšně vykonané zkoušce ze zvláštní odborné způsobilosti (§ 20).
+
+30) Na jaká zařízení se vztahuje v souladu s právem Evropských společenství nařízení vlády č. 378/2001 Sb.?
+na provozování elektrických instalací a na ní napojených elektrických zařízení
+na bezpečný provoz a používání strojů, technických zařízení, přístrojů a nářadí
+na provozování elektrických instalací a na zpracování dokumentací k nim
+na bezpečný provoz a používání strojů, technických zařízení, přístrojů a nářadí
+(podle § 1 nařízení vlády č. 378/2001 Sb.) § 1) Toto nařízení se vztahuje, v souladu s právem Evropských společenství, na bezpečný provoz a používání strojů, technických zařízení, přístrojů a nářadí.
+
+31) Kdo stanovuje rozsah kontroly strojního zařízení před uvedením do provozu, když není k dispozici průvodní dokumentace od výrobce?
+revizní technik
+montážní organizace
+zaměstnavatel místním provozním bezpečnostním předpisem
+zaměstnavatel místním provozním bezpečnostním předpisem
+(podle § 4 odst. 1 nařízení vlády č. 378/2001 Sb.) Kontrola bezpečnosti provozu zařízení před uvedením do provozu je prováděna podle průvodní dokumentace výrobce. Není-li výrobce znám nebo není-li průvodní dokumentace k dispozici, stanoví rozsah kontroly zařízení zaměstnavatel místním provozním bezpečnostním předpisem.
+
+32) V jakých časových termínech se provádí kontrola strojních zařízení?
+jednou za 12 měsíců v rozsahu stanoveném místním provozním bezpečnostním předpisem
+pokud se provádějí pravidelné revize, není potřeba provádět kontroly
+jednou za 3 až 5 let, stanoveno příslušnou ČSN
+jednou za 12 měsíců v rozsahu stanoveném místním provozním bezpečnostním předpisem
+(podle § 4 odst. 2 nařízení vlády č. 378/2001 Sb.) Zařízení musí být vybaveno provozní dokumentací. Následná kontrola musí být prováděna nejméně jednou za 12 měsíců v rozsahu stanoveném místním provozním bezpečnostním předpisem, nestanoví-li zvláštní právní předpis, popřípadě průvodní dokumentace nebo normové hodnoty rozsah a četnost následných kontrol jinak.
+
+33) Jak musí být znázorněna značka, jestliže obsahuje kresbu, která popisuje situaci, nebo nařizuje či zakazuje určité chování („piktogram“)?
+musí být dostatečně barevně odlišena od ostatních tlačítek
+musí být jednoduchá, srozumitelná a musí obsahovat jen nezbytné podrobnosti
+musí být dostatečně viditelná a přesně a podrobně popisovat vzniklou situaci
+musí být jednoduchá, srozumitelná a musí obsahovat jen nezbytné podrobnosti
+(podle § 2 odst. 2 nařízení vlády č. 375/2017 Sb.) Světelná plocha značek a světelné signály musí vytvářet náležitý kontrast vzhledem k prostředí, v němž jsou použity, a nesmí oslňovat. Jestliže značka obsahuje kresbu, která popisuje situaci nebo nařizuje či zakazuje určité chování (dále jen „piktogram“), musí být jednoduchá, srozumitelná a musí obsahovat jen nezbytné podrobnosti.
+
+34) Co mají splňovat informativní značky (světla) obsahující informace o únikových cestách, nouzových východech nebo místech první pomoci?
+kruhový tvar s bílým piktogramem na červeném pozadí
+trojúhelníkový tvar a musí být dostatečně viditelná
+obdélníkový nebo čtvercový tvar s bílým piktogramem na zeleném pozadí
+obdélníkový nebo čtvercový tvar s bílým piktogramem na zeleném pozadí
+(podle § 3 odst. 4 nařízení vlády č. 375/2017 Sb.) Informativní značky pro označení únikové cesty a nouzového východu nebo místa první pomoci a zařízení pro přivolání první pomoci mají obdélníkový nebo čtvercový tvar s bílým piktogramem na zeleném pozadí; zelená část zaujímá nejméně 50 % plochy značky.
+
+35) Kdy sepisuje zaměstnavatel záznam o úrazu?
+nejpozději do 1 měsíce
+nejpozději druhý den
+nejpozději do 5 pracovních dnů
+nejpozději do 5 pracovních dnů
+(podle § 5 nařízení vlády č. 201/2010 Sb.) Záznam o úrazu vyhotovuje zaměstnavatel úrazem postiženého zaměstnance neprodleně, nejpozději však do 5 pracovních dnů ode dne, kdy se o úrazu dozvěděl. Záznam o úrazu předá zaměstnavatel bez zbytečného odkladu oprávněným osobám. Vzor záznamu o úrazu je uveden v příloze č. 1 k tomuto nařízení vlády.
+
+36) Pro účely hlášení úrazu je smrtelným pracovním úrazem?
+poškození zdraví alespoň tří osob současně, z nichž byl jeden na místě usmrcen
+poškození zdraví, které způsobilo smrt po úrazu nebo na jehož následky zaměstnanec zemřel nejpozději do 1 roku
+poškození zdraví s následkem ztráty orgánu nebo jeho části
+poškození zdraví, které způsobilo smrt po úrazu nebo na jehož následky zaměstnanec zemřel nejpozději do 1 roku
+(podle § 3 nařízení vlády č. 201/2010 Sb.) Pro statistické účely se smrtelným pracovním úrazem rozumí takové poškození zdraví, na jehož následky úrazem postižený zaměstnanec nejpozději do 1 roku zemřel.
+
+37) Mohou být používány ochranné prostředky více zaměstnanci?
+pouze v případě, že jsou uloženy na veřejně přístupném místě a řádně označeny
+není ze zákona možné
+pouze v případě, že byla učiněna opatření, která zamezí ohrožení infekčními onemocněními
+pouze v případě, že byla učiněna opatření, která zamezí ohrožení infekčními onemocněními
+(podle § 3 odst. 3 nařízení vlády č. 390/2021 Sb.) Zaměstnanec musí být s používáním osobního ochranného pracovního prostředku prokazatelně seznámen. Používání osobního ochranného pracovního prostředku více zaměstnanci je možné pouze v případě, že byla učiněna opatření, která zamezí ohrožení infekčními onemocněními.
+
+38) Co je nutné zajistit před uvedením pracoviště do provozu ve smyslu nařízení vlády č. 101/2005 Sb.?
+vybavit všechny pracovníky ochrannými pomůckami
+uložit všechny s pracovištěm související doklady na veřejně přístupném místě a řádně je označit
+stanovit obsah a způsob vedení provozní dokumentace a záznamů o vybavení pracoviště a určit osoby odpovědné za jejich vedení
+stanovit obsah a způsob vedení provozní dokumentace a záznamů o vybavení pracoviště a určit osoby odpovědné za jejich vedení
+(podle § 3 odst. 3 nařízení vlády č. 101/2005 Sb.) Před uvedením pracoviště do provozu a používání je nutné zajistit (a-g)
+
+39) Jak musí být provedena elektroinstalace ve smyslu nařízení vlády č. 101/2005 Sb.?
+všechny části instalace musí být mechanicky pevné a spolehlivě upevněné
+podle potřeb odběratele zařízení
+podle provozních a montážních záznamů o vybavení pracoviště
+všechny části instalace musí být mechanicky pevné a spolehlivě upevněné
+(podle přílohy, článku 2.1.2 nařízení vlády č. 101/2005 Sb.) 2.1.2 Všechny části instalace musí být mechanicky pevné, spolehlivě upevněné a nesmějí nepříznivě ovlivňovat jiná zařízení; musí být dostatečně dimenzovány a chráněny proti účinkům zkratových proudů a přetížení; části zařízení musí být provedeny tak, aby na místech, jimiž prochází elektrický proud, nemohlo za běžných provozních podmínek dojít k nebezpečnému ohřátí vodičů.
+
+40) Při uvádění ne zcela dokončené instalace do provozu, ve smyslu nařízení vlády č. 101/2005 Sb.
+konce připojených kabelů musí být v dostatečné výšce, aby nemohlo dojít k dotyku
+nehotové části musí být spolehlivě odpojeny a zabezpečeny proti nežádoucímu zapojení
+nehotové části musí být zaizolovány, odpojení se požaduje pouze v prostoru s nebezpečím výbuchu
+nehotové části musí být spolehlivě odpojeny a zabezpečeny proti nežádoucímu zapojení
+(podle přílohy, článku 2.1.3 nařízení vlády č. 101/2005 Sb.) 2. 1.3 Instalace musí být provedeny tak, aby je bylo možno podle potřeby vypnout. Při uvádění do provozu po částech musí být nehotové části spolehlivě odpojeny a zabezpečeny proti nežádoucímu zapojení, popřípadě jinak zajištěny. (podle § 6 odst. 2 písm. a) Nařízení vlády č. 190/2022 Sb.) Při uvádění vyhrazeného elektrického zařízení do provozu musí být zajištěno, aby zařízení uváděné do provozu po částech mělo nehotové části spolehlivě odpojené a zajištěné proti nežádoucímu zapojení nebo jinak zabezpečené tak, aby ve stavu pod napětím nedošlo k ohrožení bezpečnosti a provozu.
+
+41) Instalace, u kterých se zjistí, že ohrožují život nebo zdraví osob ve smyslu nařízení vlády č. 101/2005 Sb.?
+se nemusí odpojovat, pokud je zajištěn stálý dohled
+je možné odpojit po příkazu ředitele organizace
+musí být bez zbytečného odkladu odpojeny a zajištěny
+musí být bez zbytečného odkladu odpojeny a zajištěny
+(podle přílohy, článku 2.1.4 nařízení vlády č. 101/2005 Sb.) 2.1.4 Instalace, u kterých se zjistí, že ohrožují život nebo zdraví osob, musí být bez zbytečného odkladu odpojeny a zajištěny. (podle § 7 odst. 8 Nařízení vlády č. 190/2022 Sb.) Vyhrazené elektrické zařízení, u kterého se zjistí stav bezprostředně ohrožující bezpečnost práce nebo provozu daného zařízení, je nutné neprodleně odpojit od napájecího zdroje a zajistit proti nežádoucímu připojení; není-li to možné, je nutné zajistit jeho opravu bez zbytečného odkladu.
+
+42) Který předpis stanoví obecné požadavky na bezpečnost výrobku?
+zákon č. 102/2001 Sb.
+zákon č. 22/1997 Sb.
+zákon č. 250/2021 Sb.
+zákon č. 102/2001 Sb.
+(podle § 3 zákona č. 102/2001 Sb. Obecné požadavky na bezpečnost výrobku) Bezpečným výrobkem je výrobek, který za běžných nebo rozumně předvídatelných podmínek užití nepředstavuje po dobu stanovenou výrobcem nebo po dobu obvyklé použitelnosti nebezpečí, nebo jehož užití představuje pro spotřebiče vzhledem k bezpečnosti a ochraně zdraví pouze minimální nebezpečí při používání výrobku, přičemž se sledují z hlediska rizika pro bezpečnost a ochranu zdraví spotřebitele zejména tato kritéria: a-d. Za bezpečný výrobek se považuje výrobek splňující požadavky zvláštního právního předpisu, který přejímá právo Evropských společenství a kterým se stanoví požadavky na bezpečnost výrobku nebo na omezení rizik, která jsou s výrobkem při jeho užívání spojena. Jestliže však takovýto právní předpis stanoví pouze některá hlediska bezpečnosti, ostatní hlediska se posuzují podle tohoto zákona.
+
+43) Co je technický předpis podle zákona č. 22/1997 Sb. (č. 90/2016 Sb.)?
+právní předpis obsahující technické požadavky na výrobky
+dokument, oznámený Věstníkem Úřadu pro normalizaci, metrologii a státní zkušebnictví
+Norma ČSN
+právní předpis obsahující technické požadavky na výrobky
+(podle § 3 odst. 1 zákona č. 22/1997 Sb.) Technickým předpisem pro účely tohoto zákona je právní předpis, obsahující technické požadavky na výrobky, popřípadě pravidla pro služby nebo upravující povinnosti při uvádění výrobku na trh, při jeho používání nebo při poskytování nebo zřizování služby nebo zakazující výrobu, dovoz, prodej či používání určitého výrobku nebo používání, poskytování nebo zřizování služby.
+
+44) Který předpis upravuje tvorbu Českých technických norem (ČSN)?
+zákon č. 65/1965 Sb., (Zákoník práce)
+zákon č. 142/1991 Sb., (Zákon o československých technických normách)
+zákon č. 22/1997 Sb., (Technické požadavky na výrobky)
+zákon č. 22/1997 Sb., (Technické požadavky na výrobky)
+(podle § 4 až 7 zákona č. 22/1997 Sb.) .. Poznámka: Zákon č. 142/1991 Sb., o československých technických normách byl již zrušen; Zákon č. 65/1965 Sb. byl již také zrušen (nahrazen zákonem č. 262/2006 Sb. - zákoník práce).
+
+45) Jsou České technické normy ve smyslu zákona obecně závazné?
+ano
+ne
+není stanoveno
+ne
+(podle § 4 odst. 1 zákona č. 22/1997 Sb.) Česká technická norma je dokument schválený pověřenou právnickou osobou (§ 5) pro opakované nebo stálé použití, vytvořený podle tohoto zákona a označený písmenným označením ČSN, jehož vydání bylo oznámeno ve Věstníku Úřadu pro technickou normalizaci, metrologii a státní zkušebnictví. Česká technická norma není obecně závazná.
+
+46) Co se rozumí harmonizovanou technickou normou ?
+když plně přejímá požadavky stanovené evropskou normou nebo harmonizačním dokumentem
+když plně přejímá požadavky evropských směrnic pro posuzování shody
+když plně přejímá požadavky zahraničního výrobce, dovozce nebo distributora zařízení
+když plně přejímá požadavky stanovené evropskou normou nebo harmonizačním dokumentem
+(podle § 4a odst. 1 zákona č. 22/1997 Sb.) Česká technická norma se stává harmonizovanou českou technickou normou, přejímá-li plně požadavky stanovené evropskou normou nebo harmonizačním dokumentem, které uznaly orgány Evropského společenství jako harmonizovanou evropskou normu, nebo evropskou normu, která byla jako harmonizovaná evropská norma stanovena v souladu s právem Evropských společenství společnou dohodou notifikovaných osob. Pro specifikaci technických požadavků na výrobky, vyplývajících z nařízení vlády nebo jiného příslušného technického předpisu, může Úřad pro technickou normalizaci, metrologii a státní zkušebnictví po dohodě s ministerstvy a jinými ústředními správními úřady, jejichž působnosti se příslušná oblast týká, určit české technické normy, další technické normy nebo technické dokumenty mezinárodních, popřípadě zahraničních organizací, nebo jiné technické dokumenty, obsahující podrobnější technické požadavky.
+
+47) Kdo a jak zveřejňuje harmonizované české technické normy?
+stát zákonem
+jednotlivá ministerstva podle své působnosti v nařízeních vlády
+úřad pro technickou normalizaci, metrologii a státní zkušebnictví ve věstníku úřadu
+úřad pro technickou normalizaci, metrologii a státní zkušebnictví ve věstníku úřadu
+(podle § 4a zákona č. 22/1997 Sb.) ..
+
+48) Kdo zabezpečuje tvorbu a vydávání českých technických norem?
+stát
+jednotlivá ministerstva dle své působnosti
+autorizované a akreditované osoby
+stát
+(podle § 5 odst. 1 zákona č. 22/1997 Sb.) Tvorbu a vydávání českých technických norem, jejich změny a zrušení v rozsahu vymezeném tímto zákonem zaručuje stát. Ministerstvo průmyslu a obchodu může pověřit právnickou osobu zabezpečováním tvorby a vydáváním českých technických norem, jejich změn a zrušení.
+
+49) Co je cílem státního zkušebnictví podle zákona č. 22/1997 Sb.?
+cíl není stanoven, ale používané zařízení musí být bezpečné
+zabezpečit u stanovených výrobků posouzení jejich shody s požadavky příslušných nařízení vlády
+zabezpečit, aby výrobci nebo dovozci dodržovali požadavky technických norem
+zabezpečit u stanovených výrobků posouzení jejich shody s požadavky příslušných nařízení vlády
+(podle § 9 zákona č. 22/1997 Sb.) Státní zkušebnictví je soubor činností uskutečňovaných Úřadem a osobami pověřenými podle tohoto zákona, jejichž cílem je zabezpečit u výrobků stanovených podle tohoto zákona posouzení jejich shody s technickými požadavky stanovenými nařízeními vlády.
+
+50) Kterým předpisem jsou stanoveny výrobky, které představují zvýšenou míru ohrožení oprávněného zájmu a u kterých musí být posouzena shoda jejich vlastností s požadavky technických předpisů?
+výrobky se zvýšenou mírou ohrožení určují autorizované osoby
+žádným, toto rozhodnutí stanovuje výrobce nebo dovozce
+zákonem č. 22/1997 Sb., zákonem č. 90/2016 Sb. a příslušnými nařízeními vlády
+zákonem č. 22/1997 Sb., zákonem č. 90/2016 Sb. a příslušnými nařízeními vlády
+(podle § 12 odst. 1, písm. a), b), zákona č. 22/1997 Sb.) .. (podle § 4 zákona č. 90/2016 Sb.) ..
+
+51) Co znamená označení CE na stanoveném výrobku?
+že je výrobek certifikovaný
+že výrobek splňuje technické požadavky stanovené ve všech nařízeních vlády, které se na něj vztahují a které toto označení stanovují nebo umožňují
+že výrobek pochází ze zemí EU
+že výrobek splňuje technické požadavky stanovené ve všech nařízeních vlády, které se na něj vztahují a které toto označení stanovují nebo umožňují
+(podle § 13 odst. 3 zákona č. 22/1997 Sb. a § 15 odst. 1 zákona č. 90/2016 Sb.) Označení CE na stanoveném výrobku vyjadřuje, že výrobek splňuje technické požadavky stanovené ve všech nařízeních vlády, které se na něj vztahují a které toto označení stanovují nebo umožňují, a že byl při posouzení jeho shody dodržen stanovený postup. Označením CE smí být opatřen pouze výrobek, u kterého je umístění tohoto označení stanoveno nařízením vlády.
+
+52) U jakých výrobků lze použít Českou značku shody „CCZ“?
+na něž se vztahují předpisy Evropských společenství
+na něž se vztahují vnitřní předpisy autorizovaných osob
+na něž se nevztahují předpisy Evropských společenství
+na něž se nevztahují předpisy Evropských společenství
+(podle § 13 odst. 4 zákona č. 22/1997 Sb.) Českou značku shody, kterou tvoří písmena CCZ, lze použít pouze u výrobků, na něž se nevztahují předpisy Evropských společenství. Tato značka vyjadřuje, že výrobek splňuje technické požadavky stanovené ve všech nařízeních vlády, které se na něj vztahují a které toto označení stanovují nebo umožňují, a že byl při posouzení jeho shody dodržen stanovený postup.
+
+53) Smí být stanovený výrobek označený CE souběžně označen značkou CCZ?
+smí
+nesmí
+jen ve výjimečných případech po schválení autorizovanou osobou
+nesmí
+(podle § 13 odst. 5 zákona č. 22/1997 Sb.) Pokud je stanovený výrobek opatřen označením CE, nesmí být souběžně označen českou značkou shody, nebo značkou, která by svým významem nebo podobou mohla vést k záměně s označením CE nebo s jiným stanoveným označením.
+
+54) Kdo provádí dozor nad stanovenými výrobky podle zákona č. 22/1997 Sb.?
+SÚIP (Státní úřad inspekce práce)
+Česká obchodní inspekce, případně orgán stanovený zvláštním předpisem
+Ministerstvo průmyslu a obchodu
+Česká obchodní inspekce, případně orgán stanovený zvláštním předpisem
+(podle § 18 odst. 1 zákona č. 22/1997 Sb. a § 49 odst. 1 zákona č. 90/2016 Sb.) Dozor nad tím, zda výrobky jsou dodávány na trh, uváděny do provozu nebo používány výrobcem pro vlastní potřebu v souladu se stanovenými požadavky nebo s požadavky příslušného nařízení Evropské unie a zda výrobky nejsou neoprávněně opatřovány označením CE nebo jiným stanoveným označením podle tohoto zákona, provádí orgán dozoru, kterým je Česká obchodní inspekce, nebo další správní orgán, pokud tak jiný zákon stanoví.
+
+55) Co se považuje za elektrická zařízení určená pro použití v rozsahu nařízení vlády č. 118/2016 Sb.: (s výjimkou zařízení a jevů uvedených v příloze k tomuto nařízení vlády)?
+zařízení jmenovitých napětí od 100 V střídavého i stejnosměrného proudu
+zařízení napětím nad 1000 V
+zařízení jmenovitých napětí od 50 do 1000 V střídavého proudu a jmenovitých napětí od 75 do 1500 V stejnosměrného proudu
+zařízení jmenovitých napětí od 50 do 1000 V střídavého proudu a jmenovitých napětí od 75 do 1500 V stejnosměrného proudu
+(podle § 1 odst. 2 a 3 nařízení vlády č. 118/2016 Sb., které má vazbu na zákon č. 90/2006 Sb.) Toto nařízení se vztahuje na elektrická zařízení určená pro použití v rozsahu jmenovitých napětí pro střídavý proud od 50 V do 1000 V a pro stejnosměrný proud od 75 V do 1500 V. Nevztahuje se na zařízení a jevy uvedené v příloze č. 2 k tomuto nařízení.
+
+56) S čím musí být v souladu elektrické zařízení uvedené na trh v rozsahu nařízení vlády č. 118/2016 Sb.?
+s harmonizovanými technickými normami platnými v členských státech Evropské unie
+s provedenými zkouškami a vydanou revizní zprávou
+s protokolem o jakosti a kompletnosti zařízení
+s harmonizovanými technickými normami platnými v členských státech Evropské unie
+(podle § 10 odst. 1 nařízení vlády č. 118/2016 Sb., které má vazbu na zákon č. 90/2006 Sb.) Pokud je elektrické zařízení ve shodě s a) harmonizovanými normami nebo jejich částmi, na něž byly zveřejněny odkazy v Ústředním věstníku Evropské unie, b) bezpečnostními ustanoveními mezinárodních norem stanovených Mezinárodní elektrotechnickou komisí (IEC), pokud normy podle písmene a) nebyly dosud vytvořeny a zveřejněny a pokud byla tato bezpečnostní ustanovení Evropskou komisí zveřejněna, nebo c) bezpečnostními ustanoveními českých technických norem, pokud neexistují technické normy podle písmena a) nebo b), má se za to, že je ve shodě se základními technickými požadavky stanovenými v příloze č. 1 k tomuto nařízení, na které se tyto normy nebo jejich části vztahují.
+
+57) Co se rozumí ve smyslu NV č. 117/2016 Sb. elektromagnetickým rušením (kompatibilitou)?
+schopnost zařízení fungovat v elektromagnetickém prostředí, bez sledování rušení jiného zařízení v tomto prostředí
+schopnost zařízení uspokojivě fungovat v elektromagnetickém prostředí, aniž by samo způsobovalo nepřípustné rušení jiného zařízení v tomto prostředí
+schopnost zařízení fungovat podle provozních předpisů provozovatele
+schopnost zařízení uspokojivě fungovat v elektromagnetickém prostředí, aniž by samo způsobovalo nepřípustné rušení jiného zařízení v tomto prostředí
+(podle § 2, odst. 1, písm. d) a e) nařízení vlády č. 117/2016 Sb., ve vazbě na zákon č. 90/2006 Sb.) ..
+
+58) Jak dlouho se uchovávají technické dokumentace určené pro elektrická zařízení s respektováním elektromagnetického rušení (kompatibility) ve smyslu NV č. 117/2016 Sb.
+po celou dobu provozování pevné instalace
+po dobu 5 let od ukončení montáže zařízení
+po dobu 10 let od uvedení přístroje na trh
+po dobu 10 let od uvedení přístroje na trh
+(podle § 5, odst. 1 a odst. 3 nařízení vlády č. 117/2016 Sb. ve vazbě na zákon č. 90/2016 Sb.) .. U této otázky záleží správná odpověď na tom, zda se jedná o výrobky (přístroje/zařízení), pak je správná odpověď 10 let od uvedení na trh, tedy odpověď C). Odpověď A), t.j. „po celou dobu provozování pevné instalace“, by byla správně pouze tehdy, kdyby v otázce byla místo „zařízení“ uvedena „pevná instalace“.
+
+59) K čemu nesmí vést přerušení a obnova dodávky energie do strojního zařízení podle nařízení vlády č. 176/2008 Sb., kterým se stanoví technické požadavky na strojní zařízení?
+k nebezpečné situaci vzniklé vlivem neočekávaného uvedení zařízení do provozu
+k situaci, kdy provozovateli zařízení vznikne ztráta vlivem toho, že nedošlo k automatickému najetí zařízení do provozu
+k situaci, kdy se stroj sám rozběhne bez předcházející světelné nebo zvukové výstrahy
+k nebezpečné situaci vzniklé vlivem neočekávaného uvedení zařízení do provozu
+(podle přílohy č. 1, čl. 1.2.6 nařízení vlády č. 176/2008 Sb., dříve nařízení vlády č. 24/2003 Sb.) .. a-f
+
+60) Co je nebezpečný prostor ve smyslu nařízení vlády č. 176/2008 Sb., kterým se stanoví technické požadavky na strojní zařízení?
+každý prostor uvnitř a/nebo okolo strojního zařízení, kde je osoba vystavena nebezpečí
+prostor uvnitř a okolo strojního zařízení do vzdálenosti 1 m
+není předpisem přesně stanoveno, je určeno pouze, že nesmí nastat nebezpečí
+každý prostor uvnitř a/nebo okolo strojního zařízení, kde je osoba vystavena nebezpečí
+(podle Přílohy č. 1 k nařízení vlády č. 176/2008 Sb., dříve nařízení vlády č. 24/2003 Sb.) 1.1.1. Definice: Pro účely tohoto nařízení se „nebezpečným prostorem“ rozumí každý prostor uvnitř nebo okolo strojního zařízení, ve kterém je osoba vystavena nebezpečí, které ohrožuje její zdraví nebo bezpečnost. (U zkoušek zatím TIČR používá „ uvnitř a/nebo okolo „ z NV č. 24/2003 Sb.)
+
+61) Která z jednotek není podle zákona o metrologii základní měřicí jednotkou?
+ampér (A)
+watt (W)
+sekunda (s)
+watt (W)
+(podle § 2 odst. 2 zákona č. 505/1990 Sb.) ..
+
+62) Která měřidla jsou podle zákona o metrologii stanovena k povinnému ověřování?
+všechna pracovní měřidla a etalony
+žádná pracovní měřidla nejsou stanovena
+měřidla, která stanoví vyhláška Ministerstva průmyslu a obchodu
+měřidla, která stanoví vyhláška Ministerstva průmyslu a obchodu
+(podle § 3 odst. 3 zákona č. 505/1990 Sb.) .. Měřidla slouží k určení hodnoty měřené veličiny. Spolu s nezbytnými pomocnými měřicími zařízeními se pro účely tohoto zákona člení na:
+
+63) Co se potvrzuje ověřováním stanovených měřidel?
+že stanovené měřidlo má požadované metrologické vlastnosti
+že vlastnosti měřidla lze porovnat s podobným přístrojem
+že vlastnosti a přesnost měřidla lze porovnat s vypočtenými veličinami
+že stanovené měřidlo má požadované metrologické vlastnosti
+(podle §9 odst. 1 zákona č. 505/1990 Sb.) Ověřením stanoveného měřidla se potvrzuje, že stanovené měřidlo má požadované metrologické vlastnosti. Postup při ověřování stanovených měřidel stanoví ministerstvo vyhláškou.
+
+64) Je vlastník stavby ve smyslu stavebního zákona povinen uchovávat dokumentaci odpovídající skutečnému provedení?
+ano, ale ne déle než 20 let
+ano
+ne
+ano
+(podle § 125 odst. 1 zákona č. 183/2006 Sb., stavební zákon) Vlastník stavby je povinen uchovávat po celou dobu trvání stavby ověřenou dokumentaci odpovídající jejímu skutečnému provedení podle vydaných povolení. V případech, kdy dokumentace stavby nebyla vůbec pořízena, nedochovala se nebo není v náležitém stavu, je vlastník stavby povinen pořídit dokumentaci skutečného provedení stavby. Při změně vlastnictví ke stavbě odevzdá dosavadní vlastník dokumentaci novému vlastníkovi stavby.
+
+65) Na jakých stavbách se musí zřizovat ochrana před bleskem?
+všechny budovy, ve kterých jsou alespoň tři kanceláře
+rodinné domky o větších rozměrech jak 200 m2
+obrazárny, knihovny, archivy, nádraží atd.
+obrazárny, knihovny, archivy, nádraží atd.
+(podle § 36 vyhlášky č. 268/2009 Sb., dříve podle § 47 vyhlášky č. 137/1998 Sb.) ..
+
+66) Na jaká zařízení se nevztahuje nařízení vlády č. 406/2004 Sb. o bližších požadavcích na zajištění bezpečnosti a ochrany zdraví při práci v prostředí s nebezpečím výbuchu?
+na prostory používané pro vyšetření nebo ošetření pacientů
+na prostory regulačních stanic plynu a jejich okolí
+na zařízení, kde může vzniknout výbušná atmosféra
+na prostory používané pro vyšetření nebo ošetření pacientů
+(podle § 1 odst. 2 nařízení vlády č. 406/2004 Sb. ) ..
+
+67) K čemu je určeno ochranné pásmo zařízení elektrizační soustavy?
+k zajištění prostoru, kde nesmí být vykonávány žádné činnosti
+k zajištění jeho spolehlivého provozu a k ochraně života, zdraví a majetku osob
+k potřebám rozvodných závodů při jeho montáži a údržbě
+k zajištění jeho spolehlivého provozu a k ochraně života, zdraví a majetku osob
+(podle §46, odst. 1 zákona č. 458/2000 Sb.) Ochranná pásma: Ochranným pásmem zařízení elektrizační soustavy je prostor v bezprostřední blízkosti tohoto zařízení určený k zajištění jeho spolehlivého provozu a k ochraně života, zdraví a majetku osob. Ochranné pásmo vzniká dnem nabytí právní moci územního rozhodnutí.
+
+68) Co není chráněno ochranným pásmem zařízení elektrizační soustavy?
+elektrické stanice
+kabelové sítě
+nadzemní vedení do 1000 V
+nadzemní vedení do 1000 V
+(podle §46, odst. 2, 3, 5 a 6 zákona č. 458/2000 Sb.) .. Poznámka: Pod názvem „stanoviště transformátorů“ jsou v otázce zřejmě myšleny elektrické stanice. Podle odstavce 6 elektrické stanice ochranné pásmo mají. Pod názvem „kabelové sítě“ je asi myšleno podzemní vedení, a to ochranné pásmo také má. Nadzemní vedení je sice v odstavci 2 uvedeno, ale v odstavci 3 je upřesněno, že ochranné pásmo se ho týká až při napětí nad 1 kV.
+
+69) Čím je určeno ochranné pásmo nadzemního zařízení elektrizační soustavy?
+prostorem od středového vodiče na obě strany souměrným
+souvislým prostorem vymezeným svislými rovinami vedenými po obou stranách vedení ve vodorovné vzdálenosti měřené kolmo na vedení od krajního vodiče soustavy
+prostorem vymezeným vzdáleností od stožáru, vymezeným velikostí a napětím soustavy
+souvislým prostorem vymezeným svislými rovinami vedenými po obou stranách vedení ve vodorovné vzdálenosti měřené kolmo na vedení od krajního vodiče soustavy
+(podle § 46, odst. 3 zákona č. 458/2000 Sb.) Ochranné pásmo nadzemního zařízení elektrizační soustavy je souvislý prostor vymezený svislými rovinami vedenými po obou stranách vedení ve vodorovné vzdálenosti měřené kolmo na vedení, která činí od krajního vodiče na obě jeho strany ... (Velikost je odvislá na velikosti napětí příslušného elektrického zařízení a pohybuje v rozmezí 1 m až 30 m)
+
+70) Jak velké je ochranné pásmo podzemního kabelu s napětím do 1 kV?
+1 m po obou stranách krajního kabelu
+2 metry od středu kabelů
+kabely do 1 kV nemají ochranné pásmo
+1 m po obou stranách krajního kabelu
+(podle §46, odst. 5 zákona č. 458/2000 Sb.) Ochranné pásmo podzemního vedení elektrizační soustavy do 110 kV včetně a vedení řídicí, měřicí a zabezpečovací techniky činí 1 m po obou stranách krajního kabelu, nad 110 kV činí 3 m po obou stranách krajního kabelu.

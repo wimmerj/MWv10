@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "question": "001. Kdo je u SŽ Správce dálkových a místních sdělovacích kabelů?",
+    "answers": [
+      "Dálkové TÚDC, místní SSZT",
+      "Dálkové SEE, místní SSZT",
+      "Dálkové i místní SSZT"
+    ],
+    "correct": 0,
+    "explanation": "(Předpis SŽ T31)",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 2,
+    "question": "002. Správce zabezpečovacích kabelů u SŽ je ve svém obvodu:",
+    "answers": [
+      "SSZT",
+      "TÚDC",
+      "SEE"
+    ],
+    "correct": 0,
+    "explanation": "(Předpis SŽ T31)",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 3,
+    "question": "003. Údržbu datové sítě a dálkových kabelů u SŽ provádí ve svém obvodu:",
+    "answers": [
+      "TUDC",
+      "ČD Telematika",
+      "SSZT"
+    ],
+    "correct": 0,
+    "explanation": "(Předpis SŽ T31)",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 4,
+    "question": "004. Co jsou místní kabely dle předpisu T31?",
+    "answers": [
+      "Kabely pro spoje místního charakteru v rámci jedné stanice, služebny, uzlu apod.",
+      "Kabely spojující dvě železniční stanice.",
+      "Kabely určené výhradně pro dálkovou komunikaci."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 5,
+    "question": "005. Jaká měření se vykonávají při udržování kabelů?",
+    "answers": [
+      "Denní, profilová, izolační, korozní a uzemnění.",
+      "Jen denní a kontrolní profilová měření.",
+      "Pouze měření izolačního odporu a uzemnění."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 6,
+    "question": "006. Lze nahradit předepsané měřicí přístroje jinými?",
+    "answers": [
+      "Ano, pokud mají stejné nebo lepší parametry.",
+      "Ne, vždy je nutné používat předepsané přístroje.",
+      "Ano, ale pouze přístroji schválenými výrobcem."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 7,
+    "question": "007. Co je spojovací kabel dle předpisu T31?",
+    "answers": [
+      "Kabel spojující zesilovací stanici s ústřednou nebo železničními stanicemi.",
+      "Kabel spojující dvě zařízení v rámci jedné stanice.",
+      "Kabel sloužící výhradně pro zabezpečovací zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 8,
+    "question": "008. Jaké uzemnění je součástí kabelové tratě na tratích se stejnosměrným proudem?",
+    "answers": [
+      "Uzemnění skříní kabelových rozváděčů v měnírnách.",
+      "Uzemnění sdělovacích kabelů v koncových objektech.",
+      "Doplňkové mezilehlé uzemnění."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 9,
+    "question": "009. Jaké uzemnění je součástí kabelové tratě na tratích se střídavým proudem?",
+    "answers": [
+      "Kabelové skříně, sdělovací kabely, doplňkové uzemnění, závěry kabelů.",
+      "Pouze uzemnění kabelových skříní.",
+      "Jen uzemnění sdělovacích kabelů v mezilehlých objektech."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 10,
+    "question": "010. Jaká maximální hodnota odporu je povolena pro uzemnění sdělovacích kabelů v koncových objektech?",
+    "answers": [
+      "2 ohmy.",
+      "10 ohmů.",
+      "5 ohmů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 11,
+    "question": "011. Jak často se měří uzemnění kabelových tratí?",
+    "answers": [
+      "Alespoň jednou za rok.",
+      "Každé tři měsíce.",
+      "Jednou za dva roky."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 12,
+    "question": "012. Kdy se smí měřit uzemnění skříní kabelových rozváděčů v měnírnách?",
+    "answers": [
+      "Pouze při napěťové výluce měnírny.",
+      "Kdykoliv během provozu měnírny.",
+      "Jen při roční kontrole izolačního odporu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 13,
+    "question": "013. Co je nutné použít při odpojování uzemnění na tratích se střídavou trakcí?",
+    "answers": [
+      "Ochranné dielektrické rukavice.",
+      "Dielektrické boty.",
+      "Ochranný štít a brýle."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 14,
+    "question": "014. Co je nutné udělat, pokud indukované napětí v kabelovém vedení přesahuje 60 V?",
+    "answers": [
+      "Kabely a dokumentaci označit: „NEBEZPEČÍ ÚRAZU INDUKOVANÝM NAPĚTÍM!“",
+      "Označit kabely štítkem „Vysoké napětí“.",
+      "Vyměnit kabely za nízkonapěťové."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 15,
+    "question": "015. Kdo odpovídá za označení dokumentace kabelového oddílu?",
+    "answers": [
+      "Vedoucí kabelového oddílu.",
+      "Sdělovací a zabezpečovací distance.",
+      "Vedoucí laboratoře."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 16,
+    "question": "016. Jaké hodnoty indukovaných elektromotorických sil při zkratových stavech nesmí být překročeny?",
+    "answers": [
+      "Hodnoty dle ČSN 34 2040 a ČSN 34 2030.",
+      "Hodnoty stanovené výrobcem kabelů.",
+      "Hodnoty uvedené v provozních směrnicích."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 17,
+    "question": "017. Jaká je povinnost při práci s kabely s indukovaným napětím nad 60 V?",
+    "answers": [
+      "Pracovníky instruovat a vybavit ochrannými prostředky.",
+      "Provádět práce pouze za přítomnosti revizního technika.",
+      "Zajistit napěťovou výluku trakčního vedení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 18,
+    "question": "018. Co je nutné označit při indukovaném napětí vyšším než 60 V?",
+    "answers": [
+      "Kabely, dokumentaci a galvanicky spojená zařízení.",
+      "Pouze kabely a jejich pláště.",
+      "Jen sdělovací zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 19,
+    "question": "019. Jaká je povinnost udržujícího zaměstnance ve svém údržbovém úseku?",
+    "answers": [
+      "Sledovat mimořádné události a zajistit potřebná opatření.",
+      "Provádět pravidelné pochůzky po kabelové trase.",
+      "Zajišťovat měření izolačního stavu kabelů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 20,
+    "question": "020. Kdo udržuje kabelové rozváděče se zabezpečovacím zařízením opatřené olověnkovými závěry?",
+    "answers": [
+      "Pracovník udržující zabezpečovací zařízení.",
+      "Kabelový pochůzkář.",
+      "Vedoucí kabelového oddílu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 21,
+    "question": "021. Jak často se ověřuje izolační stav kabelu drenáž — kolej?",
+    "answers": [
+      "Dvakrát do roka.",
+      "Jednou za rok.",
+      "Čtvrtletně."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 22,
+    "question": "022. Kdo zajišťuje měření izolačního stavu kabelu drenáž — kolej?",
+    "answers": [
+      "Sdělovací a zabezpečovací distance.",
+      "Kabelový pochůzkář.",
+      "Pracovník údržby kolejí."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 23,
+    "question": "023. Při jaké situaci se provádí měření izolačního stavu kabelu drenáž — kolej?",
+    "answers": [
+      "Při výluce měnírny.",
+      "Při pravidelné kontrole trakčního vedení.",
+      "Při mimořádné události v údržbovém úseku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 24,
+    "question": "024. Kdo provádí kontrolu provedení stavby před přejímkou?",
+    "answers": [
+      "Pracovníci sdělovací a zabezpečovací distance.",
+      "Přejímací komise.",
+      "Dodavatel stavby."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 25,
+    "question": "025. Co se stane, pokud přejímací komise zjistí závady znemožňující řádný provoz?",
+    "answers": [
+      "Stavba nebude převzata a bude stanoven nový termín přejímky.",
+      "Stavba bude převzata s výhradami.",
+      "Stavba bude předána do zkušebního provozu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 26,
+    "question": "026. Jaká závada znemožňuje řádný provoz podle ustanovení č. 31?",
+    "answers": [
+      "Nedodání dokumentace opravené podle skutečnosti.",
+      "Nepřítomnost dodavatele při přejímce.",
+      "Chybějící zápis o provedené kontrole stavby."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 27,
+    "question": "027. Kdy může být nařízen zkušební provoz?",
+    "answers": [
+      "Při zjištění závad podle povahy a rozsahu stavby.",
+      "Pokud není k dispozici přejímací komise.",
+      "Při první kontrole provedení stavby."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  },
+  {
+    "id": 28,
+    "question": "028. Kdo určuje délku zkušebního provozu?",
+    "answers": [
+      "Přejímací komise.",
+      "Dodavatel stavby.",
+      "Pracovníci sdělovací a zabezpečovací distance."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "SŽ_T31___ok"
+  }
+]

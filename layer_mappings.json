@@ -1,0 +1,295 @@
+{
+  "version": "1.0",
+  "timestamp": "2025-09-17T14:24:41.503Z",
+  "lineMappings": {
+    "522A.png": {
+      "startX": 2537,
+      "startY": 594,
+      "endX": 2207,
+      "endY": 790,
+      "thickness": 150
+    },
+    "710A.png": {
+      "startX": 2199,
+      "startY": 2627,
+      "endX": 3238,
+      "endY": 2687,
+      "thickness": 150
+    },
+    "710B.png": {
+      "startX": 1569,
+      "startY": 2872,
+      "endX": 2132,
+      "endY": 2776,
+      "thickness": 150
+    },
+    "712B.png": {
+      "startX": 986,
+      "startY": 2044,
+      "endX": 1465,
+      "endY": 2013,
+      "thickness": 150
+    },
+    "713A.png": {
+      "startX": 2935,
+      "startY": 1160,
+      "endX": 2046,
+      "endY": 1693,
+      "thickness": 150
+    },
+    "717B.png": {
+      "startX": 1016,
+      "startY": 1334,
+      "endX": 270,
+      "endY": 1413,
+      "thickness": 150
+    },
+    "714C.png": {
+      "startX": 1711,
+      "startY": 748,
+      "endX": 1452,
+      "endY": 1367,
+      "thickness": 150
+    },
+    "709B.png": {
+      "startX": 2210,
+      "startY": 1963,
+      "endX": 3238,
+      "endY": 2508,
+      "thickness": 150
+    },
+    "712A.png": {
+      "startX": 1564,
+      "startY": 1909,
+      "endX": 1541,
+      "endY": 3367,
+      "thickness": 150
+    },
+    "711.png": {
+      "startX": 1916,
+      "startY": 1821,
+      "endX": 2347,
+      "endY": 3273,
+      "thickness": 150
+    },
+    "714A.png": {
+      "startX": 2723,
+      "startY": 1551,
+      "endX": 2595,
+      "endY": 2011,
+      "thickness": 150
+    },
+    "714B.png": {
+      "startX": 2562,
+      "startY": 845,
+      "endX": 2163,
+      "endY": 1467,
+      "thickness": 150
+    },
+    "717A.png": {
+      "startX": 179,
+      "startY": 1471,
+      "endX": 991,
+      "endY": 3004,
+      "thickness": 150
+    },
+    "717C.png": {
+      "startX": 1430,
+      "startY": 2557,
+      "endX": 1045,
+      "endY": 2818,
+      "thickness": 150
+    },
+    "719.png": {
+      "startX": 2045,
+      "startY": 460,
+      "endX": 1953,
+      "endY": 1671,
+      "thickness": 150
+    },
+    "nadpis.png": {
+      "startX": 2717,
+      "startY": 195,
+      "endX": 795,
+      "endY": 171,
+      "thickness": 150
+    },
+    "PLZEŇ.png": {
+      "startX": 1899,
+      "startY": 1759,
+      "endX": 1739,
+      "endY": 1783,
+      "thickness": 150
+    },
+    "720A.png": {
+      "startX": 288,
+      "startY": 486,
+      "endX": 1683,
+      "endY": 1777,
+      "thickness": 150
+    },
+    "legenda.png": {
+      "startX": 3163,
+      "startY": 123,
+      "endX": 3168,
+      "endY": 1023,
+      "thickness": 150
+    }
+  },
+  "clickableAreas": {
+    "522A.png": {
+      "type": "line",
+      "startX": 2537,
+      "startY": 594,
+      "endX": 2207,
+      "endY": 790,
+      "thickness": 150
+    },
+    "709B.png": {
+      "type": "line",
+      "startX": 2210,
+      "startY": 1963,
+      "endX": 3238,
+      "endY": 2508,
+      "thickness": 150
+    },
+    "710A.png": {
+      "type": "line",
+      "startX": 2199,
+      "startY": 2627,
+      "endX": 3238,
+      "endY": 2687,
+      "thickness": 150
+    },
+    "710B.png": {
+      "type": "line",
+      "startX": 1569,
+      "startY": 2872,
+      "endX": 2132,
+      "endY": 2776,
+      "thickness": 150
+    },
+    "711.png": {
+      "type": "line",
+      "startX": 1916,
+      "startY": 1821,
+      "endX": 2347,
+      "endY": 3273,
+      "thickness": 150
+    },
+    "712A.png": {
+      "type": "line",
+      "startX": 1564,
+      "startY": 1909,
+      "endX": 1541,
+      "endY": 3367,
+      "thickness": 150
+    },
+    "712B.png": {
+      "type": "line",
+      "startX": 986,
+      "startY": 2044,
+      "endX": 1465,
+      "endY": 2013,
+      "thickness": 150
+    },
+    "713A.png": {
+      "type": "line",
+      "startX": 2935,
+      "startY": 1160,
+      "endX": 2046,
+      "endY": 1693,
+      "thickness": 150
+    },
+    "714A.png": {
+      "type": "line",
+      "startX": 2723,
+      "startY": 1551,
+      "endX": 2595,
+      "endY": 2011,
+      "thickness": 150
+    },
+    "714B.png": {
+      "type": "line",
+      "startX": 2562,
+      "startY": 845,
+      "endX": 2163,
+      "endY": 1467,
+      "thickness": 150
+    },
+    "714C.png": {
+      "type": "line",
+      "startX": 1711,
+      "startY": 748,
+      "endX": 1452,
+      "endY": 1367,
+      "thickness": 150
+    },
+    "717A.png": {
+      "type": "line",
+      "startX": 179,
+      "startY": 1471,
+      "endX": 991,
+      "endY": 3004,
+      "thickness": 150
+    },
+    "717B.png": {
+      "type": "line",
+      "startX": 1016,
+      "startY": 1334,
+      "endX": 270,
+      "endY": 1413,
+      "thickness": 150
+    },
+    "717C.png": {
+      "type": "line",
+      "startX": 1430,
+      "startY": 2557,
+      "endX": 1045,
+      "endY": 2818,
+      "thickness": 150
+    },
+    "719.png": {
+      "type": "line",
+      "startX": 2045,
+      "startY": 460,
+      "endX": 1953,
+      "endY": 1671,
+      "thickness": 150
+    },
+    "720A.png": {
+      "type": "line",
+      "startX": 288,
+      "startY": 486,
+      "endX": 1683,
+      "endY": 1777,
+      "thickness": 150
+    },
+    "legenda.png": {
+      "type": "line",
+      "startX": 3163,
+      "startY": 123,
+      "endX": 3168,
+      "endY": 1023,
+      "thickness": 150
+    },
+    "nadpis.png": {
+      "type": "line",
+      "startX": 2717,
+      "startY": 195,
+      "endX": 795,
+      "endY": 171,
+      "thickness": 150
+    },
+    "PLZEŇ.png": {
+      "type": "line",
+      "startX": 1899,
+      "startY": 1759,
+      "endX": 1739,
+      "endY": 1783,
+      "thickness": 150
+    }
+  },
+  "totalLayers": 19,
+  "mappedLayers": 19
+}

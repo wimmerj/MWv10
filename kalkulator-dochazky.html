@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulátor docházky</title>
+    <link rel="stylesheet" href="kalkulator-dochazky.css">
+</head>
+<body>
+    <div class="container">
+        <div class="back-link">
+            <a href="index.html">← Zpět na hlavní stránku</a>
+        </div>
+        <h1>Kalkulátor docházky</h1>
+        <form id="dochazkaForm" autocomplete="off">
+            <fieldset>
+                <legend>Rozdíl pracovní doby do včerejšího dne</legend>
+                <label for="rozdil">Hodiny:minuty:</label>
+                <input type="text" id="rozdil" value="0:00" size="6">
+                <label><input type="radio" name="typ_rozdilu" value="minus" checked> Chybějící hodiny (-)</label>
+                <label><input type="radio" name="typ_rozdilu" value="plus"> Nadělané hodiny (+)</label>
+            </fieldset>
+            <fieldset>
+                <legend>Příchod do práce</legend>
+                <label for="prichod">Čas příchodu:</label>
+                <input type="text" id="prichod" value="6:00" size="6">
+                <span id="zpozdeni" class="error"></span>
+            </fieldset>
+            <fieldset>
+                <legend>Krátké přestávky (minuty)</legend>
+                <div class="prestávky">
+                    <label>Obědová pauza: <input type="number" id="prest1" value="0" min="0" size="3"></label>
+                    <label>Přestávka 2: <input type="number" id="prest2" value="0" min="0" size="3"></label>
+                    <label>Přestávka 3: <input type="number" id="prest3" value="0" min="0" size="3"></label>
+                    <label>Přestávka 4: <input type="number" id="prest4" value="0" min="0" size="3"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Plánovaný odchod</legend>
+                <label for="odchod">Čas odchodu:</label>
+                <input type="text" id="odchod" value="14:00" size="6">
+            </fieldset>
+            <button type="button" id="vypocitat">Vypočítat</button>
+        </form>
+        <div class="vysledky">
+            <div id="aktualniCas"></div>
+            <div id="vysledek" class="vysledek"></div>
+            <div id="planovanyVysledek" class="planovany"></div>
+            <pre id="detail"></pre>
+        </div>
+    </div>
+    <script src="kalkulator-dochazky.js"></script>
+</body>
+</html>

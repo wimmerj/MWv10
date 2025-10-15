@@ -1,0 +1,957 @@
+/* Základní styly */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Hlavní kontejner */
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Levý panel pro ovládací prvky */
+.control-panel {
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* Skryje přetečení na hlavním panelu */
+}
+
+/* Wrapper pro scrollovatelný obsah */
+.control-panel-content {
+    flex: 1;
+    overflow-y: auto; /* Povolí vertikální scrollování */
+    overflow-x: hidden; /* Zakáže horizontální scrollování */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Vlastní scrollbar pro lepší vzhled */
+.control-panel-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.control-panel-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.control-panel-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.control-panel-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* ===========================================
+   ROZBALOVACÍ SEKCE (ACCORDION)
+   =========================================== */
+
+.collapsible-section {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.collapsible-header {
+    background-color: #f0f0f0;
+    padding: 12px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.collapsible-header:hover {
+    background-color: #e8e8e8;
+}
+
+.collapsible-header.active {
+    background-color: #e0e0e0;
+}
+
+.collapsible-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.collapsible-arrow {
+    font-size: 12px;
+    color: #666;
+    transition: transform 0.2s ease;
+}
+
+.collapsible-header.active .collapsible-arrow {
+    transform: rotate(180deg);
+}
+
+.collapsible-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+}
+
+.collapsible-content.expanded {
+    max-height: 1000px; /* Dostatečně velká hodnota pro obsah */
+}
+
+.collapsible-inner {
+    padding: 15px;
+    max-height: 400px; /* Omezíme celkovou výšku sekce */
+    overflow-y: auto; /* Povolíme scrollování v celé sekci */
+}
+
+/* Scrollbar pro obsah rozbalovacích sekcí */
+.collapsible-inner::-webkit-scrollbar {
+    width: 6px;
+}
+
+.collapsible-inner::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.collapsible-inner::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.collapsible-inner::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Panel pro vrstvy - přizpůsobeno pro rozbalovací sekci */
+.layers-panel {
+    border: none; /* Odebereme border, protože ho má collapsible-section */
+    border-radius: 0;
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 0;
+    min-height: 0;
+}
+
+.layers-panel h3 {
+    display: none; /* Skryjeme, protože název je v collapsible-header */
+}
+
+.layers-list {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Scrollbar pro seznam vrstev */
+.layers-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.layers-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.layers-list::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.layers-list::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Styly pro checkbox položky vrstev */
+.layer-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.layer-item:last-child {
+    border-bottom: none;
+}
+
+.layer-item input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.layer-item label {
+    cursor: pointer;
+    font-size: 13px;
+    color: #555;
+    word-break: break-word;
+}
+
+.layer-item:hover {
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+
+/* Panel pro tlačítka - přizpůsobeno pro rozbalovací sekci */
+.buttons-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0;
+    flex-shrink: 0; /* Zabráníme zmenšování tlačítek */
+}
+
+/* Oddělení skupin tlačítek v rámci rozbalovacích sekcí */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0;
+    max-height: 300px; /* Omezíme výšku pro scrollování */
+    overflow-y: auto; /* Povolíme vertikální scrollování */
+    padding-right: 5px; /* Prostor pro scrollbar */
+}
+
+/* Scrollbar pro skupiny tlačítek */
+.button-group::-webkit-scrollbar {
+    width: 6px;
+}
+
+.button-group::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.button-group::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.button-group::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+.button-separator {
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn:active {
+    background-color: #3d8b40;
+}
+
+.btn-primary {
+    background-color: #2196F3;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #1976D2;
+}
+
+.btn-primary:active {
+    background-color: #1565C0;
+}
+
+.btn-secondary {
+    background-color: #757575;
+}
+
+.btn-secondary:hover {
+    background-color: #616161;
+}
+
+.btn-secondary:active {
+    background-color: #424242;
+}
+
+/* Informační panel - přizpůsobeno pro rozbalovací sekci */
+.info-panel {
+    min-height: 60px;
+    max-height: 250px; /* Omezíme výšku pro scrollování */
+    overflow-y: auto; /* Povolíme vertikální scrollování */
+    padding: 0;
+    padding-right: 5px; /* Prostor pro scrollbar */
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    flex-shrink: 0; /* Zabráníme zmenšování info panelu */
+    margin-top: 0; /* Odebereme automatické odsazení */
+}
+
+/* Scrollbar pro informační panel */
+.info-panel::-webkit-scrollbar {
+    width: 6px;
+}
+
+.info-panel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.info-panel::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.info-panel::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+.info-label {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.info-label.error {
+    color: #d32f2f;
+}
+
+/* Hlavní oblast pro zobrazení obrázku */
+.image-panel {
+    flex: 1;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.image-canvas {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    cursor: grab;
+    display: block;
+}
+
+.image-canvas:active {
+    cursor: grabbing;
+}
+
+/* Modal styly */
+.modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 1200px;
+    height: 80%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    line-height: 1;
+    padding: 5px;
+}
+
+.close:hover {
+    color: #000;
+}
+
+.modal-body {
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+}
+
+/* Scrollbar styly */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Tabulka pro Excel data */
+.excel-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.excel-table th,
+.excel-table td {
+    border: 1px solid #ddd;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+.excel-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.excel-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.excel-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.excel-table tr.selected {
+    background-color: #e3f2fd !important;
+}
+
+/* Šedé řádky pro data bez podrobností */
+.excel-table tr.gray-row {
+    background-color: #f0f0f0 !important;
+}
+
+.excel-table tr.gray-row:hover {
+    background-color: #e0e0e0 !important;
+}
+
+/* Styly pro kontejner tabulek */
+.tables-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.table-container {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-header {
+    margin: 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table-wrapper {
+    flex: 1;
+    padding: 10px;
+    overflow: auto;
+    max-height: 300px;
+}
+
+/* Responsive design pro menší obrazovky */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .control-panel {
+        width: 100%;
+        order: 2;
+    }
+    
+    .image-panel {
+        height: 60vh;
+        order: 1;
+    }
+    
+    .layers-list {
+        max-height: 200px;
+    }
+}
+
+/* ===========================================
+   MAPOVACÍ PANEL
+   =========================================== */
+
+.mapping-panel {
+    margin-top: 15px;
+    padding: 15px;
+    border: 2px solid #2196F3;
+    border-radius: 8px;
+    background-color: #f8f9ff;
+    box-shadow: 0 2px 4px rgba(33, 150, 243, 0.1);
+}
+
+.mapping-header {
+    margin-bottom: 10px;
+}
+
+.mapping-header h4 {
+    margin: 0 0 5px 0;
+    color: #1976D2;
+    font-size: 16px;
+}
+
+.mapping-status {
+    font-size: 13px;
+    color: #666;
+    font-style: italic;
+    padding: 5px 10px;
+    background-color: #e3f2fd;
+    border-radius: 4px;
+    border: 1px solid #bbdefb;
+}
+
+.mapping-status.active {
+    color: #2e7d32;
+    background-color: #e8f5e8;
+    border-color: #c8e6c9;
+}
+
+.mapping-instructions {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff3e0;
+    border: 1px solid #ffcc02;
+    border-radius: 4px;
+    max-height: 120px; /* Omezíme výšku pro scrollování */
+    overflow-y: auto; /* Povolíme vertikální scrollování */
+}
+
+/* Scrollbar pro mapovací instrukce */
+.mapping-instructions::-webkit-scrollbar {
+    width: 6px;
+}
+
+.mapping-instructions::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.mapping-instructions::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.mapping-instructions::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+.mapping-instructions p {
+    margin: 2px 0;
+    font-size: 12px;
+    color: #e65100;
+}
+
+.mapping-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+    max-height: 200px; /* Omezíme výšku pro scrollování */
+    overflow-y: auto; /* Povolíme vertikální scrollování */
+    padding-right: 5px; /* Prostor pro scrollbar */
+}
+
+/* Scrollbar pro mapovací ovládání */
+.mapping-controls::-webkit-scrollbar {
+    width: 6px;
+}
+
+.mapping-controls::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.mapping-controls::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.mapping-controls::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+.mapping-controls .btn {
+    font-size: 13px;
+    padding: 8px 12px;
+}
+
+.btn-success {
+    background-color: #4CAF50;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+}
+
+.btn-success:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.btn-warning {
+    background-color: #ff9800;
+}
+
+.btn-warning:hover {
+    background-color: #f57c00;
+}
+
+/* Styl pro označení aktivní vrstvy v seznamu */
+.layer-item.selected {
+    background-color: #e3f2fd !important;
+    border: 2px solid #2196F3;
+    border-radius: 4px;
+    margin: 2px 0;
+}
+
+.layer-item.selected label {
+    color: #1976D2;
+    font-weight: bold;
+}
+
+/* Styly pro panel užitečných funkcí */
+.utility-functions-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.search-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+
+.search-section h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.search-controls .btn {
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.search-results {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.search-results-header {
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+}
+
+.search-results-list {
+    padding: 0;
+}
+
+.search-result-item {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+.search-result-item:hover {
+    background-color: #f5f5f5;
+}
+
+.search-result-item.selected {
+    background-color: #e3f2fd;
+    border-left: 3px solid #2196F3;
+}
+
+.search-result-layer {
+    font-weight: 600;
+    color: #1976D2;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.search-result-content {
+    font-size: 13px;
+    color: #333;
+}
+
+.search-result-highlight {
+    background-color: #ffeb3b;
+    padding: 1px 2px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+/* Scrollbar pro výsledky hledání */
+.search-results::-webkit-scrollbar {
+    width: 6px;
+}
+
+.search-results::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Styly pro filtrování dat */
+.filter-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fafafa;
+    margin-top: 15px;
+}
+
+.filter-section h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.filter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filter-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    margin: 0;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0;
+    font-weight: normal;
+}
+
+.radio-label input[type="radio"] {
+    margin: 0;
+}
+
+.filter-select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.filter-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.filter-buttons .btn {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+/* Styly pro filtrační tabulku */
+.filter-table {
+    font-size: 12px;
+}
+
+.filter-table th,
+.filter-table td {
+    padding: 6px 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filter-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.no-results {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}

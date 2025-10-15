@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Z čeho musí sestávat ochranné opatření?",
+    "answers": [
+      "ze zajištění ochrany při poruše",
+      "vhodné kombinace opatření pro zajištění základní ochrany a nezávislého opatření pro zajištění ochrany při poruše",
+      "z opatření zajišťujících základní ochranu"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3 , čl. 410.3.2) Ochranné opatření musí obsahovat vhodnou kombinaci opatření pro zajištění základní ochrany a nezávislého opatření pro zajištění ochrany při poruše. Může být také zajištěno zvýšenou ochranou, která zajišťuje nejen ochranu základní, ale i ochranu při poruše.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 2,
+    "question": "Co musí zajišťovat ochranné opatření spočívající ve zvýšené ochraně?",
+    "answers": [
+      "ochranné opatření závisí pouze na vnějších vlivech",
+      "musí zajišťovat pouze ochranu při poruše",
+      "musí zajišťovat jak ochranu základní, tak ochranu při poruše"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3 , čl. 410.3.2) Ochranné opatření musí obsahovat vhodnou kombinaci opatření pro zajištění základní ochrany a nezávislého opatření pro zajištění ochrany při poruše. Může být také zajištěno zvýšenou ochranou, která zajišťuje nejen ochranu základní, ale i ochranu při poruše.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 3,
+    "question": "Jak je specifikována doplňková ochrana?",
+    "answers": [
+      "jako součást ochranných opatření za určitých podmínek vnějších vlivů a ve zvláštních objektech",
+      "jako samostatná ochrana při první poruše",
+      "jako samostatná ochrana základní"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.2) Doplňková ochrana je součást ochranných opatření a používá se za určitých podmínek vnějších vlivů a ve zvláštních objektech.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 4,
+    "question": "Jaké ochranné opatření je nejčastěji uplatňováno v elektrických instalacích?",
+    "answers": [
+      "elektrické oddělení pro napájení více než jednoho spotřebiče",
+      "neuzemněným pospojováním",
+      "ochrana automatickým (samočinným) odpojením od zdroje"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, poznámka k čl. 410.3.3) Nejběžnějším ochranným opatřením uplatňovaným v elektrických instalacích je ochrana automatickým odpojením od zdroje.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 5,
+    "question": "Kolik ochranných opatření musí být uplatněno v každé části instalace?",
+    "answers": [
+      "musí být uplatněno pouze jedno ochranné opatření a neberou se v úvahu podmínky vnějších vlivů",
+      "musí být uplatněno jedno nebo více ochranných opatření, přičemž se berou v úvahu podmínky vnějších vlivů",
+      "musí být uplatněna vždy všechna ochranná opatření a neberou se v úvahu podmínky vnějších vlivů"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.3) V každé části elektrické instalace se musí uplatnit jedno ochranné opatření nebo více těchto opatření. V úvahu se berou podmínky vnějších vlivů.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 6,
+    "question": "Musí se s ochrannými opatřeními, která jsou uplatněna v instalaci uvažovat z hlediska montáže zařízení?",
+    "answers": [
+      "s ochrannými opatřeními se musí uvažovat",
+      "s ochrannými opatřeními se nemusí uvažovat",
+      "s ochrannými opatřeními se může uvažovat jen u zvláštních instalací"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.3) S ochrannými opatřeními, která jsou uplatněna v instalaci, se musí uvažovat i z hlediska výběru a montáže zařízení.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 7,
+    "question": "Kdy se mohou použít jako ochranné opatření zábrany?",
+    "answers": [
+      "pouze v instalacích přístupných osobám znalým nebo poučeným",
+      "vždy bez jakéhokoliv omezení",
+      "pouze v prostorách s vnějšími vlivy normálními"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.5) Ochranná opatření představovaná zábranami a polohou se mohou použít pouze v instalacích, které jsou přístupné osobám znalým nebo poučeným, nebo je lze použít také v instalacích přístupných osobám bez elektrotechnické kvalifikace pracujícím pod dozorem nebo dohledem osob znalých nebo poučených.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 8,
+    "question": "Kdy se může použít ochranné opatření polohou (umístěním mimo dosah)?",
+    "answers": [
+      "pouze v prostorách s vnějšími vlivy normálními",
+      "vždy bez jakéhokoliv omezení",
+      "pouze v instalacích přístupných osobám znalým nebo poučeným"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.5) Ochranná opatření představovaná zábranami a polohou se mohou použít pouze v instalacích, které jsou přístupné osobám znalým nebo poučeným, nebo je lze použít také v instalacích přístupných osobám bez elektrotechnické kvalifikace pracujícím pod dozorem nebo dohledem osob znalých nebo poučených.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 9,
+    "question": "Lze použít ochranné opatření zábranou tam, kam mají přístup osoby bez elektrotechnické kvalifikace?",
+    "answers": [
+      "lze použít pouze v instalacích přístupných osobám pracujícím pod dozorem nebo dohledem osob znalých nebo pod dohledem poučených osob",
+      "lze použít vždy bez jakéhokoliv omezení",
+      "lze použít pouze v prostorách se stanovenými vnějšími vlivy normálními"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.5) Ochranná opatření představovaná zábranami a polohou se mohou použít pouze v instalacích, které jsou přístupné osobám znalým nebo poučeným, nebo je lze použít také v instalacích přístupných osobám bez el. kvalifikace pracujícím pod dozorem nebo dohledem osob znalých nebo pod dohledem poučených.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 10,
+    "question": "Kdy se může uplatnit ochranné opatření nevodivým okolím?",
+    "answers": [
+      "vždy bez jakéhokoliv omezení",
+      "pouze, je-li instalace pod dozorem nebo dohledem znalých nebo pod dohledem poučených osob, takže v ní není možné provést neautorizované změny",
+      "pouze, je-li instalace provedena v prostorách s vnějším vlivem AD1"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, 410.3.6) Ochranná opatření z přílohy C se mohou uplatnit pouze tehdy, když je instalace pod dozorem nebo dohledem znalých nebo pod dohledem poučených osob, takže v ní není možné provést neautorizované změny. Jedná se o tato ochranná opatření: nevodivé okolí, neuzemněné místní pospojování, elektrické oddělení pro napájení více než jednoho spotřebiče.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 11,
+    "question": "Může porucha jednoho ochranného opatření narušit ostatní ochranná opatření?",
+    "answers": [
+      "různá ochranná opatření uplatněná ve stejné instalaci se mohou vzájemně ovlivňovat a doplňovat",
+      "různá ochranná opatření uplatněná ve stejné instalaci nebo její části, nebo v zařízení se nesmí vzájemně ovlivňovat",
+      "různá ochranná opatření nelze ve stejné síti použít"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, 410.3.8) Různá ochranná opatření ve stejné instalaci se nesmí vzájemně ovlivňovat tak, že by porucha jednoho ochranného opatření mohla narušit ostatní ochranná opatření.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 12,
+    "question": "U jakých zařízení může být vynecháno opatření při poruše (ochrana před nepřímým dotykem)?",
+    "answers": [
+      "u kovových konstrukcí kabelových roštů",
+      "u kovových konstrukcí rozvodných odběrových skříní",
+      "u kovových konzol pro upevnění izolátorů venkovního vedení, které jsou připevněny k budově a jsou chráněny polohou (jsou umístěny mimo dosah)"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.9) Opatření na ochranu při poruše lze vynechat: u kovových konzol pro upevnění izolátorů venkovního vedení, které jsou chráněny polohou a jsou připevněny k budově; u betonových sloupů venkovního vedení s ocelovou výztuží, která není přístupná; u neživých částí které z důvodů omezených rozměrů (do 50 mm x 50 mm) nebo s ohledem na umístění nemohou být uchopeny nebo se dotýkat lidského těla na velké ploše, přičemž spojení těchto částí s ochranným vodičem by bylo obtížné nebo nespolehlivé (šrouby, matice, nýty, štítky nebo kabelové příchytky); u kovových trubek a ostatních kovových krytů chránících zařízení při doplnění přídavné izolace v průběhu výstavby.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 13,
+    "question": "Může být vynecháno ochranné opatření při poruše u šroubů s maticemi, nýtů, štítků a kabelových příchytek?",
+    "answers": [
+      "ano, vztahuje se na ně výjimka",
+      "nelze, musí být spojeny vějířovými nebo pružnými podložkami s hlavní konstrukcí",
+      "ano, ale pouze u kovových konstrukcí rozvodných odběrových skříní"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.9) Opatření na ochranu při poruše lze vynechat: u kovových konzol pro upevnění izolátorů venkovního vedení, které jsou chráněny polohou a jsou připevněny k budově; u betonových sloupů venkovního vedení s ocelovou výztuží, která není přístupná; u neživých částí které z důvodů omezených rozměrů (do 50 mm x 50 mm) nebo s ohledem na umístění nemohou být uchopeny nebo se dotýkat lidského těla na velké ploše, přičemž spojení těchto částí s ochranným vodičem by bylo obtížné nebo nespolehlivé (šrouby, matice, nýty, štítky nebo kabelové příchytky); u kovových trubek a ostatních kovových krytů chránících zařízení při doplnění přídavné izolace v průběhu výstavby.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 14,
+    "question": "Kdy mohou být vynechána opatření na ochranu při poruše (ochranu před nepřímým dotykem neboli před dotykem neživých částí)?",
+    "answers": [
+      "u provařených kovových trubek a ostatních kovových krytů, které nejsou chráněny dvojitou izolací",
+      "u neživých částí, které pro své omezené rozměry nejdou připojit, přibližně 200 mm x 200 mm",
+      "u ocelí vyztužených betonových sloupů pro venkovní vedení, jejichž ocelová výztuž není přístupná"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 410.3.9) Opatření na ochranu při poruše lze vynechat: u kovových konzol pro upevnění izolátorů venkovního vedení, které jsou chráněny polohou a jsou připevněny k budově; u betonových sloupů venkovního vedení s ocelovou výztuží, která není přístupná; u neživých částí které z důvodů omezených rozměrů (do 50 mm x 50 mm) nebo s ohledem na umístění nemohou být uchopeny nebo se dotýkat lidského těla na velké ploše, přičemž spojení těchto částí s ochranným vodičem by bylo obtížné nebo nespolehlivé (šrouby, matice, nýty, štítky nebo kabelové příchytky); u kovových trubek a ostatních kovových krytů chránících zařízení při doplnění přídavné izolace v průběhu výstavby.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 15,
+    "question": "Jak se uplatňují ochranná opatření ve vztahu k nebezpečí úrazu elektrickým proudem, které může vzniknout při provozu elektrických zařízení s ohledem na vnější vlivy a jejich působení?",
+    "answers": [
+      "pro zvláštní instalace se uplatňují konkrétní ochranná opatření odpovídající normám části 7 HD 60364 nebo HD 384",
+      "pro instalace bezpečné, nebezpečné a zvlášť nebezpečné je rozhodující krytí IP",
+      "pro instalace normální, nebezpečné a zvlášť nebezpečné se neuplatňují konkrétní ochranná opatření"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 2, čl. 410.3.4) Pro zvláštní instalace nebo umístění se uplatňují konkrétní ochranná opatření odpovídající normám části 7 HD 60364 (v ČR jsou v řadě 33 2000, například ČSN 33 2000-7-701 ed. 2) nebo HD 384. V normě ČSN 33 2000-4-41 ed. 3 již není uvedeno dřívější členění na prostory normální, nebezpečné a zvlášť nebezpečné.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 16,
+    "question": "Jakým způsobem je zajištěno ochranné opatření automatickým odpojením od zdroje?",
+    "answers": [
+      "základní ochrana je zajištěna ochranným opatřením polohou a ochrana při poruše je zajištěna elektrickým oddělením",
+      "základní ochrana je zajištěna základní izolací živých částí nebo přepážkami nebo kryty a ochrana při poruše je zajištěna ochranným pospojením a automatickým odpojením od zdroje v případě poruchy",
+      "základní ochrana je zajištěna základní izolací živých částí nebo přepážkami nebo kryty a ochrana při poruše je zajištěna neuzemněným místním pospojením a automatickým odpojením od zdroje v případě poruchy"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.1) Automatické odpojení od zdroje je ochranné opatření, u kterého je základní ochrana zajištěna základní izolací živých částí nebo přepážkami nebo kryty. Ochranu při poruše zajišťuje ochranné pospojování a automatické odpojení v případě poruchy (v síti TN, TT nebo IT).",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 17,
+    "question": "Jak musí být uzemněny neživé části současně přístupné dotyku při automatickém odpojení od zdroje?",
+    "answers": [
+      "musí být uzemněny jednotlivými zemniči",
+      "postačuje pouze spojení neživých částí s neuzemněným pospojením",
+      "musí být spojeny se stejnou uzemňovací soustavou a to buď jednotlivě, po skupinách nebo společně"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.1.1) Neživé části, které jsou současně přístupné dotyku musí být spojeny se stejnou uzemňovací soustavou. Tyto neživé části musí být spojeny buď jednotlivě, po skupinách nebo společně.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 18,
+    "question": "Co musí být vzájemně spojeno do takzvaného ochranného pospojení při automatickém odpojení od zdroje?",
+    "answers": [
+      "hlavní uzemňovací svorka, kovová potrubí zajišťující napájení budovy, konstrukční cizí vodivé části",
+      "ochranný vodič",
+      "ochranný vodič a tyto vodivé části v každé budově: kovová potrubí v budově, dosažitelné konstrukční kovové části, kovové ústřední topení a klimatizace"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.1.2) Při realizaci ochranného pospojování musejí být v každé budově vzájemně spojena hlavní uzemňovací svorka (k ní je připojen ochranný vodič a uzemňovací přívod) a dále tyto vodivé části: kovová potrubí pro zásobování např. plynem a vodou; konstrukční cizí vodivé části; konstrukční výztuž v betonu, pokud je přístupná. V edici 3 již není v seznamu jmenováno kovové ústřední topení ani klimatizace.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 19,
+    "question": "Ochranný prvek musí v případě poruchy mezi živou částí a neživou částí nebo ochranným vodičem zařízení samočinně (automaticky) odpojit zdroj napájení zařízení. Jaká doba je nepřekročitelná pro distribuční obvody?",
+    "answers": [
+      "2 s",
+      "3 s",
+      "5 s"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.2.3) V síti TN je pro distribuční obvody dovolena doba odpojení nepřesahující 5 s. (Tato doba je dovolena i pro obvody napájející pevně připojené spotřebiče, které překračují 32 A.)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 20,
+    "question": "Jaká je maximální doba odpojení pro koncové obvody nepřekračující 32 A (63 A u zásuvek) v síti TN 3x230/400 V AC?",
+    "answers": [
+      "0,2 s",
+      "0,4 s",
+      "0,8 s"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.2.2, Tabulka 41.1) Maximální doby odpojení pro koncové obvody nepřekračující 32 A (nebo 63 A u zásuvkových obvodů) 0,4s. (U0 je jmenovité napětí vodiče proti zemi. Proto bereme i u 3fázových obvodů U0 = 230 V.)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 21,
+    "question": "Jaké opatření je nutno provést, jestliže v instalaci nebo její části nelze splnit podmínky automatického (samočinného) odpojení od zdroje?",
+    "answers": [
+      "musí být provedeno doplňující pospojování",
+      "pak použité zásuvky nesmí mít připojen kontakt pro ochranný vodič",
+      "může být instalace doplněna místním pospojováním nebo jinou ochranou"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.2.6) Jestliže není možno dosáhnout automatického odpojení v předepsaném čase, musí být provedeno doplňující pospojování.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 22,
+    "question": "Kdy musí být provedena doplňková ochrana proudovými chrániči ve střídavé síti s ochranným opatřením automatickým odpojením od zdroje?",
+    "answers": [
+      "u zásuvek, jejichž jmenovitý proud nepřekračuje 63 A, které jsou užívány laiky",
+      "u AC zásuvek, jejichž jmenovitý proud nepřekračuje 32 A, které jsou užívány laiky a jsou určeny pro obecné použití",
+      "u jednofázových zásuvek 230V/16A pro výpočetní techniku nebo připojení speciálních zařízení"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.3) Ve střídavé (AC) síti musí být doplňková ochrana proudovými chrániči (do 30 mA zajištěna: u AC mobilních zařízení určených pro venkovní použití, jejichž jmenovitý proud nepřesahuje 32 A; u AC zásuvek, jejichž jmenovitý proud nepřekračuje 32 A, které jsou určeny pro obecné použití a mohou být užívány laiky (V předchozí normě byla uvedena hodnota 20 A !!!).",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 23,
+    "question": "Kdy musí být provedena doplňková ochrana proudovými chrániči ve střídavé síti s ochranným opatřením automatickým odpojením od zdroje?",
+    "answers": [
+      "u zásuvek, jejichž jmenovitý proud překračuje 32 A, které jsou užívány laiky a jsou určeny pro všeobecné použití",
+      "u mobilních zařízení určených jako venkovní zařízení, jejichž jmenovitý proud nepřesahuje 32 A",
+      "u jednofázových zásuvek 230V/16A pro výpočetní techniku nebo pro připojení speciálních zařízení"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.3) Ve střídavé síti musí být doplňková ochrana proudovými chrániči (jejichž jmenovitý vybavovací reziduální proud nepřekračuje 30 mA) provedená: u zásuvek, jejichž jmenovitý proud nepřekračuje 32 A, které jsou určeny pro všeobecné použití a mohou být užívány laiky; u mobilních zařízení určených pro venkovní použití, jejichž jmenovitý proud nepřesahuje 32 A.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 24,
+    "question": "Musí být pro koncové obvody napájející svítidla, v prostorech určených pro samostatnou domácnost, použity proudové chrániče jako doplňková ochrana?",
+    "answers": [
+      "doporučuje se používat proudový chránič AC 300 mA",
+      "pouze v případě prostorů zvlášť nebezpečných (koupelny, sauny)",
+      "musí být použita ochrana pomocí proudového chrániče s proudem do 30 mA"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.3.4) V sítích TN a TT je pro světelné obvody stanoveno, že v prostorech určených pro samostatnou domácnost musí být pro AC koncové obvody napájející svítidla použita doplňková ochrana proudovým chráničem do 30 mA. (Podle ČSN 33 2130 ed. 3 - Vnitřní elektrické rozvody, čl. 5.2.9) Pro každý koncový světelný obvod v bytech a obdobných prostorech pro ubytování se použije doplňková ochrana pomocí proudového chrániče do 30 mA.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 25,
+    "question": "Jakou podmínku musí u sítí TN splňovat impedance smyčky?",
+    "answers": [
+      "Zs × Ia ≤ U0",
+      "Zs × Iz ≤ 50",
+      "Zs × Ia ≤ Ud"
+    ],
+    "correct": 0,
+    "explanation": "Zs - impedance poruchové smyčky; Ia - proud zajišťující samočinné působení odpojovacího ochranného prvku; U0 - jmenovité střídavé napětí proti zemi; Iz - zemní proud; Ud - dovolené dotykové napětí. (podle ČSN 33 2000-4-41:2000, ČSN 33 2000-4-41 ed. 3, čl. 411.4.4)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 26,
+    "question": "Jaké ochranné zařízení nesmí být použito v sítích TN-C při ochranném opatření automatickým odpojením od zdroje?",
+    "answers": [
+      "nadproudový ochranný přístroj",
+      "hlídač izolace",
+      "proudový chránič"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.4.5) V sítích TN-C nesmí být používán proudový chránič.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 27,
+    "question": "Jestliže je proudový chránič používán v síti TN-C-S, může být na straně zátěže použit vodič PEN?",
+    "answers": [
+      "na straně zátěže za chráničem musí být vodič PEN použit",
+      "na straně zátěže za chráničem nesmí být vodič PEN použit",
+      "na straně zátěže za chráničem může být vodič PEN použit, ale pouze s podmínkou, že současně chráničem prochází"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 2, čl. 411.4.5) Jestliže je proudový chránič používán v síti TN-C-S, nesmí být vodič PEN použit za chráničem na straně zátěže. Rozdělení vodiče PEN na vodiče PE a N musí být provedeno před chráničem, tj. na straně zdroje. (V normě ČSN 33 2000-4-41 ed. 3 to již takto podrobně rozepsáno není, ale platí to, protože vodič PEN je pro síť TN-C a tam proudový chránič nesmí být použit.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 28,
+    "question": "Jak musí být u proudového chrániče v síti TN-C-S provedeno spojení ochranného vodiče PE s vodičem PEN?",
+    "answers": [
+      "musí být provedeno před chráničem, tj. na straně zdroje",
+      "musí být provedeno za chráničem, tj. na straně zátěže",
+      "nesmí se spojovat vodiče PE s vodičem PEN"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 2, čl. 411.4.5) Jestliže je proudový chránič používán v síti TN-C-S, nesmí být vodič PEN použit za chráničem na straně zátěže. Spojení ochranného vodiče s vodičem PEN musí být provedeno před chráničem, tj. na straně zdroje. (V normě ČSN 33 2000-4-41 ed. 3 to již takto podrobně rozepsáno není, ale platí to.)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 29,
+    "question": "Jak musí být v sítích TT instalovány všechny neživé části při použití společného ochranného přístroje?",
+    "answers": [
+      "musí být spojeny ochrannými vodiči se zemničem, který je pro všechny tyto neživé části společný",
+      "nesmí být spojeny ochrannými vodiči se zemničem, který je pro všechny tyto neživé části společný, kombinace je nepřípustná",
+      "musí být spojeny ochrannými vodiči se zemničem, který je pro každou tuto neživou část samostatný"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.5.1) Všechny neživé části chráněné společně stejným ochranným přístrojem musí být spojeny ochrannými vodiči se zemničem, který je pro všechny tyto neživé části společný.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 30,
+    "question": "Za jakých podmínek je možno v síti TT použít nadproudové ochranné přístroje?",
+    "answers": [
+      "je možné použít nadproudové ochranné přístroje vždy bez omezení",
+      "nelze je v žádném případě použít",
+      "je možné je použít jen za předpokladu, že je trvale a spolehlivě zajištěna dostatečně nízká hodnota impedance vypínací smyčky Zs"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.5.2) Obecně se musí v sítích TT pro ochranu při poruše používat proudové chrániče. Je možno použít i nadproudové ochranné přístroje, ovšem za předpokladu, je-li trvale a spolehlivě zajištěna dostatečně nízká hodnota Zs.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 31,
+    "question": "Jestliže jsou pro ochranu při poruše použity proudové chrániče v sítích TT, je nutné používat další ochranná zařízení?",
+    "answers": [
+      "nesmí se obecně používat proudové chrániče v dalším spojení s jinou ochranou",
+      "obecně se musí používat proudové chrániče případně spolu s nadproudovým ochranným přístrojem",
+      "musí se používat zásadně jen proudové chrániče"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.5.2, Poznámka 1) Jestliže jsou pro ochranu při poruše použity proudové chrániče, měl by být obvod také chráněn nadproudovým ochranným přístrojem podle ČSN 33 2000-4-43.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 32,
+    "question": "Jakou podmínku musí splňovat součet odporů zemniče a ochranného vodiče neživých částí RA v síti TT?",
+    "answers": [
+      "RA ≤ 5 Ω",
+      "RA × Ia ≤ U0",
+      "RA × IΔn ≤ 50 V"
+    ],
+    "correct": 2,
+    "explanation": "RA - je součet odporů zemniče a ochranného vodiče neživých částí; Ia - proud zajišťující samočinné působení nadproudového ochranného prvku; IΔn - jmenovitý reziduální vybavovací proud proudového chrániče (RCD) v A. (podle ČSN 33 2000-4-41 ed. 3, čl. 411.5.3 a 411.5.4) Jestliže je pro ochranu při poruše použit proudový chránič: RA × IΔn ≤ 50 V; Jestliže je použit nadproudový ochranný přístroj (např. jistič): Zs × Ia ≤ U0.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 33,
+    "question": "Jak musí být provedeno zapojení živých částí v síti IT?",
+    "answers": [
+      "živé části musí být izolovány od země nebo spojeny se zemí přes dostatečně vysokou impedanci buď v nulovém nebo středním bodě, nebo v umělém nulovém bodě",
+      "živé části nemusí být izolovány od země nebo spojeny se zemí přes dostatečně vysokou impedanci buď v nulovém nebo středním bodě, nebo v umělém nulovém bodě",
+      "živé části musí být spojeny se zemí přes dostatečně malou impedanci buď v nulovém nebo středním bodě, nebo v umělém nulovém bodě"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.6.1) V sítích IT musí být živé části od země izolovány, nebo spojeny se zemí přes dostatečně vysokou impedanci. Toto spojení může být provedeno buď v nulovém nebo středním bodě sítě nebo v umělém nulovém bodě. Umělý nulový bod může být přímo spojen se zemí, jestliže výsledná impedance proti zemi je při frekvenci sítě dostatečně vysoká. Jestliže nulový nebo střední bod neexistuje, může se přes velkou impedanci uzemnit vodič vedení.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 34,
+    "question": "Jaké jsou požadavky na ochranu při poruše obvodu FELV?",
+    "answers": [
+      "neživé části obvodu FELV nesmí být spojeny s ochranným vodičem vstupního (primárního) zdroje, za předpokladu, že vstupní obvod je chráněn automatickým odpojením od zdroje",
+      "neživé části obvodu FELV musí být spojeny s ochranným vodičem vstupního (primárního) zdroje, za předpokladu, že vstupní obvod je chráněn automatickým odpojením od zdroje",
+      "neživé části obvodu FELV musí být spojeny s ochranným vodičem vstupního (primárního) zdroje, za předpokladu, že vstupní obvod je chráněn ochranným opatřením s napětím SELV"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.7.3) Neživé části obvodu FELV se musí spojit s ochranným vodičem vstupního (primárního) obvodu zdroje. Přitom se předpokládá, že obvod, který napájí vstup, je chráněn automatickým odpojením od zdroje.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 35,
+    "question": "Jakým požadavkům musí vyhovět vidlice a zásuvky pro obvody FELV?",
+    "answers": [
+      "vidlice FELV nesmí být možno zasunout do zásuvek o jiných napětích, do zásuvek FELV nesmí být možno zasunout vidlice o jiných napětích, zásuvka nesmí mít ochranný kontakt",
+      "vidlice FELV nesmí být možno zasunout do zásuvek o jiných napětích, do zásuvek FELV nesmí být možno zasunout vidlice o jiných napětích, zásuvka musí mít ochranný kontakt",
+      "vidlice FELV je možné zasunout do zásuvek o jiných napětích, do zásuvek FELV může být možno zasunout vidlice o jiných napětích, zásuvka musí mít ochranný kontakt"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 411.7.5) Pro vidlice a zásuvky obvodů FELV platí: vidlice pro obvod FELV nesmí být možno zasunout do zásuvek sítí o jiných napětích; do zásuvek FELV nesmí být možno zasunout vidlice sítí o jiných napětích; zásuvky FELV musí být vybaveny ochranným kontaktem.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 36,
+    "question": "Co je účelem použití ochrany elektrického zařízení třídy II, nebo s rovnocennou izolací?",
+    "answers": [
+      "dosáhnout kvalitní doplňkové izolace elektrického zařízení",
+      "umožnit připojení všech kovových částí elektrického zařízení na stejný potenciál",
+      "zabránit výskytu nebezpečného napětí na přístupných částech elektrického zařízení při poruše základní izolace"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41:2000, ČSN 33 2000-4-41 ed. 3, čl. 412.1.1, Poznámka) Ochranné opatření dvojitá nebo zesílená izolace je určeno k tomu, aby zabránilo výskytu nebezpečného napětí na přístupných částech elektrického zařízení v důsledku poruchy základní izolace.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 37,
+    "question": "Kdy nesmí být uplatněno ochranné opatření dvojitou nebo zesílenou izolací jako jediné v jednom obvodě či instalaci?",
+    "answers": [
+      "nesmí být uplatněno v žádném obvodu, který obsahuje zásuvku s uzemňovacím kontaktem",
+      "nesmí být uplatněno v žádném obvodu",
+      "může být uplatněno ve všech obvodech"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 412.1.2) Jestliže se ochranné opatření dvojitou nebo zesílenou izolací má uplatnit jako jediné ochranné opatření (kde celá instalace nebo obvod mají obsahovat pouze zařízení s dvojitou nebo zesílenou izolací), musí se zajistit, že v zapojení není možno bez oprávnění provádět změny. Toto ochranné opatření proto nesmí být uplatněno v žádném obvodě, který obsahuje zásuvku s uzemňovacím kontaktem.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 38,
+    "question": "Jaké podmínky platí pro kryty použité při ochranném opatření dvojitou nebo zesílenou izolací?",
+    "answers": [
+      "izolačním krytem mohou procházet vodivé části, které by mohly přenášet napětí a izolační kryt může obsahovat šrouby nebo jiné upevňovací prostředky u nichž je pravděpodobné, že mohou být odstraněny během instalování a údržby",
+      "izolačním krytem nesmějí procházet vodivé části, které by mohly přenášet napětí a izolační kryt nesmí obsahovat žádné šrouby nebo jiné upevňovací prostředky, které mohou být odstraněny během instalování a údržby",
+      "izolačním krytem nesmějí procházet vodivé části, které by mohly přenášet napětí a izolační kryt může obsahovat kovové šrouby, nebo jiné upevňovací prostředky (jejichž nahrazení kovovými šrouby by mohlo narušit izolaci krytu)"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 412.2.2.2) Izolačním krytem nesmějí procházet vodivé části, které by byly schopny přenášet napětí. Izolační kryt nesmí obsahovat žádné šrouby, které by bylo možno odstranit, neboť jejich nahrazení kovovými šrouby by mohlo narušit izolaci krytu.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 39,
+    "question": "Jak musí být připojeny vodivé části uzavřené v izolačním krytu, použitého při ochranném opatření dvojitou nebo zesílenou izolací?",
+    "answers": [
+      "nesmí být spojeny s ochranným vodičem",
+      "musí být vždy spojeny s ochranným vodičem a případně s ochranným pospojováním",
+      "mohou být spojeny s ochranným vodičem jen v případě, že jsou větších rozměrů"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 412.2.2.4) Vodivé části, které jsou uzavřené v izolačním krytu, se nesmí spojit s ochranným vodičem. Ochranné vodiče však mohou krytem procházet, například proto, aby sloužily dalším elektrickým zařízením, jejichž napájecí obvod také prochází krytem. Všechny takové vodiče a jejich svorky musejí být izolovány, jako by se jednalo o živé části. Jejich svorky musí být označeny jako ochranné svorky (PE).",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 40,
+    "question": "Musí mít obvod napájející jednotlivá zařízení třídy ochrany II ochranný vodič vedený ke každému bodu instalace a každému bodu připojení?",
+    "answers": [
+      "ano, a musí zde být také ukončený",
+      "ne, nesmí být vedený ani ukončený",
+      "záleží na uživateli zařízení"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 412.2.3.2) Obvod napájející jednotlivá zařízení třídy ochrany II musí mít také ochranný vodič vedený ke každému bodu instalace a ke každému bodu připojení, kde musí být také ukončený. Tento požadavek dává uživateli možnost, nahradit zařízení třídy ochrany II zařízením třídy ochrany I. (Nemusí být dodrženo v případě, kdy je v celé instalaci použito jenom ochranné opatření pomocí dvojité nebo zesílené izolace.)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 41,
+    "question": "Jak je zajištěna základní ochrana a ochrana při poruše u ochranného opatření elektrickým oddělením?",
+    "answers": [
+      "základní ochrana je zajištěna zábranou a ochrana při poruše je zajištěna jednoduchým oddělením odděleného obvodu od ostatních obvodů se současným spojením se zemí i ochranným vodičem",
+      "základní ochrana je zajištěna pouze základní izolací živých částí a ochrana při poruše je zajištěna jednoduchým oddělením odděleného obvodu od ostatních obvodů a od země a toto opatření je vždy dovoleno i pro více než jeden spotřebič",
+      "základní ochrana je zajištěna základní izolací živých částí nebo přepážkami a kryty a ochrana při poruše je zajištěna jednoduchým oddělením odděleného obvodu od ostatních obvodů a od země"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 413.1.1 a 413.1.2) Při použití ochranného opatření elektrické oddělení je: základní ochrana zajištěna základní izolací živých částí nebo přepážkami a kryty; ochrana při poruše je zajištěna tím, že oddělený obvod je oddělen jednoduchým oddělením od ostatních obvodů a od země. Kromě případu popsaného v další části normy musí být toto opatření omezeno pouze na jeden spotřebič, který bude napájený z jednoho neuzemněného zdroje s jednoduchým oddělením.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 42,
+    "question": "Jaké napětí nesmí přesáhnout zdroj s jednoduchým oddělením pro ochranné opatření elektrickým oddělením?",
+    "answers": [
+      "230 V",
+      "500 V",
+      "1000 V"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 413.3.2) Oddělené obvody se musí napájet ze zdroje, který má alespoň jednoduché oddělení a jehož napětí není vyšší než 500 V. (Na vstupu transformátoru max. 1000 V a na výstupu max. 500 V)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 43,
+    "question": "Mohou být živé části elektricky odděleného obvodu spojeny s jiným obvodem nebo se zemí?",
+    "answers": [
+      "nesmějí být v žádném bodu spojeny s jiným obvodem, avšak vyjímečně mohou být spojeny se zemí (výjimky povoluje norma HD 384.4.41)",
+      "nesmějí být v žádném bodu spojeny s jiným obvodem nebo se zemí",
+      "nesmějí být v žádném bodě spojeny se zemí, avšak s jiným obvodem spojeny být mohou"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 413.3.3) Živé části odděleného obvodu nesmějí být v žádném bodě spojeny s jiným obvodem ani se zemí ani s ochranným vodičem. Aby se splnily podmínky elektrického oddělení, musí být provedena taková opatření, aby mezi obvody bylo dosaženo základní izolace.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 44,
+    "question": "Co musí být splněno při ochranném opatření elektrickým oddělením?",
+    "answers": [
+      "ohebné kabely a šňůry musí být viditelné po celé délce na všech svých částech, na nichž je nebezpečí jejich mechanického poškození",
+      "ohebné kabely a šňůry nemusí být viditelné po celé délce na všech svých částech, na nichž je nebezpečí jejich mechanického poškození",
+      "ohebné kabely a šňůry se při tomto ochranném opatření nesmí užívat"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 413.1.2 až 413.3.6) Oddělené obvody se musí napájet ze zdroje, který má alespoň jednoduché oddělení a jehož napětí není vyšší než 500 V. Živé části odděleného obvodu nesmějí být v žádném bodě spojeny s jiným obvodem ani se zemí ani s ochranným vodičem. Aby se splnily podmínky elektrického oddělení, musí být provedena taková opatření, aby mezi obvody bylo dosaženo základní izolace. Ohebné kabely a šňůry musí být viditelné po celé délce na všech svých částech, na nichž je nebezpečí jejich mechanického poškození.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 45,
+    "question": "Mohou být při ochranném opatření elektrickým oddělením neživé části oddělených obvodů spojeny se zemí?",
+    "answers": [
+      "musí být provedeno jejich spojení se zemí i s ochranným vodičem a neživými částmi ostatních obvodů",
+      "mohou být spojeny se zemí i s ochranným vodičem, ale nesmí být spojeno neživými částmi ostatních obvodů",
+      "nesmí být spojeny se zemí ani s ochranným vodičem a neživými částmi ostatních obvodů"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 413.3.6) Neživé části oddělených obvodů nesmí být v žádném případě spojeny ani s ochranným vodičem ani se zemí ani s neživými částmi ostatních obvodů.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 46,
+    "question": "Za jaké ochranné opatření je považováno použití malého napětí SELV a PELV?",
+    "answers": [
+      "je považováno za ochranné opatření účinné za jakýchkoliv okolností",
+      "je považováno za ochranné opatření použitelné pouze v rozsahu souboru ČSN 33 2000 část 7",
+      "je považováno za ochranné opatření použitelné pouze pro základní ochranu v zapojení PELV"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 414.1.2) Použití SELV a PELV je považováno za ochranné opatření, které je účinné za jakýchkoliv okolností.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 47,
+    "question": "Pro jaký účel se užívá označení SELV?",
+    "answers": [
+      "pro napětí nebo obvody malého napětí, jejichž živé části nejsou v žádném bodě spojeny se zemí",
+      "pro napětí nebo obvody malého napětí, jejichž živé části jsou spojené v určitém bodě se zemí",
+      "pro funkční malé napětí"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 414.1.1 a 414.4.1) U obvodů SELV a PELV je napětí omezeno horní mezí napěťového pásma I, tj. 50 V AC nebo 120 V DC. Mezi živými částmi a zemí musí mít obvody SELV základní izolaci. Nesmějí být spojeny se zemí, ani s živými částmi, ani s ochrannými vodiči jiných obvodů.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 48,
+    "question": "Musí být odděleny živé části obvodů SELV a PELV?",
+    "answers": [
+      "musí být elektricky navzájem a od jiných obvodů odděleny alespoň pracovní izolací",
+      "musí být odděleny ochranným oddělením od sebe navzájem, od obvodů FELV a od obvodů vyšších napětí",
+      "musí být elektricky navzájem odděleny, s obvody jiných napětí mohou být uspořádány jen ve výjimečných případech, povolených touto normou, a jen jedná-li se o obvody s napětím do 500 V proti zemi"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41:2000, čl. 411.1.3.1 a ČSN 33 2000-4-41 ed. 3, Poznámka 1 k čl. 414.4.1.) Živé části obvodů SELV a PELV musí být odděleny ochranným oddělením od sebe navzájem. Je také zapotřebí dodržet ochranné oddělení od obvodů FELV a od obvodů s vyšším napětím.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 49,
+    "question": "Jakým požadavkům musí vyhovět vidlice a zásuvky v sítích SELV a PELV?",
+    "answers": [
+      "vidlice SELV a PELV nesmí být možno zasunout do zásuvek o jiných napětích, zásuvky SELV a PELV musí vylučovat použití vidlice pro jiná napětí, zásuvky musí mít ochranný kontakt",
+      "vidlice SELV a PELV nesmí být možno zasunout do zásuvek o jiných napětích, zásuvky SELV a PELV musí vylučovat použití vidlice pro jiná napětí, zásuvky SELV nesmí mít ochranný kontakt",
+      "vidlice SELV a PELV je možné zasunout do zásuvek o jiných napětích, do zásuvek SELV a PELV může být možno zasunout vidlice o jiných napětích, zásuvky musí mít ochranný kontakt"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 414.4.3) Zásuvky a vidlice v sítích SELV a PELV musí splňovat tyto požadavky: zásuvky musí vylučovat použití vidlice pro jiné napětí; vidlice nesmí být možné zasunout do zásuvek sítí o jiném napětí; vidlice a zásuvky v sítích SELV nesmějí být vybaveny kontaktem pro ochranný vodič. (podle ČSN 33 2000-4-41 ed. 3, čl. 414.4.4) Neživé části obvodů SELV se nesmějí spojovat se zemí nebo s ochrannými vodiči, ani s neživými částmi jiného obvodu.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 50,
+    "question": "Kdy se nevyžaduje základní ochrana při ochranném opatření malým napětím SELV a PELV?",
+    "answers": [
+      "jestliže jmenovité napětí sítí SELV nebo PELV nepřesahuje 25 V AC nebo 60 V DC i mimo normální podmínky suchého prostředí",
+      "jestliže jmenovité napětí sítí SELV nebo PELV nepřekračuje 12 V AC nebo 30 V DC",
+      "jestliže jmenovité napětí sítí SELV nebo PELV přesahuje 25 V AC a nepřekračuje 50 V AC nebo 60 V DC a nepřekračuje 120 V při normálních podmínkách suchého prostředí"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 414.4.5) Základní ochrana není pro obvody SELV a PELV všeobecně nutná za normálních podmínek suchého prostředí pro: obvody SELV, u kterých jmenovité napětí nepřekračuje 25 V AC nebo 60 V DC; obvody PELV, u kterých jmenovité napětí nepřekračuje 25 V AC nebo 60 V DC a neživé části a/nebo živé části jsou pomocí ochranného vodiče spojeny s hlavní uzemňovací přípojnicí. Ve všech ostatních případech se základní ochrana nevyžaduje, jestliže jmenovité napětí sítí SELV nebo PELV nepřekračuje 12 V AC nebo 30 V DC.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 51,
+    "question": "Je doplňková ochrana proudovým chráničem považována za výhradní ochranné opatření?",
+    "answers": [
+      "použití proudového chrániče s vybavovacím reziduálním proudem nepřesahujícím 30 mA je považováno za ochranu při poruše a považuje se za výhradní ochranné opatření",
+      "použití proudového chrániče s vybavovacím reziduálním proudem nepřesahujícím 30 mA je považováno za základní ochranu a považuje se za výhradní ochranné opatření",
+      "použití proudového chrániče s vybavovacím reziduálním proudem nepřesahujícím 30 mA je považováno za doplňkovou ochranu v případě selhání základní ochrany nebo ochrany při poruše nebo neopatrnosti uživatelů a nepovažuje se za výhradní ochranné opatření - je nutno uplatnit jedno z dalších ochranných opatření"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 415.1.1 a čl. 415.1.2) Použití proudových chráničů se jmenovitou citlivostí max. 30 mA je považováno za doplňkovou ochranu pro případ selhání základní ochrany nebo ochrany při poruše nebo při neopatrnosti uživatelů. Doplňková ochrana proudovým chráničem se nepovažuje za výhradní ochranné opatření a nezbavuje nutnosti uplatnit jedno z těchto ochranných opatření: automatické odpojení od zdroje; dvojitá nebo zesílená izolace; elektrické oddělení; ochrana malým napětím SELV a PELV",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 52,
+    "question": "Lze v některých případech ochranu doplňujícím ochranným pospojováním považovat za ochranu základní?",
+    "answers": [
+      "ochrana se považuje za doplnění ochrany při poruše",
+      "ochrana se považuje za doplnění základní ochrany",
+      "ochrana se považuje za ochranu základní, ale jen při poruše"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 415.2, Poznámka 1) Doplňující ochranné pospojování se považuje ze doplnění ochrany při poruše.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 53,
+    "question": "Co musí zahrnovat systém ochranného pospojování?",
+    "answers": [
+      "musí být spojen pouze s cizími vodivými částmi v dosahu tohoto pospojení",
+      "musí být spojen s ochrannými vodiči jen upevněných zařízení",
+      "musí být spojen s ochrannými vodiči všech zařízení včetně zásuvek"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 415.2.1) Doplňující ochranné pospojování musí zahrnovat všechny neživé části upevněných zařízení současně přístupné dotyku a cizí vodivé části, včetně hlavních kovových armatur železobetonu (pokud je to proveditelné). Systém ochranného pospojování musí být spojen s ochrannými vodiči všech zařízení včetně těch, které se připojují do zásuvek.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 54,
+    "question": "Jaké jsou požadavky na základní izolaci živých částí?",
+    "answers": [
+      "živé části musí být pokryty izolací nejméně z 90%",
+      "živé části musí být zcela pokryty izolací, kterou je možno odstranit pouze jejím zničením",
+      "živé části musí být zcela pokryty snímatelnou izolací"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha A, čl. A1) U zařízení musí izolace vyhovět požadavkům příslušných norem pro elektrická zařízení. Živé části musí být zcela pokryty izolací, kterou je možno odstranit pouze jejím zničením.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 55,
+    "question": "Jaký stupeň krytí musí splňovat zařízení s živými částmi uvnitř krytů nebo za přepážkami při ochraně kryty nebo přepážkami (mimo horních povrchů krytů a přepážek, které zajišťují krytí)?",
+    "answers": [
+      "alespoň IP2X, nebo IPXXB",
+      "alespoň IP3X, nebo IPXXC",
+      "alespoň IP4X, nebo IPXXD"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha A, čl. A2.1 a A2.2) Živé části musí být uvnitř krytů nebo za přepážkami zajišťujícími stupeň ochrany alespoň IPXXB nebo IP2X. Výjimkou jsou případy, kdy se větší otvory objeví během výměny částí, jako tomu je u určitých objímek žárovek nebo pojistek nebo kde jsou větší otvory zapotřebí, aby umožnily řádnou funkci zařízení podle příslušných požadavků na zařízení. Vodorovné horní povrchy krytů nebo přepážek, které jsou snadno přístupné, musí zajišťovat krytí alespoň IPXXD nebo IP4X.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 56,
+    "question": "Co musí splňovat přepážky nebo kryty, jestliže je nutno tyto přepážky, kryty nebo části krytů odstranit?",
+    "answers": [
+      "na zařízení musí být umístěna bezpečnostní tabulka: „POZOR-POD NAPĚTÍM“",
+      "musí to být možné pouze s použitím klíče nebo nástroje",
+      "nejsou zapotřebí zvláštní podmínky"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha A, čl. A2.4) Odstranit přepážky nebo otevřít kryty nebo odstranit části krytů, musí být možné pouze s použitím klíče nebo nástroje, nebo po odpojení napájení živých částí před jejichž dotykem přepážky nebo kryty poskytují ochranu, přičemž napájení může být obnoveno pouze po obnoveném umístění nebo opětném vetknutí přepážek nebo krytů, nebo jestliže vnitřní přepážka zajišťující stupeň ochrany alespoň IPXXB nebo IP2X brání dotyku živých částí, přičemž odstranění této přepážky je možné pouze s použitím klíče nebo nástroje.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 57,
+    "question": "Čemu musí bránit ochranné opatření zábranou?",
+    "answers": [
+      "úmyslnému přiblížení těla k živým částem a úmyslnému dotyku živých částí během činnosti zařízení pod napětím v běžném provozu",
+      "neúmyslnému přiblížení těla k živým částem a nahodilému dotyku živých částí během činnosti zařízení pod napětím v běžném provozu",
+      "úmyslnému přiblížení těla k živým částem a nahodilému dotyku živých částí během činnosti zařízení pod napětím v běžném provozu"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha B, čl. B2.1) Zábrany musí bránit neúmyslnému přiblížení těla k živým částem a nahodilému dotyku živých částí během činnosti zařízení pod napětím v běžném provozu. Zábrany nejsou určeny k zabránění úmyslnému dotyku při záměrném obejití zábrany.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 58,
+    "question": "Mohou být při ochraně zábranou odstraněny zábrany bez použití klíče?",
+    "answers": [
+      "mohou být odstraněny bez použití klíče nebo nástroje, ale musí být zajištěny tak, aby se zabránilo jejich neúmyslnému odstranění",
+      "mohou být odstraněny bez použití klíče nebo nástroje, avšak vzdálenost stanoviště od živých částí musí být 0,2 m",
+      "mohou být odstranitelné pouze s použitím klíče nebo nástroje"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha B, čl. B2.2) Zábrany mohou být odstraněny bez použití klíče nebo nástroje, ale musí být zajištěny tak, aby se zabránilo jejich neúmyslnému odstranění.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 59,
+    "question": "Kdy se u ochrany polohou předpokládá, že jsou části současně přístupné dotyku?",
+    "answers": [
+      "jestliže nejsou od sebe vzdáleny více než 3 m",
+      "jestliže nejsou od sebe vzdáleny více než 2,5 m",
+      "jestliže nejsou od sebe vzdáleny více než 3,5 m"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha B, čl. B3.1 a Poznámka) Části současně přístupné dotyku, které mají rozdílný potenciál, nesmí být v dosahu rukou. Jestliže dvě části nejsou od sebe vzdáleny dále než 2,5 m, předpokládá se, že jsou současně přístupné dotyku.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 60,
+    "question": "Jaká je u vnitřních zařízení nn (kategorie napětí II. viz ČSN 33 0010) zóna (hranice) dosahu ruky od stanoviště ve směru nahoru (v prostorách kam mají přístup pouze osoby znalé)?",
+    "answers": [
+      "2 m",
+      "2,5 m",
+      "3 m"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha B, čl. B3.2) Dosah ruky je ve směru nahoru 2,5 m od stanoviště. Mezilehlé zábrany, které zajišťují nižší stupeň ochrany než IPXXB nebo IP2X se neberou v úvahu.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 61,
+    "question": "Na co se vztahuje hodnota dosahu ruky při ochranném opatření polohou (umístěním mimo dosah)?",
+    "answers": [
+      "na přímý dotyk holýma rukama včetně kovových pomůcek (např. nástroj, nebo žebřík)",
+      "na přímý dotyk rukama včetně ochranných pomůcek (např. rukavice)",
+      "na přímý dotyk holýma rukama bez pomůcek (např. nástroje, nebo žebříku)"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha B, čl. B3.2, Poznámka) Hodnoty dosahu ruky se vztahují na přímý dotyk holýma rukama. Případné pomůcky (nástroje nebo žebřík) se neberou v úvahu.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 62,
+    "question": "Jaká je maximální vzdálenost dvou částí, o kterých se předpokládá, že jsou současně přístupné dotyku?",
+    "answers": [
+      "2,5 m",
+      "1,5 m",
+      "3,5 m"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, Příloha B, čl. B3.1, Poznámka) Jestliže dvě části nejsou od sebe vzdáleny dále než 2,5 m, předpokládá se, že jsou současně přístupné dotyku.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 63,
+    "question": "Může být v prostorách, kde je uplatněno ochranné opatření nevodivým okolím připojen ochranný vodič?",
+    "answers": [
+      "nesmí být připojen žádný ochranný vodič",
+      "může být připojen ochranný vodič",
+      "musí být vždy ochranný vodič spojený s cizími vodivými částmi v tomto prostoru"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. C.1.3) V prostorech s nevodivým okolím nesmí být použit žádný ochranný vodič.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 64,
+    "question": "Jakou minimální hodnotu musí u ochrany nevodivým okolím dosáhnout odpor izolujících podlah a stěn v každém bodě měření při napětí instalace do 500 V?",
+    "answers": [
+      "50 kΩ - je-li hodnota menší v každém bodě, jsou považovány podlahy a stěny z hlediska ochrany před úrazem elektrickým proudem za cizí vodivé části",
+      "100 kΩ - je-li hodnota menší v každém bodě, jsou považovány podlahy a stěny z hlediska ochrany před úrazem elektrickým proudem za cizí vodivé části",
+      "1 MΩ - je-li hodnota menší v každém bodě, jsou považovány podlahy a stěny z hlediska ochrany před úrazem elektrickým proudem za cizí vodivé části"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. C.1.5) Odpor izolačních podlah a stěn (měřený za podmínek stanovených v ČSN 33 2000-6) nesmí být v žádném bodě měření menší než: 50 kΩ tam, kde jmenovité napětí instalace není vyšší než 500 V, nebo 100 kΩ tam, kde jmenovité napětí instalace je vyšší než 500 V. Jestliže je v libovolném bodě odpor menší než stanovená hodnota, považují se podlahy a stěny z hlediska ochrany před úrazem elektrickým proudem za cizí vodivé části.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 65,
+    "question": "Mohou být vodiče soustavy neuzemněného místního pospojování v elektrickém spojení se zemí?",
+    "answers": [
+      "musí být v elektrickém spojení se zemí prostřednictvím cizích vodivých částí",
+      "nesmí být v elektrickém spojení se zemí ani přímo ani prostřednictvím neživých nebo cizích vodivých částí",
+      "mohou být v elektrickém spojení se zemí přímo nebo prostřednictvím neživých nebo cizích vodivých částí"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. C.2.3) Soustava neuzemněného místního pospojování nesmí být v elektrickém spojení se zemí ani přímo ani prostřednictvím neživých nebo cizích vodivých částí.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 66,
+    "question": "Smí být navzájem spojeny neživé části odděleného obvodu ochranného opatření elektrickým oddělením při napájení více než jednoho spotřebiče?",
+    "answers": [
+      "nesmějí být navzájem spojeny izolovanými vodiči neuzemněného pospojování",
+      "musí být navzájem spojeny izolovanými vodiči doplňujícího pospojování a tyto vodiče musí být spojeny se všemi ochrannými vodiči",
+      "musí být navzájem spojeny izolovanými vodiči neuzemněného pospojování, tyto vodiče nesmějí být spojeny s ochrannými vodiči nebo neživými částmi nebo s cizími vodivými částmi"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. C.3.4) Pokud se ochranné opatření elektrickým oddělením použije pro napájení více než jednoho spotřebiče, musí být neživé části odděleného obvodu navzájem spojeny izolovanými vodiči neuzemněného pospojování. Tyto vodiče neuzemněného pospojování nesmějí být spojeny s ochrannými vodiči nebo neživými částmi jiných obvodů, ani s cizími vodivými částmi.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 67,
+    "question": "Jaký stupeň ochrany se musí volit v prostorách, kde je například vliv vody AD2 až AD4 (podle starého označení zvlášť nebezpečných)?",
+    "answers": [
+      "ochrana normální odpovídající části 7 HD 60364",
+      "zvýšená (doplněná) ochrana odpovídající části 7 HD 60364",
+      "normální ochrana se rozšíří o další ochranné opatření s napětím SELV"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 3, čl. 415) Za určitých podmínek vnějších vlivů a v určitých zvláštních prostorách může být doplňková ochrana určena jako součást obvyklých ochranných opatření. Podmínky pro instalaci ve zvláštních prostorách jsou vždy uvedeny v odpovídající části 7 HD 60364 V ČR jsou to normy řady ČSN 33 2000-7-7xx. (Například pro koupelny, bazény, sauny, atd.). (V normě ČSN 33 2000-4-41 ed. 3 totiž už není Příloha NA! Není tam tudíž ani rozdělení na prostory normální, nebezpečné a zvlášť nebezpečné. Není tam ani tabulka, která předepisovala stupně ochrany v jednotlivých prostorech. Proto musíme používat údaje uvedené v normách ČSN 33 2000-7-7xx.)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 68,
+    "question": "Jaké jsou meze bezpečného malého napětí v prostorách zvlášť nebezpečných, dochází-li při obsluze k dotyku s kryty, které jsou částí zařízení a jsou izolovány od živých částí?",
+    "answers": [
+      "12 V AC",
+      "25 V AC",
+      "50 V AC"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-4-41 ed. 2, Tabulka NA.3 -> v ČSN 33 2000-4-41 ed. 3 již Příloha NA není.) (podle ČSN 33 2000-4-41 ed. 3, čl. 414.4.5) Základní ochrana není pro obvody SELV a PELV všeobecně nutná za normálních podmínek suchého prostředí pro: obvody SELV, u kterých jmenovité napětí nepřekračuje 25 V AC nebo 60 V DC; obvody PELV, u kterých jmenovité napětí nepřekračuje 25 V AC nebo 60 V DC a neživé části a/nebo živé části jsou pomocí ochranného vodiče spojeny s hlavní uzemňovací přípojnicí. Ve všech ostatních případech (tedy i v prostorách zvláště nebezpečných) je vyhovující, jestliže jmenovité bezpečné malé napětí sítí SELV nebo PELV nepřekračuje 12 V AC nebo 30 V DC.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 69,
+    "question": "Jaká je mezní hodnota ustáleného dotykového proudu (prahu reakce) protékajícího mezi vodivými částmi současně přístupnými dotyku nepřekračující mez vnímání?",
+    "answers": [
+      "0,5 mA pro střídavý proud nebo 2 mA pro stejnosměrný proud",
+      "50 mA pro střídavý proud nebo 200 mA pro stejnosměrný proud",
+      "5 mA pro střídavý proud nebo 20 mA pro stejnosměrný proud"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3, článek 5.2.7) Za bezpečnou hodnotu (mez vnímání) se považuje hodnota dotykového proudu, která nepřesahuje 0,5 mA AC nebo 2 mA DC.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 70,
+    "question": "Kdy je splněna základní ochrana omezením napětí v suchém prostoru, kde se nepředpokládá dotyk lidského těla s živými částmi na velké ploše?",
+    "answers": [
+      "pokud dotykové napětí nepřesahuje 120 V DC nebo 50 V AC napájeného z IT sítě",
+      "pokud dotykové napětí nepřesahuje 60 V DC nebo 25 V AC napájené z bezpečnostního ochranného transformátoru",
+      "pokud dotykové napětí nepřesahuje 25 V DC nebo 12 V AC napájené z motorgenerátoru"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 61140 ed. 3, čl. 5.2.6) Aby byla základní ochrana omezením napětí splněna, musí být dodrženo: napájení na úrovni SELV nebo PELV (např. bezpečnostním ochranným transformátorem nebo motorgenerátorem); napětí maximálně 25 V AC nebo 60 V DC v suchých prostorech, kde se navíc nepředpokládá dotyk lidského těla s živými částmi na velké ploše (Případně 6 V AC nebo 15 V DC v ostatních případech). (Odpověď „C“ by také v praxi vyhověla, ale „B“ obsahuje přesné hodnoty z normy.)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 71,
+    "question": "Jak se dá definovat základní pravidlo ochrany před úrazem elektrickým proudem?",
+    "answers": [
+      "nebezpečné živé části nesmí být přístupné a přístupné vodivé části nesmí být nebezpečné živé ani za normálních podmínek, ani za podmínek jedné poruchy",
+      "nebezpečné neživé části mohou být přístupné, avšak vodivé části nesmí být nebezpečné",
+      "nebezpečné živé části nesmí být přístupné a přístupné vodivé části nesmí být za normálních podmínek neizolované"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 4.1) Nebezpečné živé části nesmí být přístupné. Přístupné vodivé části nesmí být nebezpečné živé ani za normálních podmínek, ani za podmínek jedné poruchy.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 72,
+    "question": "Čemu musí u nízkonapěťových instalací obvykle odpovídat základní ochrana před dotykem?",
+    "answers": [
+      "ochraně před nepřímým dotykem (před dotykem neživých částí)",
+      "ochraně před přímým dotykem (před dotykem živých částí)",
+      "ochraně před přímým i nepřímým dotykem (před dotykem živých i neživých částí)"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 5.2.1) Základní ochrana musí být zhotovena tak, aby bránila před přímým dotykem s nebezpečnými živými částmi (ochraně před dotykem živých částí - podle ČSN 33 2000-4-41).",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 73,
+    "question": "Co lze považovat za podmínku jedné poruchy?",
+    "answers": [
+      "jestliže přístupná část, která není nebezpečnou živou částí, se nebezpečnou živou částí stane (např. v důsledku poruchy omezení ustáleného dotykového proudu a náboje)",
+      "jestliže nepřístupná část, která není nebezpečnou živou částí se nebezpečnou živou částí stane (např. v důsledku poruchy základní izolace)",
+      "jestliže přístupná část, která není nebezpečnou neživou částí se nebezpečnou neživou částí stane"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 4.3.1) Za jednu poruchu se považuje, jestliže: přístupná část, která není nebezpečnou živou částí se nebezpečnou částí stane (například v důsledku poruchy omezení ustáleného dotykového proudu a náboje), nebo přístupná vodivá část, která je za normálních podmínek neživá se stane nebezpečnou živou částí (například v důsledku poruchy základní izolace), nebo nebezpečná živá část se stane přístupnou (například v důsledku mechanického poškození krytu)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 74,
+    "question": "Co lze považovat za podmínku jedné poruchy?",
+    "answers": [
+      "nepřístupná část, která není nebezpečnou živou částí, se nebezpečnou živou částí stane (např. v důsledku poruchy základní izolace)",
+      "přístupná část, která není nebezpečnou neživou částí, se nebezpečnou neživou částí stane",
+      "přístupná vodivá část, která je za normálních podmínek neživá, se stane nebezpečnou živou částí (např. v důsledku poruchy)"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 4.3.1) Za jednu poruchu se považuje, jestliže: přístupná část, která není nebezpečnou živou částí se nebezpečnou částí stane (například v důsledku poruchy omezení ustáleného dotykového proudu a náboje), nebo přístupná vodivá část, která je za normálních podmínek neživá se stane nebezpečnou živou částí (například v důsledku poruchy základní izolace), nebo nebezpečná živá část se stane přístupnou (například v důsledku mechanického poškození krytu)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 75,
+    "question": "Co lze považovat za podmínku jedné poruchy?",
+    "answers": [
+      "nebezpečná živá část se stane přístupnou (např. v důsledku mechanického poškození krytu)",
+      "nepřístupná část, která není nebezpečnou živou částí, se nebezpečnou živou částí stane (např. v důsledku poruchy základní izolace)",
+      "přístupná část, která není nebezpečnou neživou částí, se nebezpečnou neživou částí stane"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 4.3.1) Za jednu poruchu se považuje, jestliže: přístupná část, která není nebezpečnou živou částí se nebezpečnou částí stane (například v důsledku poruchy omezení ustáleného dotykového proudu a náboje), nebo přístupná vodivá část, která není za normálních podmínek živou se stane nebezpečnou živou částí (například v důsledku poruchy základní izolace k neživým částem), nebo nebezpečná živá část se stane přístupnou (například v důsledku mechanického poškození krytu)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 76,
+    "question": "Jakým způsobem může být dosažena ochrana při jedné poruše?",
+    "answers": [
+      "ochranou před přímým dotykem",
+      "může být dosažena dalším ochranným opatřením, nezávislým na základní ochraně (ochrana dvěma nezávislými prostředky)",
+      "ochranou před nepřímým dotykem"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 4.3.1) Aby bylo splněno základní pravidlo ochrany před úrazem elektrickým proudem za podmínek jedné poruchy, je nezbytné provést opatření uváděná v této normě jako ochrana při poruše. Tato ochrana může být dosažena: dalším ochranným opatřením, nezávislým na základní ochraně, nebo - prostředkem zvýšené ochrany, který zajišťuje jak základní ochranu tak ochranu při poruše, při uvažování všech souvisejících vlivů.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 77,
+    "question": "Základní ochrana musí být tvořena pomocí jednoho nebo více prostředků, které za normálních podmínek brání dotyku nebezpečných živých částí. Co lze zařadit mezi prostředky základní ochrany?",
+    "answers": [
+      "základní izolace, přepážky a kryty, omezení ustáleného dotykového proudu a náboje",
+      "barvy, nátěry, emaily a podobné materiály",
+      "ochrana samočinným (automatickým) odpojením od zdroje"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 5.2.1 až 5.2.9) Základní ochrana musí být tvořena pomocí jednoho nebo více prostředků, které za normálních podmínek brání dotyku nebezpečných živých částí. Poznámka: Barvy, nátěry, emaily a podobné materiály se všeobecně samy o sobě v normálním provozu nepovažují za přiměřenou ochranu před úrazem elektrickým proudem. Mezi prostředky základní ochrany patří: základní izolace; ochranné přepážky a kryty; zábrany; ochrana polohou (umístění mimo dosah); omezení napětí (nepřekročí meze ELV); omezení ustáleného dotykového proudu a energie; řízení potenciálu (u vysokonapěťových systémů); ostatní prostředky základní ochrany, které vyhovují základnímu pravidlu, že nebezpečné živé části nesmí být přístupné a přístupné vodivé části nesmí být nebezpečné živé ani za normálních podmínek, ani za podmínek jedné poruchy.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 78,
+    "question": "Mezi prostředky základní ochrany patří?",
+    "answers": [
+      "ochranné oddělení obvodů",
+      "ochrana samočinným (automatickým) odpojením od zdroje",
+      "zábrany, ochrana polohou (umístěním mimo dosah), omezení napětí"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 5.2.2 až 5.2.9) Základní ochrana musí být tvořena pomocí jednoho nebo více prostředků, které za normálních podmínek brání dotyku nebezpečných živých částí.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 79,
+    "question": "Ochrana při poruše musí být tvořena jedním nebo více prostředky, které na základní ochraně nezávisí ani ji nedoplňují. Jakými prostředky musí být tvořena tato ochrana?",
+    "answers": [
+      "ochranným pospojováním, ochranným stíněním",
+      "základní izolací",
+      "ochranou zábranou, ochranou polohou"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 5.3.1 až 5.3.10) Ochrana při poruše musí být tvořena jedním nebo více prostředky, které na základní ochraně nezávisí ani ji nedoplňují. Ochranu při poruše mohou tvořit tyto prostředky: přídavná izolace; ochranné pospojování; ochranné stínění; indikace a odpojení ve vysokonapěťových instalacích a sítích; automatické (samočinné) odpojení od zdroje; jednoduché oddělení (obvodů); nevodivé okolí; řízení potenciálu; ostatní prostředky pro ochranu při poruše, která vyhovují základnímu pravidlu, že nebezpečné živé části nesmí být přístupné a přístupné vodivé části nesmí být nebezpečné živé ani za normálních podmínek, ani za podmínek jedné poruchy. (9 prostředků)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 80,
+    "question": "Jaké prostředky patří mezi ochrany před poruchou?",
+    "answers": [
+      "zábrany, ochrana polohou",
+      "ochrana samočinným (automatickým) odpojením od zdroje",
+      "základní izolace"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 5.3.1 až 5.3.10) Ochrana při poruše musí být tvořena jedním nebo více prostředky, které na základní ochraně nezávisí ani ji nedoplňují. (9 prostředků)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 81,
+    "question": "Jaké prostředky patří mezi prostředky zvýšené ochrany?",
+    "answers": [
+      "zesílená izolace",
+      "ochrana polohou (umístěním mimo dosah)",
+      "základní izolace"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 5.4 až 5.4.6) Prostředky zvýšené ochrany musí zajišťovat jak základní ochranu, tak ochranu při poruše. Zvýšenou ochranu mohou zajišťovat tyto prostředky: zesílená izolace; ochranné oddělení obvodů; zdroj omezeného proudu (musí vyhovět i v případě pravděpodobné poruchy jedné součástky); ochranná impedance (omezuje dotykový proud); jakékoliv další prostředky zvýšené ochrany jak pro základní ochranu tak pro ochranu při poruše, které vyhovují základnímu pravidlu, že nebezpečné živé části nesmí být přístupné a přístupné vodivé části nesmí být nebezpečné živé ani za normálních podmínek, ani za podmínek jedné poruchy.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 82,
+    "question": "Čím je zajištěno ochranné opatření samočinným (automatickým) odpojením od zdroje?",
+    "answers": [
+      "základní ochrana je zajištěna základní izolací mezi nebezpečnými živými částmi a neživými částmi a ochrana při poruše je zajištěna přepážkami a kryty",
+      "základní ochrana je zajištěna základní izolací mezi nebezpečnými živými částmi a neživými částmi a ochrana při poruše je zajištěna polohou",
+      "základní ochrana je zajištěna základní izolací mezi nebezpečnými živými částmi a neživými částmi a ochrana při poruše je zajištěna samočinným odpojením od zdroje"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 6.2) Ochrana automatickým (samočinným) odpojením od zdroje je ochranné opatření, ve kterém je základní ochrana zajištěna základní izolací nebo ochrannými přepážkami nebo kryty mezi nebezpečnými živými částmi a neživými částmi. Ochrana při poruše je zajištěna automatickým (samočinným) odpojením od zdroje.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 83,
+    "question": "Čím je zajištěno ochranné opatření pomocí ochrany dvojitou nebo zesílenou izolací?",
+    "answers": [
+      "základní ochrana je zajištěna základní izolací nebezpečných živých částí a ochrana při poruše je zajištěna přepážkami a kryty",
+      "základní ochrana je zajištěna základní izolací nebezpečných živých částí a ochrana při poruše je zajištěna přídavnou izolací",
+      "základní ochrana je zajištěna základní izolací nebezpečných živých částí a ochrana při poruše je zajištěna omezením napětí"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 6.3) Ochrana dvojitou nebo zesílenou izolací je ochranné opatření, ve kterém: základní ochrana je zajištěna základní izolací nebezpečných živých částí a ochrana při poruše je zajištěna přídavnou izolací, nebo základní ochrana i ochrana při poruše jsou zajištěny zesílenou izolací mezi nebezpečnými živými částmi a částmi přístupnými dotyku (přístupný povrch může být vodivý nebo z izolačního materiálu).",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 84,
+    "question": "Čím je zajištěno ochranné opatření pomocí ochrany SELV?",
+    "answers": [
+      "omezením napětí v obvodu (síti SELV), ochranným oddělením sítě SELV od všech obvodů FELV, jednoduchým oddělením sítě SELV od ostatních sítí SELV a od sítí PELV a je dovoleno připojovat neživé části k ochrannému vodiči nebo k zemi",
+      "omezením napětí v obvodu (síti SELV) a oddělením sítě SELV od všech obvodů jiných než SELV",
+      "omezením napětí v obvodu do mezí ELV, jednoduchým oddělením sítě SELV od ostatních sítí SELV, od sítí PELV a od země"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 6.7) Ochrana SELV je ochranné opatření, při kterém je ochrana zajištěna: omezením napětí v obvodu do mezí ELV (síti SELV); ochranným oddělením sítě SELV od všech obvodů jiných než SELV a PELV; jednoduchým oddělením sítě SELV od ostatních sítí SELV, od sítí PELV a od země. Úmyslné připojení neživých částí k ochrannému vodiči nebo k zemi není dovoleno.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 85,
+    "question": "Čím je zajištěno ochranné opatření pomocí ochrany PELV?",
+    "answers": [
+      "omezením napětí v obvodu do mezí ELV a obvod může být uzemněn a/nebo neživé části v tomto obvodu mohou být uzemněny (PELV) a ochranným oddělením sítě PELV od všech obvodů jiných než SELV a PELV",
+      "omezením napětí v obvodu (síti FELV), ochranným oddělením sítě SELV od všech obvodů jiných než SELV a PELV, jednoduchým oddělením sítě SELV od ostatních sítí SELV, od sítí PELV a je dovoleno připojovat neživé části k ochrannému vodiči nebo k zemi",
+      "omezením napětí v obvodu (síti SELV), jednoduchým oddělením sítě SELV od ostatních sítí SELV, od sítí PELV a není dovoleno úmyslně připojovat neživé části k ochrannému vodiči nebo k zemi"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN EN 61140 ed. 3:2016, čl. 6.8) Ochrana PELV je ochranné opatření, při kterém je ochrana zajištěna: omezením napětí v obvodu do mezí ELV a obvod může být uzemněn a/nebo neživé části v tomto obvodu mohou být uzemněny (PELV); ochranným oddělením sítě PELV od všech obvodů jiných než SELV a PELV. Obvod PELV a/nebo jeho neživé části mohou být uzemněny.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 86,
+    "question": "Které vodiče se musí v elektrickém zařízení spojovat s hlavní ochrannou svorkou nebo přípojnicí?",
+    "answers": [
+      "uzemňovací přívody, střední vodiče, uzemňovací přívody pracovního uzemnění",
+      "uzemňovací přívody, ochranné vodiče, vodiče ochranného pospojování",
+      "uzemňovací přívody pracovního uzemnění, pospojení koupelen případně bazénů"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 2:2007, čl. 542.1, ČSN 33 2000-5-54 ed. 3:2012, čl. 542.4.1) V každé elektrické instalaci, ve které je použito ochranné pospojování, musí být instalována ochranná svorka (nebo přípojnice), se kterou se musí spojit: vodiče ochranného pospojování; uzemňovací přívody; ochranné vodiče; uzemňovací přívody pracovního uzemnění, pokud to připadá v úvahu. (V normě ČSN 33 2000-5-54 ed. 3:2012 již není uvedeno „nebo přípojnice“)",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 87,
+    "question": "Jaký nejmenší průřez musí mít ochranný vodič, má-li fázový vodič průřez 35 mm2 a oba jsou ze stejného materiálu?",
+    "answers": [
+      "16 mm2",
+      "25 mm2",
+      "35 mm2"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. 543.1.1, Tabulka 54.2) Pokud je ochranný vodič ze stejného materiálu jako vodič vedení (fázový), pak platí: Pro vodiče vedení do 16 mm2 včetně je průřez ochranného vodiče stejný jako průřez vodiče vedení; Pro více než 16 mm2 do 35 mm2 včetně je nejmenší průřez ochranného vodiče 16 mm2; Pro více než 35 mm2 musí být průřez ochranného vodiče alespoň polovina průřezu vodiče vedení.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 88,
+    "question": "Jak se umisťují páskové nebo drátové zemniče do kabelových rýh?",
+    "answers": [
+      "nejméně 10 cm nad kabel",
+      "nesmí se umísťovat ve společných kabelových rýhách",
+      "nejméně 10 cm pod kabel nebo vedle kabelu"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. NA.10.2.1 a NA.10.3.1) Tam, kde horní vrstvy půdy jsou vodivější než vrstvy spodní, se doporučuje užít zemniče z pásků nebo drátů. Ukládají se do rýhy v hloubce 60 cm až 80 cm. Pokud jsou zemniče kladeny do kabelových rýh, ukládají se na dno výkopu, a to nejméně 10 cm pod kabel nebo vedle kabelu.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 89,
+    "question": "Jak se musí chránit přívody od základových zemničů pasivní ochranou proti korozi na přechodu z betonu na povrch?",
+    "answers": [
+      "na přechodu z betonu na povrch nejméně 30 cm v betonu a 100 cm v zemi",
+      "na přechodu z betonu na povrch nejméně 20 cm v betonu a 50 cm nad povrchem",
+      "na přechodu z betonu na povrch nejméně 10 cm v betonu a 20 cm nad povrchem"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012 Příloha E a čl. NA.7.1 a čl. 7.5) Pro uzemňovací přívody připojené k základovému zemniči se doporučuje, aby vstupovaly do betonu zevnitř budovy. Pokud by vstupovaly do betonu zvenčí, mělo by to být nad úrovní terénu. Přívody od základových zemničů (i pozinkovaných) se musí chránit proti korozi pasivní ochranou: na přechodu z betonu do země nejméně 30 cm v betonu a 100 cm v zemi; na přechodu z betonu na povrch nejméně 10 cm v betonu a 20 cm nad povrchem; na přechodu z půdy na povrch nejméně 30 cm pod povrchem a 20 cm nad povrchem; na všech podzemních spojích (například pozinkované oceli).",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 90,
+    "question": "Kdy se u společných uzemňovacích soustav nemusí měřit zemní odpor?",
+    "answers": [
+      "pokud je uzemňovací soustava větší než 1000 m2 se vzájemně propojenými bloky páskovou ocelí o průřezu 100 mm2 tloušťka 3 mm",
+      "pokud je uzemňovací soustava větší než 10 000 m2 tvořená vzájemně propojenými náhodnými i strojenými zemniči",
+      "pokud má uzemňovací soustava alespoň 5000 m2 vzájemně propojenými náhodnými zemniči"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, Příloha NA, čl. NA.15.3) Zemní odpor se neměří u společné uzemňovací soustavy, kterou tvoří vzájemně propojené náhodné i strojené zemniče a je větší než 10 000 m2.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 91,
+    "question": "Jaké zemniče se používají pro pracovní uzemnění kladného pólu ve stejnosměrných zařízeních?",
+    "answers": [
+      "nemá se používat náhodný základový zemnič",
+      "nesmí se používat náhodný základový zemnič, pokud je ve spojení s elektrickým zařízením napájecí sítě nn",
+      "nejlépe je použít náhodný základový zemnič, který musí mít hodnotu menší než 5 Ω"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, Příloha NA, čl. NA.10.4 a 11.2) Pro pracovní uzemnění kladného pólu ve stejnosměrných zařízeních se nemá používat náhodný základový zemnič. Potrubí smí být použito jako zemnič pro účely pracovního uzemnění pouze tehdy, je-li pouze na území společné uzemňovací sítě. Potrubí pro hořlavé kapaliny nebo plyny nesmí být použito jako zemnič pro účely pracovního uzemnění.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 92,
+    "question": "Mohou se pracovní a ochranná uzemnění různých rozvodných soustav do 1 000 V vzájemně spojovat?",
+    "answers": [
+      "nesmí se spojovat navzájem ve všech případech",
+      "smí se spojovat jen za přesně stanovených podmínek dle ČSN 33 2050",
+      "smí se spojovat navzájem ve všech případech"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, Příloha NA, čl. NA.12.2.1) Pracovní a ochranné uzemnění různých rozvodných soustav do 1 000 V se smí spojovat navzájem ve všech případech.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 93,
+    "question": "Jak musí být uloženy zemniče v kabelových rýhách?",
+    "answers": [
+      "nejméně 20 cm pod kabel",
+      "nejméně 10 cm pod kabel nebo vedle kabelu",
+      "nejméně 30 cm pod kabel nebo vedle kabelu"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. NA.10.2.1 a NA.10.3.1) Tam, kde horní vrstvy půdy jsou vodivější než vrstvy spodní, se doporučuje užít zemniče z pásků nebo drátů, které se ukládají do rýhy v hloubce 60 cm až 80 cm. Jsou-li zemniče kladeny do kabelových rýh, ukládají se na dno výkopu, a to nejméně 10 cm pod kabel nebo vedle kabelu.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 94,
+    "question": "Kdy se nemusí spojovat uzemnění hromosvodu a silových zařízení?",
+    "answers": [
+      "nemusí se spojovat, je-li vzdálenost mezi oběma uzemněními v zemi 3 m",
+      "nemusí se spojovat, je-li vzdálenost mezi oběma uzemněními v zemi větší než 5 m",
+      "nemusí se spojovat, je-li specifický odpor půdy v místě uzemnění větší než 5 000 Ohmmetrů"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. NA.12.4.2) Uzemnění hromosvodu a silového zařízení se nemusí spojovat, pokud jsou obě uzemnění od sebe vzdálena v zemi více než 5 m. Spojení se provede zpravidla v zemi. Pouze pokud je z technických důvodů není možno spojit v zemi (v okolí je již například dokončen betonový povrch), spojí se nejkratší vhodnou cestou nad zemí.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 95,
+    "question": "Co nesmí být použito za náhodný ochranný vodič?",
+    "answers": [
+      "kovové obaly, např. pláště, stínící mezivrstvy a pancéřování určitých kabelů",
+      "kovové instalační trubky nebo jiné kovové kryty vodičů",
+      "konstrukční části vystavené za normálního provozu mechanickým namáháním (např. nosné napínací dráty)"
+    ],
+    "correct": 2,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. 543.2.3) Jako ochranné vodiče nebo vodiče ochranného pospojování se nesmí používat: kovová vodovodní potrubí; potrubí obsahující potenciálně hořlavé látky (kapaliny, plyny, prach); konstrukční části vystavené za normálního provozu mechanickým namáháním; pohyblivá nebo poddajná kovová vedení, pokud nejsou pro účel ochranných vodičů navržená; pohyblivé kovové části; podpěry vodičů, kabelové lávky a kabelové žebříky.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 96,
+    "question": "Co může být použito za náhodný ochranný vodič?",
+    "answers": [
+      "kovové vodovodní potrubí",
+      "stínící mezivrstvy a pancéřování určitých kabelů",
+      "plynová potrubí"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. NA.18.1) Náhodnými ochrannými vodiči mohou být: kovové pláště kabelů, stínění kabelů, pancéřování kabelů, drátěné pletivo, koncentrické vodiče, kovové instalační trubky a další předměty s vyhovujícími vlastnostmi (podle normy); kovové kryty nebo kostry elektrických předmětů a jiných zařízení.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 97,
+    "question": "Jaký průřez se může použít jako vodič ochranný i střední v pevných instalacích připojených na sítě TN?",
+    "answers": [
+      "jediný vodič při průřezu 16 mm2 hliníku nebo 10 mm2 mědi za předpokladu, že ta část instalace, kde je použit vodič PEN, není chráněna proudovým chráničem",
+      "jediný vodič při průřezu 10 mm2 mědi, při použití proudového chrániče",
+      "jediný vodič při průřezu 16 mm2 hliníku, při použití proudového chrániče"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. 543.4.1, čl. NA.19.1 a čl. NA.19.2) Vodič PEN, PEL nebo PEM může být používán pouze v pevných instalacích a z důvodu mechanické pevnosti nesmí mít průřez menší než 10 mm2 mědi nebo 16 mm2 hliníku. V neměřených částech pevných instalací připojených na sítě TN je možno použít vodič PEN za předpokladu, že: průřezy všech vodičů odboček k elektroměru a od elektroměru jsou shodné a nejsou menší než 6 mm2 Cu nebo 10 mm2 Al; rozdělení vodiče PEN na PE a N je provedeno v nejbližším vhodném místě rozvodu za elektroměrem (např. v bytové rozvodnici apod.); vodič PEN s tímto nižším průřezem není delší než 15 m. Je-li použit vodič PEN, musí být splněno: pokud není vodič PEN s vodiči vedení ve společném obložení, musí být s nimi veden souběžně a v jejich blízkosti. Jeho příslušnost k proudovému obvodu musí být vhodně označena; u střídavých jednofázových obvodů musí mít vodič PEN stejnou izolaci jako fázové vodiče; je-li fázový vodič uložen v obložení, musí být ve stejném obložení i vodič PEN; příslušná část instalace, kde je použit vodič PEN, nesmí být chráněna proudovým chráničem.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 98,
+    "question": "Jakou izolaci musí splňovat ochranný vodič ve společném obložení?",
+    "answers": [
+      "ochranný vodič nemusí mít stejnou izolaci jako vodiče fázové nebo krajní",
+      "ochranný vodič ve společném obložení musí mít stejnou izolaci jako vodiče fázové popř. krajní",
+      "izolovaný ochranný vodič musí být veden souběžně s vodiči fázovými nebo krajními"
+    ],
+    "correct": 1,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. 543.2.1, čl. NA.17.4, čl. NA.19.1) Ochranné vodiče mohou být provedeny těmito způsoby nebo jejich kombinacemi: vodiče v mnohožilových kabelech; izolované nebo holé vodiče ve společném obložení s pracovními vodiči; upevněné holé nebo izolované vodiče;  kovové pláště kabelů, stínění kabelů, pancéřování kabelů, drátěné pletivo, koncentrické vodiče, kovové instalační trubky atd. Je-li použit vodič PEN, musí být splněno: pokud není vodič PEN s vodiči vedení ve společném obložení, musí být s nimi veden souběžně a v jejich blízkosti. Jeho příslušnost k proudovému obvodu musí být vhodně označena; u střídavých jednofázových obvodů musí mít vodič PEN stejnou izolaci jako fázové vodiče; je-li fázový vodič uložen v obložení, musí být ve stejném obložení i vodič PEN; příslušná část instalace, kde je použit vodič PEN, nesmí být chráněna proudovým chráničem.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 99,
+    "question": "Jakým způsobem musí být postupováno při pracích na náhodných zemničích (měření, výměny dílů apod.)?",
+    "answers": [
+      "při pracích na omezenou dobu není třeba zajistit, aby byla zachována jejich účinnost, ale po dokončení prací je třeba, aby uzemnění a pospojování, pokud byly porušeny, byly znovu obnoveny",
+      "při pracích na náhodných zemničích je třeba zajistit, aby byla zachována jejich účinnost, po dokončení prací je třeba, aby uzemnění a pospojování, pokud byly přerušeny, byly obnoveny, doplněny, popřípadě nahrazeny",
+      "pokud se musí spojení při práci přerušit (např. při výměně nebo opravě kovového potrubí nebo vodoměru), je třeba na dobu přerušení připojit zařízení provizorně na PEN"
+    ],
+    "correct": 1,
+    "explanation": "(podle podle ČSN 33 2000-5-54 ed. 3:2012, čl. NA.23) Při pracích na náhodných zemničích je třeba zajistit, aby byla zachována jejich účinnost. Pokud se musí spojení při práci přerušit (např. výměna vodoměru), je třeba je nahradit jiným spojením. Při jejich porušení musí být po dokončení prací obnoveny, doplněny, případně nahrazeny.",
+    "category": "Elektro_Ochrana_Dotyk"
+  },
+  {
+    "id": 100,
+    "question": "Je přípustné použít v pevných instalacích připojených na sítě TN vodič PEN o průřezu menším než 10 mm2 Cu nebo 16 mm2 Al?",
+    "answers": [
+      "ano v neměřených částech pevných instalací za předpokladu, že průřezy všech vodičů odboček k elektroměru a od elektroměru jsou shodné a nejsou menší než 6 mm2 Cu nebo 10 mm2 Al",
+      "ano, ale s podmínkou, že ihned za elektroměrem dojde k rozdělení vodiče PEN na PE a N",
+      "zmenšení průřezu pod hranici menší než 10 mm2 Cu nebo 16 mm2 Al norma nepovoluje"
+    ],
+    "correct": 0,
+    "explanation": "(podle ČSN 33 2000-5-54 ed. 3:2012, čl. 543.4.1 a čl. NA.19.2) Vodič PEN může být používán pouze v pevných instalacích a z důvodu mechanické pevnosti nesmí mít průřez menší než 10 mm2 mědi nebo 16 mm2 hliníku. V neměřených částech pevných instalací připojených na sítě TN je přípustné použít vodič PEN za předpokladu, že: průřezy všech vodičů odboček k elektroměru a od elektroměru jsou shodné a nejsou menší než 6 mm2 Cu nebo 10 mm2 Al; rozdělení vodiče PEN na PE a N je provedeno v nejbližším vhodném místě rozvodu za elektroměrem (např. v bytové rozvodnici apod.); vodič PEN s tímto nižším průřezem není delší než 15 m.",
+    "category": "Elektro_Ochrana_Dotyk"
+  }
+]

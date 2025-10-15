@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestovní příkaz</title>
+    <link rel="stylesheet" href="cestovni-prikaz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="back-link">
+            <a href="index.html">← Zpět na hlavní stránku</a>
+        </div>
+        <h1>Cestovní příkaz</h1>
+        
+        <div class="external-link">
+            <a href="https://extranet.spravazeleznic.cz/aplikace/zadosti/prehled" target="_blank">
+                🔗 Žádosti o cestovní příkazy
+            </a>
+        </div>
+        
+        <div class="cp-container">
+            <!-- Formulář pro zadání údajů -->
+            <div class="input-section">
+                <h2>Údaje o cestě</h2>
+                <form id="cpForm" autocomplete="off">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="pocatek">Počátek a konec cesty:</label>
+                            <input type="text" id="pocatek" placeholder="Plzeň">
+                        </div>
+                        <div class="form-group">
+                            <label for="odjezdDatum">Odjezd datum:</label>
+                            <input type="date" id="odjezdDatum">
+                        </div>
+                        <div class="form-group">
+                            <label for="odjezdCas">Odjezd čas:</label>
+                            <input type="time" id="odjezdCas" value="07:00">
+                        </div>
+                        <div class="form-group">
+                            <label for="mistoJednani">Místo jednání:</label>
+                            <input type="text" id="mistoJednani" placeholder="Klatovy">
+                        </div>
+                        <div class="form-group">
+                            <label for="prijezdCas">Příjezd čas na místo výkonu:</label>
+                            <input type="time" id="prijezdCas" value="08:15">
+                        </div>
+                        <div class="form-group">
+                            <label for="konecVykonu">Konec prac. výkonu:</label>
+                            <input type="time" id="konecVykonu" value="14:00">
+                        </div>
+                        <div class="form-group">
+                            <label for="prijezdCasZpet">Příjezd čas zpět:</label>
+                            <input type="time" id="prijezdCasZpet" value="15:00">
+                        </div>
+                        <div class="form-group">
+                            <label for="ucelCesty">Účel cesty:</label>
+                            <input type="text" id="ucelCesty" placeholder="Kontrola zab.zar.">
+                        </div>
+                        <div class="form-group">
+                            <label for="doprava">Dopravní prostředek:</label>
+                            <select id="doprava">
+                                <option value="AUS" selected>AUS</option>
+                                <option value="Vlak">Vlak</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="button" id="generovat">Generovat cestovní příkaz</button>
+                    <button type="button" id="generovat-auto" onclick="generateAutoFillScript()" title="Záložní verze pro automatické vyplnění všech 4 tabulek" style="display: none;">🔧 Záložní automatické vyplnění</button>
+                    <button type="button" id="generovat-auto-v3" onclick="generateAutoFillScriptV3()" title="Kompletní automatizace - všech 12 kroků najednou">� Automatické vyplnění všech tabulek</button>
+                </form>
+            </div>
+
+            <!-- Výsledné tabulky -->
+            <div class="results-section" id="results" style="display: none;">
+                <h2>Skripty pro automatické vyplnění formulářů</h2>
+                
+                <!-- Navigace mezi tabulkami -->
+                <div class="tabs">
+                    <button class="tab-button active" data-tab="zadost" onclick="showConsoleCode('zadost')">Žádost o CP</button>
+                    <button class="tab-button" data-tab="presun-tam" onclick="showConsoleCode('presun-tam')">Přesun tam</button>
+                    <button class="tab-button" data-tab="vykon" onclick="showConsoleCode('vykon')">Detail výkonu</button>
+                    <button class="tab-button" data-tab="presun-zpet" onclick="showConsoleCode('presun-zpet')">Přesun zpět</button>
+                    <button class="tab-button" data-tab="pobyt" onclick="showConsoleCode('pobyt')">Detail pobytu</button>
+                </div>
+
+                <!-- Zobrazení kódu pro konzoli -->
+                <div id="console-code" style="display: none;">
+                    <h3>Kód pro vložení do konzole F12:</h3>
+                    <div class="code-info">
+                        <p><strong>1. Otevřete příslušný formulář</strong> v systému žádostí o cestovní příkazy</p>
+                        <p><strong>2a. Stiskněte F12 na klávesnici</strong></p>
+                        <p><strong>2b. V horním panelu vyberte Console</strong> (pravděpodobně se při prvním spuštění budete nacházet na záložce Sources)</p>
+                        <p><strong>2c. V konzoli z bezpečnostních důvodů nefunguje vkládání, napište tedy "Allow pasting"</strong> (toto je třeba udělat jen při prvním spuštění)</p>
+                        <p><strong>3. Vložte níže uvedený kód</strong> do konzole a stiskněte Enter</p>
+                        <p><strong>4. V žádném případě během procesu automatického vyplňování na nic neklikejte až do jeho dokončení. Pokud je potřeba ukončit proces auto vyplňování, stiskněte klávesu Esc.</strong></p>
+                    </div>
+                    <textarea id="code-output" readonly rows="10" cols="80"></textarea>
+                    <div class="code-actions">
+                        <button onclick="copyToClipboard()" title="Zkopíruje kód do schránky">📋 Kopírovat do schránky</button>
+                        <button onclick="hideConsoleCode()" title="Zavře okno s kódem">❌ Zavřít</button>
+                    </div>
+                </div>
+
+                <h2>Generované formuláře</h2>
+
+                <!-- Tabulka 1: Žádost o cestovní příkaz -->
+                <div class="tab-content active" id="zadost">
+                    <h3>Žádost o cestovní příkaz</h3>
+                    <table class="cp-table">
+                        <tr><td class="label">Odjezd datum:</td><td id="t1-odjezd-datum"></td></tr>
+                        <tr><td class="label">Odjezd čas:</td><td id="t1-odjezd-cas"></td></tr>
+                        <tr><td class="label">Počátek cesty:</td><td id="t1-pocatek"></td></tr>
+                        <tr><td class="label">Příjezd datum:</td><td id="t1-prijezd-datum"></td></tr>
+                        <tr><td class="label">Příjezd čas:</td><td id="t1-prijezd-cas"></td></tr>
+                        <tr><td class="label">Plánovaný konec pracovní cesty:</td><td id="t1-konec"></td></tr>
+                        <tr><td class="label">Místo jednání:</td><td id="t1-misto"></td></tr>
+                        <tr><td class="label">Účel cesty:</td><td id="t1-ucel"></td></tr>
+                        <tr><td class="label">Dopravní prostředek:</td><td id="t1-doprava"></td></tr>
+                    </table>
+                </div>
+
+                <!-- Tabulka 2: Přesun na služební cestu -->
+                <div class="tab-content" id="presun-tam">
+                    <h3>Přesun na služební cestu</h3>
+                    <table class="cp-table">
+                        <tr><td class="label">Odjezd datum:</td><td id="t2-odjezd-datum"></td></tr>
+                        <tr><td class="label">Odjezd čas:</td><td id="t2-odjezd-cas"></td></tr>
+                        <tr><td class="label">Příjezd čas:</td><td id="t2-prijezd-cas"></td></tr>
+                        <tr><td class="label">Počátek cesty:</td><td id="t2-pocatek"></td></tr>
+                        <tr><td class="label">Konec cesty:</td><td id="t2-konec"></td></tr>
+                        <tr><td class="label">Dopravní prostředek:</td><td id="t2-doprava"></td></tr>
+                    </table>
+                </div>
+
+                <!-- Tabulka 3: Detail pracovního výkonu -->
+                <div class="tab-content" id="vykon">
+                    <h3>Detail pracovního výkonu</h3>
+                    <table class="cp-table">
+                        <tr><td class="label">Datum:</td><td id="t3-datum"></td></tr>
+                        <tr><td class="label">Počátek prac. výkonu:</td><td id="t3-pocatek"></td></tr>
+                        <tr><td class="label">Konec prac. výkonu:</td><td id="t3-konec"></td></tr>
+                        <tr><td class="label">Místo jednání:</td><td id="t3-misto"></td></tr>
+                    </table>
+                </div>
+
+                <!-- Tabulka 4: Přesun zpět ze služební cesty -->
+                <div class="tab-content" id="presun-zpet">
+                    <h3>Přesun zpět ze služební cesty</h3>
+                    <table class="cp-table">
+                        <tr><td class="label">Odjezd datum:</td><td id="t4-odjezd-datum"></td></tr>
+                        <tr><td class="label">Odjezd čas:</td><td id="t4-odjezd-cas"></td></tr>
+                        <tr><td class="label">Příjezd čas:</td><td id="t4-prijezd-cas"></td></tr>
+                        <tr><td class="label">Počátek cesty:</td><td id="t4-pocatek"></td></tr>
+                        <tr><td class="label">Konec cesty:</td><td id="t4-konec"></td></tr>
+                        <tr><td class="label">Dopravní prostředek:</td><td id="t4-doprava"></td></tr>
+                    </table>
+                </div>
+
+                <!-- Tabulka 5: Detail pobytu na služební cestě -->
+                <div class="tab-content" id="pobyt">
+                    <h3>Detail pobytu na služební cestě</h3>
+                    <table class="cp-table">
+                        <tr><td class="label">Datum:</td><td id="t5-datum"></td></tr>
+                        <tr><td class="label">Pobyt od:</td><td id="t5-od"></td></tr>
+                        <tr><td class="label">Pobyt do:</td><td id="t5-do"></td></tr>
+                        <tr><td class="label">Místo pobytu:</td><td id="t5-misto"></td></tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="cestovni-prikaz.js"></script>
+</body>
+</html>

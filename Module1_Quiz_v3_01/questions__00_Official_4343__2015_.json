@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "question": "1) Co je povinností zaměstnance používajícího měřidlo?",
+    "answers": [
+      "A) Dbát o jeho řádný - bezvadný technický stav a řádné uložení po pracovním výkonu.",
+      "B) Provést jeho opravu v případě poruchy.",
+      "C) Provedeni kalibrace měřidla v konfirmačním intervalu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 2,
+    "question": "2) Výhybky opatřené elektrickým přestavníkem typu EP 600 a novější s kontrolou polohy jazyku a snímače polohy jazyku, umožnují nejvyšší rychlost pojíždění proti hrotu a po hrotu:",
+    "answers": [
+      "A) 120 km/h a 120 km/h.",
+      "B) 120 km/h a 160 km/h.",
+      "C) 200 km/h a 200 km/h."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 3,
+    "question": "3) Zápis o způsobilosti výhybky k přestavování (po rozřezu) provedou oprávnění udržující zaměstnanci organizace udržující tratě a organizace udržující zabezpečovací zařízení do:",
+    "answers": [
+      "A) Záznamníku.",
+      "B) Knihy prohlídek.",
+      "C) Dopravního deníku."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 4,
+    "question": "4) Záznamníky se zřizují a ukládají:",
+    "answers": [
+      "A) vždy u zařízení.",
+      "B) na pracovištích obsluhy zabezpečovacího zařízení nebo přímo u zařízení.",
+      "C) vždy na pracovišti udržujícího zaměstnance."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 5,
+    "question": "5) Výhybky, které nemají vzájemnou vazbu na hlavní nebo seřaďovací návěstidla, jsou výhybky nezabezpečené a smějí se pojíždět rychlostí menší nebo rovno:",
+    "answers": [
+      "A) proti hrotu 40 km/h a po hrotu 60 km/h.",
+      "B) proti hrotu 40 km/h a po hrotu 40 km/h.",
+      "C) proti hrotu 30 km/h a po hrotu 50 km/h."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 6,
+    "question": "6) Dojde-li při rozřezu výhybky k jejímu poškození, nesmí být povoleno její další pojížděni až do rozhodnutí zaměstnance:",
+    "answers": [
+      "A) Organizace udržující zab.zař.",
+      "B) Obsluhujícího zaměstnance (výpravčího).",
+      "C) Organizace udržující tratě."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 7,
+    "question": "7) Zapojení, nastavení a použití všech prvků KO musí odpovídat:",
+    "answers": [
+      "A) Trakčnímu propojení.",
+      "B) RT (Regulačním tabulkám).",
+      "C) KSU (Koordinačnímu schématu ukolejnění)."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 8,
+    "question": "8) V jaké toleranci musí být naměřené hodnoty všech parametrů KO?",
+    "answers": [
+      "A) Stanovené protokolem DLZT.",
+      "B) Stanovené protokolem OUZZ.",
+      "C) Stanovené protokolem dodavatele."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 9,
+    "question": "9) Jaká je minimální délka KÚ (kolejového úseku) pro vyhodnocení volnosti nebo obsazenosti?",
+    "answers": [
+      "A) 30 m.",
+      "B) Maximálně 18 m.",
+      "C) 24 m."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 10,
+    "question": "10) Udržující zaměstnanec PZ musí veškeré udržovací práce projednat?",
+    "answers": [
+      "A) s výpravčím popř. dalšími obsluhujícími zaměstnanci podle předpisu SŽ (ČD) Z2.",
+      "B) s výpravčím popř. dalšími obsluhujícími zaměstnanci podle předpisu SŽ (ČSD) T100.",
+      "C) s výpravčím popř. dalšími obsluhujícími zaměstnanci podle předpisu SŽ (ČD) T126."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 11,
+    "question": "11) Kmitočet přerušování každého červeného světla výstražníku musí být?",
+    "answers": [
+      "A) 40 cyklů za minutu ± 20 %.",
+      "B) 60 cyklů za minutu ± 20 %.",
+      "C) 50 cyklů za minutu ± 20 %."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 12,
+    "question": "12) Co je to dopravní klid na železničním přejezdu?",
+    "answers": [
+      "A) Stav, při kterém na přejezd nejedou žádná kolejová vozidla.",
+      "B) Stav PZS, při kterém je na základě povelu obsluhujícího zaměstnance vyloučen vliv obsazení ovládacích úseků na uvedení PZS do výstrahy.",
+      "C) Stav na přejezdu, při kterém na přejezd nejedou žádná silniční ani kolejová vozidla."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 13,
+    "question": "13) Co se rozumí pod pojmem přibližovací úsek?",
+    "answers": [
+      "A) Je to ovládací úsek přejezdu před přejezdem ve směru jízdy kolejového vozidla.",
+      "B) Je to ovládací úsek přejezdu vybavený P2S, před přejezdem ve směru jízdy kolejového vozidla.",
+      "C) Je to úsek, kterým se Přibližuje silniční vozidlo k přejezdu."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 14,
+    "question": "14) Předpis SŽ (ČD) Z2 je?",
+    "answers": [
+      "A) předpis pro obsluhu PZZ.",
+      "B) předpis pro obsluhu SZZ.",
+      "C) pro obsluhu TZZ."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 15,
+    "question": "15) Ukolejňovací vodič na tratích s dvoupásovými kolejovými obvody, musí být uložen:",
+    "answers": [
+      "A) v zemi, bez odizolováni.",
+      "B) neizolovaně od země, na povrchu.",
+      "C) izolovaně od země."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 16,
+    "question": "16) Základní ochrana před nebezpečným dotykem neživých části u trakčních zařízeni s napětím nad AC 1000 V a DC 1500 V včetně:",
+    "answers": [
+      "A) ochrana polohou.",
+      "B) ochrana zábranou.",
+      "C) ochrana ukolejněním ochrana zemněním."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 17,
+    "question": "17) Venkovní části zabezpečovacího zařízení musí být umisťovány s ohledem na:",
+    "answers": [
+      "A) průjezdný průřez.",
+      "B) průjezdný průřez a průchodnost těžké mechanizace.",
+      "C) prostorovou úpravu průjezdného průřezu, manipulační a schůdný prostor, průchodnost těžké mechanizace a průjezdový prostor pozemních komunikaci."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 18,
+    "question": "18) Návěstní znaky a návěstní nátěry musí odpovídat:",
+    "answers": [
+      "A) předpisům dopravce.",
+      "B) ČSN 01 2728.",
+      "C) předpisům provozovatele dráhy."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 19,
+    "question": "19) Základním dokumentem pro nastavování kolejových obvodů jsou:",
+    "answers": [
+      "A) příslušná ustanoveni 2613.C",
+      "B) platné regulační tabulky.",
+      "C) platné směrnice pro příslušný kolejový obvod."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 20,
+    "question": "20) Lanová propojení musí být připojeno co nejblíže k izolovanému styku pokud zajišťuje kontrolu elektrické celistvosti kolejnicového vedení, nejdále však:",
+    "answers": [
+      "A) 1 m",
+      "B) 0,75 m",
+      "C) 0,5 m."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 21,
+    "question": "21) Nebezpečné pásmo přejezdu dle ČSN 73 6380:",
+    "answers": [
+      "A) Je prostor na pozemní komunikaci, ohraničený vodorovnými plochami vedenými rovnoběžně s osami vnějších kolejí ve vzdálenosti 2,5 m na vnitřní stranu přejezdu.",
+      "B) je prostor na pozemní komunikaci, ohraničený vodorovnými plochami vedenými rovnoběžně s osami vnějších kolejí ve vzdálenosti 2,5 m na vnější stranu přejezdu.*",
+      "C) je prostor na pozemní komunikaci, ohraničený svislý plochami vedenými rovnoběžně s osami vnějších kolejí ve vzdálenosti 2,5 m na vnější stranu přejezdu."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 22,
+    "question": "22) Šířka přejezdu se měří?",
+    "answers": [
+      "A) Jako kolmá vzdálenost mezi výstražníky.",
+      "B) V ose koleje.",
+      "C) V ose pozemní komunikace."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 23,
+    "question": "23) Jakou rychlostí jede nejpomalejší silniční vozidlo přes přejezd?",
+    "answers": [
+      "A) 5 km/h.",
+      "B) 3 km/h.",
+      "C) 7 km/h."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 24,
+    "question": "24) Od čeho je odvislá bezpečnost provozu na přejezdu?",
+    "answers": [
+      "A) Od dopravní intenzity a rozhledových a místních poměrů a na postřehu a reakci řidiče.",
+      "B) Od dopravní intenzity, způsobu zabezpečení, rozhledových a místních poměrů a na postřehu a reakci řidiče.",
+      "C) Od dopravní intenzity, způsobu zabezpečení, rozhledových a místních poměrů."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 25,
+    "question": "25) Délka přejezdu se měří",
+    "answers": [
+      "A) jako kolmá vzdálenost mezi výstražníky.*",
+      "B) v ose koleje.",
+      "C) v ose pozemní komunikace."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 26,
+    "question": "26) Dle předpisu SŽ T200 se pod pojmem Odborná komise rozumí:",
+    "answers": [
+      "A) Orgán provozovatele dopravní cesty, pro zahájení kolaudačního řízení. Zároveň provádí TBZ.",
+      "B) Orgán provozovatele dopravní cesty, pro komplexní vyzkoušení zařízení v souladu se schválenou dokumentací.",
+      "C) Orgán provozovatele dopravní cesty, pro přejímání zabezpečovacího zařízení a ověření jeho kvality a souladu se schválenou dokumentací."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 27,
+    "question": "27) Dle Podpisu SŽ T200 se pod pojmem Funkční zkouška rozumí?",
+    "answers": [
+      "A) zkouška specifikovaná Vyhláškou Ministerstva dopravy č. 177/1995 Sb. v paragrafech 5 a 6.",
+      "B) zkouška specifikovaná Vyhláškou Ministerstva dopravy č. 100/1995 Sb.",
+      "C) dílčí zkouška, kterou se mj. ověřuje správnost konkrétní funkce zabezpečovacího zařízení."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 28,
+    "question": "28) Oblastní ředitelství (OŘ) zajišťují ve svém obvodu:",
+    "answers": [
+      "A) správu VST v rozsahu uvedeném dle předpisu SŽ (ČSD) T31.",
+      "B) správu VST v rozsahu uvedeném Pokynem GŘ SŽ.",
+      "C) správu MST v rozsahu uvedeném Pokynem GŘ SŽ."
+    ],
+    "correct": 2,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 29,
+    "question": "29) Jaké technologie patři, mimo jiné, do skupiny velké sdělovací techniky VST?",
+    "answers": [
+      "A) Železniční přenosové systémy, železniční rádiové analogové sítě, železniční rádiová digitální síť (GSM-R) a záznamová zařízeni.",
+      "B) Náhradní telefonní zapojovače, rozhlasová zařízeni pro cestující a železniční rádiová digitální síť (GSM-R).",
+      "C) Vizuální informační systémy pro cestující, kamerové systémy (CCTV), kabelové sítě optické i metalické mimo šitě místního charakteru."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 30,
+    "question": "30) Technická ústředna dopravní cesty (TÚDC) zajišťuje:",
+    "answers": [
+      "A) Celosíťově správu VST v rozsahu uvedeném Pokynem GŘ SŽ.",
+      "B) Provozování a servis železničního telekomunikačního majetku na základě smlouvy.",
+      "C) Celosíťově správu VST v rozsahu uvedeném dle předpisu SŽ (ČSD) T31."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 31,
+    "question": "31) Co se rozumí pod pojmem malá sdělovací technika (MST)?",
+    "answers": [
+      "A) MST obsahuje zejména systémy hlasové a datové komunikace a stanovená koncová zařízení.",
+      "B) MST obsahuje koncová zařízení a kabelové sítě metalické a optické místního charakteru nesloužící převážně pro VST.",
+      "C) MST zahrnuje zejména zařízení a systémy hlasové a datové komunikace síťového charakteru, rádiová zařízení a systémy a stanovená koncová zařízení."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 32,
+    "question": "32) Trasa kabelu a jeho křížení s dráhou se zakresluje na mapovém podkladu v měřítku:",
+    "answers": [
+      "A) 1:100.",
+      "B) 1:1000.",
+      "C) 1:50."
+    ],
+    "correct": 1,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 33,
+    "question": "33) Co se rozumí pod pojmem \"Kabelové křížení pod úrovní kolejí\"?",
+    "answers": [
+      "A) Je, to část kabelového vedení křižující trať (kolej), uložená v tělese železničního spodku.",
+      "B) Je to kabelové vedení křižující trať (kolej), uložená v železničním podloží.",
+      "C) Je to část kabelového vedení křižující trať (kolej), uložená v železničním náspu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 34,
+    "question": "34) Co se rozumí pod pojmem \"Chránička\"?",
+    "answers": [
+      "A) Je- to ochranné zařízení sloužící k bezpečnému uložení a ochraně kabelů proti mechanickému poškození.",
+      "B) Je to zařízení, které se musí použít pro aktivní protikorozní ochranu kabelů.",
+      "C) Je to zařízení, které slouží k ochraně kabelů před účinky atmosférických vlivů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  },
+  {
+    "id": 35,
+    "question": "35) Kabelové křížení nesmí být vybudováno pod výhybkami nebo nesvařenými kolejnicovými styky:",
+    "answers": [
+      "A) Pokud je nejmenší vodorovná vzdálenost kabelového křížení od uvedených míst menší než 1,5 m.",
+      "B) Pokud je nejmenší vodorovná vzdálenost kabelového křížení od uvedených míst menší než 1 m.",
+      "C) Pokud je nejmenší vodorovná vzdálenost kabelového křížení od uvedených míst menší než 0,5 m."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "_00_Official_4343__2015_"
+  }
+]

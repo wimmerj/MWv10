@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pracovní nástroje</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Overlay pro autentizaci -->
+    <div id="auth-overlay" class="auth-overlay">
+        <div class="auth-container">
+            <h2>Přístup k pracovním nástrojům</h2>
+            <p>Zadejte heslo pro pokračování:</p>
+            <form id="auth-form">
+                <input type="password" id="password-input" placeholder="Heslo" required>
+                <button type="submit">Přihlásit se</button>
+            </form>
+            <div id="auth-error" class="auth-error"></div>
+        </div>
+    </div>
+
+    <div class="container" id="main-content">
+        <h1>Pracovní nástroje</h1>
+        <p class="subtitle">Vyberte modul, který chcete použít:</p>
+        
+        <div class="modules-grid">
+            <a href="quiz.html" class="module-card active">
+                <div class="module-icon">🚂</div>
+                <h3>Quiz</h3>
+                <p>Železniční a elektrotechnický quiz</p>
+            </a>
+            
+            <a href="vrstvy-prohlizec.html" class="module-card active">
+                <div class="module-icon">🗺️</div>
+                <h3>Přehled PZS</h3>
+                <p>Prohlížeč PZS v Plzeňském kraji</p>
+            </a>
+            
+            <a href="cestovni-prikaz.html" class="module-card active">
+                <div class="module-icon">🚗</div>
+                <h3>Cestovní příkaz</h3>
+                <p>Generování formulářů pro služební cesty</p>
+            </a>
+            
+            <a href="kalkulator-dochazky.html" class="module-card active">
+                <div class="module-icon">⏰</div>
+                <h3>Kalkulátor docházky</h3>
+                <p>Výpočet chybějících/nadělané hodin v docházce</p>
+            </a>
+        </div>
+    </div>
+    
+    <script src="auth.js"></script>
+</body>
+</html>

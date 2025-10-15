@@ -1,0 +1,455 @@
+/* Společné styly z style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgba(26, 35, 126, 0.9);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.back-link {
+    margin-bottom: 20px;
+}
+.back-link a {
+    color: #ff8f00;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.back-link a:hover {
+    text-decoration: underline;
+    color: #ffb300;
+}
+
+fieldset {
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background: rgba(255,255,255,0.05);
+}
+legend {
+    font-weight: bold;
+    color: white;
+    padding: 0 10px;
+}
+label {
+    margin-right: 15px;
+    color: white;
+}
+input[type="text"], input[type="number"], input[type="date"], input[type="time"] {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 4px;
+    padding: 5px 8px;
+    color: white;
+    font-size: 14px;
+}
+input[type="text"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="time"]:focus {
+    outline: none;
+    border-color: #ff6f00;
+    box-shadow: 0 0 8px rgba(255, 111, 0, 0.3);
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(255, 111, 0, 0.3);
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: linear-gradient(135deg, #ff8f00 0%, #ffb300 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 111, 0, 0.4);
+}
+
+/* Specifické styly pro cestovní příkaz */
+.external-link {
+    text-align: center;
+    margin: 15px 0 25px 0;
+    padding: 12px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f1f8e9 100%);
+    border-radius: 8px;
+    border: 1px solid #2196f3;
+}
+
+.external-link a {
+    display: inline-block;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.external-link a:hover {
+    background: #2196f3;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+}
+
+.external-link a:active {
+    transform: translateY(0);
+}
+
+/* zarovnání formuláře */
+.cp-container .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cp-container .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-container .form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    min-height: 20px;   
+}
+
+.cp-container .form-group input,
+.cp-container .form-group select {
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.cp-container .form-group select {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+}
+
+.cp-container .form-group select option {
+    background: #1a237e;
+    color: white;
+    padding: 8px 12px;
+}
+
+.cp-container .form-group select option:hover,
+.cp-container .form-group select option:focus {
+    background: #0d47a1;
+    color: white;
+}
+
+.cp-container .form-group select option:checked {
+    background: #ff6f00;
+    color: white;
+}
+
+.cp-container .form-group select:focus {
+    outline: none;
+    border-color: #ff6f00;
+    box-shadow: 0 0 8px rgba(255, 111, 0, 0.3);
+}
+
+.cp-container .form-group select:hover {
+    border-color: rgba(255,255,255,0.5);
+}
+
+@media (min-width: 768px) {
+    .cp-container .form-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        max-width: 800px;
+    }
+    
+    .cp-container .form-group:nth-child(4),
+    .cp-container .form-group:nth-child(8),
+    .cp-container .form-group:nth-child(9) {
+        grid-column: 1 / -1;
+    }
+}
+
+/* Konzolový kód */
+#console-code {
+    background: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#console-code h3 {
+    color: #495057;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.code-info {
+    background: #e3f2fd;
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.code-info p {
+    margin: 0;
+    color: #1976d2;
+}
+
+.code-info code {
+    background: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+#code-output {
+    width: 100%;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    background: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 15px;
+    resize: vertical;
+    line-height: 1.4;
+}
+
+.code-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.code-actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.code-actions button:first-child {
+    background: #007bff;
+    color: white;
+}
+
+.code-actions button:first-child:hover {
+    background: #0056b3;
+}
+
+.code-actions button:last-child {
+    background: #6c757d;
+    color: white;
+}
+
+.code-actions button:last-child:hover {
+    background: #545b62;
+}
+
+.tab-button {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,123,255,0.3);
+}
+
+.tab-button:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    #console-code {
+        margin: 10px -10px;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+    
+    .code-actions {
+        flex-direction: column;
+    }
+    
+    .code-actions button {
+        width: 100%;
+    }
+    
+    #code-output {
+        font-size: 12px;
+        min-height: 200px;
+    }
+}
+
+/* Animace zobrazení kódu */
+#console-code {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styling pro tlačítko automatického vyplnění */
+#generovat-auto {
+    background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    box-shadow: 0 2px 8px rgba(255, 111, 0, 0.3);
+}
+
+#generovat-auto:hover {
+    background: linear-gradient(135deg, #e65100 0%, #ff6f00 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 111, 0, 0.4);
+}
+
+#generovat-auto:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(255, 111, 0, 0.3);
+}
+
+/* Styling pro testovací tlačítko V3 */
+#generovat-auto-v3 {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+#generovat-auto-v3:hover {
+    background: linear-gradient(135deg, #1e7e34 0%, #28a745 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+}
+
+#generovat-auto-v3:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(40, 167, 69, 0.3);
+}
+
+#code-output:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+.code-actions button {
+    position: relative;
+}
+
+.code-actions button:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+    margin-bottom: 5px;
+}
+
+/* Tabulky pro cestovní příkazy */
+.cp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.cp-table td {
+    padding: 8px 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.cp-table td.label {
+    font-weight: bold;
+    background: rgba(255,255,255,0.05);
+    width: 40%;
+}
+
+.results-section {
+    margin-top: 30px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-button.active {
+    background: linear-gradient(135deg, #ff6f00 0%, #ff8f00 100%);
+    border-color: #ff6f00;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}

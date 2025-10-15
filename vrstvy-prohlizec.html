@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PZS v obvodu OŘ Plzeň</title>
+    <link rel="stylesheet" href="vrstvy-prohlizec.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Levý panel pro ovládací prvky -->
+        <div class="control-panel">
+            <div class="control-panel-content">
+                <!-- Tlačítko zpět -->
+                <div style="padding: 15px; border-bottom: 1px solid #e5e7eb;">
+                    <a href="index.html" style="display: inline-block; text-decoration: none; color: #2563eb; font-size: 14px; padding: 8px 16px; border: 1px solid #2563eb; border-radius: 4px; background: white; transition: all 0.3s;">← Zpět na hlavní stránku</a>
+                </div>
+                <!-- Sekce 1: Vrstvy -->
+                <div class="collapsible-section" style="display: none;">
+                    <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                        <span class="collapsible-title">Vrstvy</span>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-content expanded">
+                        <div class="collapsible-inner">
+                            <div class="layers-panel">
+                                <div class="layers-list" id="layersList">
+                                    <!-- Checkboxy pro vrstvy se budou generovat dynamicky -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sekce 2: Načítání souborů -->
+                <div class="collapsible-section">
+                    <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                        <span class="collapsible-title">Načítání souborů</span>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-content expanded">
+                        <div class="collapsible-inner">
+                            <div class="button-group">
+                                <button id="loadMainFolder" class="btn btn-primary">Načíst hlavní složku</button>
+                                <div class="button-separator"></div>
+                                <button id="loadBackground" class="btn">Načíst pozadí</button>
+                                <!-- SKRYTO - načítání vrstev již není potřeba -->
+                                <!-- <button id="loadLayers" class="btn">Načíst vrstvy</button> -->
+                                <button id="loadExcel1" class="btn">Načíst Excel 1</button>
+                                <button id="loadExcel2" class="btn">Načíst Excel 2</button>
+                                <button id="testExcelData" class="btn btn-secondary">Test Excel Data</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sekce 3: Zobrazení a nástroje -->
+                <div class="collapsible-section">
+                    <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                        <span class="collapsible-title">Zobrazení a nástroje</span>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-content expanded">
+                        <div class="collapsible-inner">
+                            <div class="button-group">
+                                <button id="resetView" class="btn btn-secondary">Reset zobrazení</button>
+                                <button id="toggleAreasButton" class="btn btn-secondary" onclick="toggleClickableAreasDisplay()">Zobrazit oblasti</button>
+                                <button id="debugModeButton" class="btn btn-secondary" onclick="toggleDebugMode()">Debug mode</button>
+                                <button id="createTestAreasButton" class="btn btn-secondary" onclick="createTestClickableAreas()">Vytvořit test oblasti</button>
+                                <button id="layerMappingButton" class="btn btn-primary" onclick="toggleLayerMapping()">Mapování vrstev</button>
+                            </div>
+                            
+                            <!-- Panel pro mapování vrstev -->
+                            <div id="mappingPanel" class="mapping-panel" style="display: none;">
+                                <div class="mapping-header">
+                                    <h4>Mapování aktivní vrstvy</h4>
+                                    <div id="mappingStatus" class="mapping-status">Žádná vrstva není vybrána</div>
+                                </div>
+                                <div class="mapping-instructions">
+                                    <p>1. Vyberte vrstvu v panelu "Vrstvy"</p>
+                                    <p>2. Natáhněte čáru myší na obrázku</p>
+                                    <p>3. Klikněte "Uložit mapování"</p>
+                                </div>
+                                <div class="mapping-controls">
+                                    <button id="saveMappingButton" class="btn btn-success" onclick="saveCurrentMapping()" disabled>Uložit mapování</button>
+                                    <button id="clearMappingButton" class="btn btn-warning" onclick="clearCurrentMapping()">Vymazat</button>
+                                    <button id="convertToLinesButton" class="btn btn-secondary" onclick="ensureAllLayersHaveLineMappings()">Převést na čáry</button>
+                                    <div class="button-separator"></div>
+                                    <button id="exportMappingsButton" class="btn btn-secondary" onclick="exportLayerMappings()">Export JSON</button>
+                                    <button id="importMappingsButton" class="btn btn-secondary" onclick="importLayerMappings()">Import JSON</button>
+                                    <div class="button-separator"></div>
+                                    <button id="clearAllMappingsButton" class="btn btn-warning" onclick="clearAllMappings()">Vyčistit vše</button>
+                                    <button id="resetMappingsButton" class="btn btn-secondary" onclick="resetToDefaultMappings()">Reset default</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sekce 4: Užitečné funkce -->
+                <div class="collapsible-section">
+                    <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                        <span class="collapsible-title">Užitečné funkce</span>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-content expanded">
+                        <div class="collapsible-inner">
+                            <div class="utility-functions-panel">
+                                <!-- Vyhledávání -->
+                                <div class="search-section">
+                                    <h4>Vyhledávání</h4>
+                                    <div class="search-controls">
+                                        <input type="text" id="searchInput" class="search-input" placeholder="Hledat v č.PZS nebo km...">
+                                        <button id="searchButton" class="btn btn-primary" onclick="performSearch()">Hledat</button>
+                                        <button id="clearSearchButton" class="btn btn-secondary" onclick="clearSearch()">Vyčistit</button>
+                                    </div>
+                                    <div id="searchResults" class="search-results" style="display: none;">
+                                        <div class="search-results-header">Výsledky hledání:</div>
+                                        <div id="searchResultsList" class="search-results-list"></div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Filtrování dat -->
+                                <div class="filter-section">
+                                    <h4>Filtrování dat</h4>
+                                    <div class="filter-controls">
+                                        <!-- Výběr zdroje dat -->
+                                        <div class="filter-group">
+                                            <label class="filter-label">Zdroj dat:</label>
+                                            <div class="radio-group">
+                                                <label class="radio-label">
+                                                    <input type="radio" name="dataSource" value="excel1" checked onchange="updateColumnOptions()">
+                                                    <span>Detail PZS (Excel 1)</span>
+                                                </label>
+                                                <label class="radio-label">
+                                                    <input type="radio" name="dataSource" value="excel2" onchange="updateColumnOptions()">
+                                                    <span>Podrobnosti PZS (Excel 2)</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Výběr sloupce -->
+                                        <div class="filter-group">
+                                            <label class="filter-label">Sloupec pro filtrování:</label>
+                                            <select id="columnSelect" class="filter-select">
+                                                <option value="">-- Vyberte sloupec --</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <!-- Typ filtru -->
+                                        <div class="filter-group">
+                                            <label class="filter-label">Typ filtru:</label>
+                                            <select id="filterType" class="filter-select">
+                                                <option value="contains">Obsahuje</option>
+                                                <option value="equals">Rovná se</option>
+                                                <option value="startsWith">Začína na</option>
+                                                <option value="endsWith">Končí na</option>
+                                                <option value="notEmpty">Není prázdné</option>
+                                                <option value="isEmpty">Je prázdné</option>
+                                            </select>
+                                        </div>
+                                        
+                                        <!-- Hodnota filtru -->
+                                        <div class="filter-group">
+                                            <label class="filter-label">Hodnota:</label>
+                                            <input type="text" id="filterValue" class="filter-input" placeholder="Zadejte hodnotu pro filtr...">
+                                        </div>
+                                        
+                                        <!-- Tlačítka -->
+                                        <div class="filter-buttons">
+                                            <button id="applyFilterButton" class="btn btn-primary" onclick="applyDataFilter()">Spustit filtr</button>
+                                            <button id="clearFilterButton" class="btn btn-secondary" onclick="clearDataFilter()">Vyčistit filtr</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sekce 5: Informace -->
+                <div class="collapsible-section">
+                    <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                        <span class="collapsible-title">Informace</span>
+                        <span class="collapsible-arrow">▼</span>
+                    </div>
+                    <div class="collapsible-content expanded">
+                        <div class="collapsible-inner">
+                            <div class="info-panel">
+                                <div id="infoLabel" class="info-label"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hlavní oblast pro zobrazení obrázku -->
+        <div class="image-panel">
+            <canvas id="imageCanvas" class="image-canvas"></canvas>
+        </div>
+    </div>
+    
+    <!-- Skryté inputy pro načítání souborů -->
+    <input type="file" id="mainFolderInput" webkitdirectory directory multiple style="display: none;">
+    <input type="file" id="backgroundInput" accept="image/png" style="display: none;">
+    <input type="file" id="layersInput" webkitdirectory directory multiple style="display: none;">
+    <input type="file" id="excel1Input" accept=".xlsx,.xls" style="display: none;">
+    <input type="file" id="excel2Input" accept=".xlsx,.xls" style="display: none;">
+    <input type="file" id="mappingImportInput" accept=".json" style="display: none;">
+    
+    <!-- Modal pro zobrazení Excel dat -->
+    <div id="dataModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Data pro vrstvu</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="excelDataContainer"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="vrstvy-prohlizec.js"></script>
+</body>
+</html>

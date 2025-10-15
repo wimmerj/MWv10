@@ -1,0 +1,710 @@
+[
+  {
+    "id": 1,
+    "question": "001. Jaký hlavní účel má norma ČSN 34 2600 ed. 2 ve vztahu k zabezpečovacím zařízením?",
+    "answers": [
+      "Norma stanovuje rámcové požadavky pro návrh, výstavbu a provoz zabezpečovacích zařízení a jejich částí, které slouží k zajištění bezpečnosti jízdy vlaků a zabezpečeného posunu.",
+      "Norma ČSN 34 2600 ed. 2 se zabývá standardizací výroby a označování elektronických spotřebičů ve vztahu k energetické účinnosti.",
+      "Norma se týká stanovení technických požadavků na výrobu železných hřebíků používaných ve stavebnictví."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 2,
+    "question": "002. Co definuje norma ČSN 34 2600 ed. 2 jako zabezpečovací zařízení a do jakých kategorií tato zařízení člení?",
+    "answers": [
+      "Zabezpečovací zařízení je speciální elektrické zařízení a člení se na staniční, traťová, vlaková a přejezdová zabezpečovací zařízení.",
+      "Norma ČSN 34 2600 ed. 2 člení zabezpečovací zařízení na kategorie: staniční, traťová, vlaková a výhybková zabezpečovací zařízení.",
+      "Norma ČSN 34 2600 ed. 2 člení zabezpečovací zařízení na kategorie: elektrická, mechanická, optická a elektronická zabezpečovací zařízení."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 3,
+    "question": "003. Jakým způsobem lze na základě normy vytvořit integrovaný systém zabezpečení (ISZ)?",
+    "answers": [
+      "ISZ lze vytvořit spojením staničních, traťových, přejezdových a vlakových zabezpečovacích zařízení a jejich dálkového ovládání do jednoho funkčního celku, který umožňuje řízení dopravy z jednoho místa.",
+      "ISZ se vytváří propojením pouze staničních a vlakových zabezpečovacích zařízení bez potřeby jejich dálkového ovládání.",
+      "Integrovaný systém zabezpečení se zakládá na kombinaci digitální komunikace a automatického sledování vozidel bez fyzického spojení zabezpečovacích zařízení."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 4,
+    "question": "004. Platí norma ČSN 34 2600 ed. 2 pro zařízení pro mechanizaci a automatizaci spádovišť?",
+    "answers": [
+      "Ano, norma platí pro tyto zařízení s výjimkou článků 4.2 a), b) a c).",
+      "Ne, norma ČSN 34 2600 ed. 2 se nevztahuje na zařízení pro mechanizaci a automatizaci spádovišť, tyto jsou regulovány odlišnou specifikací.",
+      "Ano, norma platí pro všechna zařízení bez jakýchkoliv výjimek, včetně článků 4.2 a), b) a c)."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 5,
+    "question": "005. Pro které zařízení a výrobky norma ČSN 34 2600 ed. 2 neplatí?",
+    "answers": [
+      "Norma neplatí pro stavby zařízení a výrobky, které jsou sice úzce spojeny s provozem zabezpečovacího zařízení, ale nepodílejí se bezprostředně na jeho hlavní funkci.",
+      "Norma platí pro všechna zařízení a výrobky spojené s železničním provozem bez výjimek.",
+      "Norma neplatí pro zařízení a výrobky, které jsou starší než 10 let a nebyla na ně aplikována žádná modernizace."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 6,
+    "question": "006. Co dělat s existujícími zabezpečovacími zařízeními, které některým ustanovením této normy nevyhovují?",
+    "answers": [
+      "Zařízení, která byla uvedena do provozu před datem účinnosti této normy a některým ustanovením nevyhovují, mohou být ponechána v provozu do doby jejich rekonstrukce, pokud v době uvedení do provozu vyhovovala normám a předpisům a neohrožují bezpečnost železničního provozu.",
+      "Existující zařízení, která nevyhovují normě, musí být okamžitě odstavena a nahrazena novými zařízeními.",
+      "Zařízení, která normě nevyhovují, mohou být dále používána, pokud jsou schválena místním železničním úřadem."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 7,
+    "question": "007. Jaké aspekty by měly být zváženy při návrhu nových zařízení podle normy ČSN 34 2600 ed. 2?",
+    "answers": [
+      "Při návrhu nových zařízení je třeba zohlednit bezpečnost železniční dopravy, ochranu před úrazem elektrickým proudem, podmínky prostředí a požadavky na kompatibilitu se systémy pro detekování vlaků.",
+      "Při návrhu se berou v úvahu pouze ekonomické aspekty a rychlost instalace nových zařízení.",
+      "Hlavním kritériem je zajištění maximální automatizace bez ohledu na bezpečnostní a environmentální faktory."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 8,
+    "question": "008. Jaké jsou doporučené způsoby ověřování nových zařízení podle této normy?",
+    "answers": [
+      "Norma doporučuje různé způsoby ověřování, včetně ověřování bez dalších bezpečnostních opatření, za zvýšeného dozoru, při označení neplatnosti a za zajištění bezpečnosti železniční dopravy jinými opatřeními (např. technickými či administrativními).",
+      "Ověřování se provádí pouze pomocí simulací na počítači bez nutnosti fyzického testování zařízení.",
+      "Nová zařízení se ověřují výhradně pomocí externích auditů a certifikací, bez potřeby interního testování."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 9,
+    "question": "009. Co musí zabezpečovací zařízení a jeho části splňovat podle kapitoly 4.1 normy?",
+    "answers": [
+      "Zabezpečovací zařízení a jeho části musí odpovídat dokumentům uvedeným v kapitole 2 této normy a pokud jsou součástí subsystému řízení a zabezpečení evropského železničního systému, musí splňovat technické specifikace pro interoperabilitu tohoto subsystému v platném znění.",
+      "Zabezpečovací zařízení a jeho části musí být schopné automatického provozu bez lidského zásahu a nejsou vázány na dokumenty specifikované v kapitole 2.",
+      "Zabezpečovací zařízení a jeho části se musí řídit pouze mezinárodními standardy a normami, bez ohledu na požadavky uvedené v kapitole 2 této normy."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 10,
+    "question": "010. Jaké vlastnosti musí mít zabezpečovací zařízení jako celek dle kapitoly 4.2?",
+    "answers": [
+      "Musí přispívat k zajištění bezpečnosti železniční dopravy, bezpečnosti provozu na železničních úrovňových přejezdech, umožňovat plné využití traťové rychlosti, provozní výkonnost stanic a tratí a automatizaci řízení železničního provozu, to vše v daném rozsahu působnosti při splnění předepsaných provozních podmínek, uvažovaných poruchách a zajištění bezpečnosti práce provozních zaměstnanců.",
+      "Zabezpečovací zařízení by mělo být primárně zaměřeno na automatizaci řízení železničního provozu, bez většího důrazu na bezpečnost a provozní výkonnost.",
+      "Hlavním požadavkem je, aby zabezpečovací zařízení fungovalo s minimálními provozními náklady, i když to může obětovat určité aspekty bezpečnosti a efektivity."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 11,
+    "question": "011. Jak musí být dimenzovány a jištěny elektrické vodiče a kabely zabezpečovacího zařízení?",
+    "answers": [
+      "Musí být dimenzovány a jištěny v souladu s ČSN 33 2000-4-43, ČSN 33 2000-4-473, ČSN 33 2000-5-523 ed. 2 a ČSN 37 6605.",
+      "Elektrické vodiče a kabely zabezpečovacího zařízení mohou být dimenzovány libovolně, pokud odpovídají alespoň jedné z uvedených norem.",
+      "Vodiče a kabely se nemusí speciálně jišťovat, pokud jsou instalovány v uzavřených prostorách nebo chráněné oblasti."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 12,
+    "question": "012. Jaké normy odpovídají vzdušným vzdálenostem a povrchovým cestám na zabezpečovacím zařízení?",
+    "answers": [
+      "Musí odpovídat ČSN EN 50124-1 a ČSN EN 60664-1 ed. 2.",
+      "Pro vzdušné vzdálenosti a povrchové cesty jsou relevantní pouze všeobecné stavební normy, nikoli specifické normy pro zabezpečovací zařízení.",
+      "Vzdušné vzdálenosti a povrchové cesty musí odpovídat normám ISO, evropské normy nejsou v tomto případě považovány za relevantní."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 13,
+    "question": "013. Jaké požadavky jsou kladené na zabezpečovací zařízení v souvislosti s elektromagnetickým rušením?",
+    "answers": [
+      "Zabezpečovací zařízení nesmí být zdrojem elektromagnetického rušení překračujícího meze stanovené souborem norem ČSN EN 50121 a musí být odolné proti cizím elektromagnetickým vlivům ve smyslu těchto norem.",
+      "Elektromagnetické rušení není považováno za významný faktor, takže neexistují žádné specifické požadavky na zabezpečovací zařízení v tomto ohledu.",
+      "Požadavky na elektromagnetické rušení jsou minimální a zařízení musí splňovat pouze základní mezinárodní standardy."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 14,
+    "question": "014. Podle kterých předpisů musí odpovídat barvy návěstních světel, znaky a nátěry?",
+    "answers": [
+      "Musí odpovídat Vyhlášce MD č. 173/1995 Sb. a ostatním předpisům provozovatele dráhy.",
+      "Barvy návěstních světel a nátěry jsou standardizovány podle mezinárodních železničních norem bez ohledu na národní předpisy.",
+      "Barvy a nátěry mohou být libovolné, pokud jsou dostatečně viditelné a odlišitelné."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 15,
+    "question": "015. Jaké normy a předpisy musí odpovídat akustické návěsti a akustické a optické indikace?",
+    "answers": [
+      "Musí odpovídat technickým předpisům provozovatele dráhy, hladiny akustických indikací a hluků z činnosti zabezpečovacího zařízení musí být v mezích stanovených příslušnými hygienickými předpisy.",
+      "Akustické a optické indikace se řídí výhradně estetickými a ergonomickými požadavky, bez specifických technických nebo hygienických norem.",
+      "Normy a předpisy pro akustické návěsti neexistují, každý provozovatel dráhy může zvolit libovolný zvuk a intenzitu."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 16,
+    "question": "016. Co musí být dodrženo při navrhování, výstavbě a provozu zabezpečovacího zařízení?",
+    "answers": [
+      "Musí být dodrženy příslušné technické normy a předpisy provozovatele dráhy.",
+      "Důraz je kladen především na nízké náklady a rychlost realizace, technické normy a předpisy jsou druhotné.",
+      "Navrhování a výstavba se řídí pouze základními inženýrskými principy, specifické železniční předpisy nejsou potřebné."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 17,
+    "question": "017. Jaký princip ovládání musí zabezpečovací zařízení dodržet?",
+    "answers": [
+      "Způsob ovládání a význam indikací nových zabezpečovacích zařízení nesmí dávat opačný význam oproti způsobu ovládání předchozích typů zařízení.",
+      "Ovládání zabezpečovacího zařízení by mělo být založeno na nejmodernějších technologiích, bez ohledu na kompatibilitu s předchozími typy.",
+      "Ovládání a indikace zařízení by měly být intuitivní a jednoduché, i když se liší od předchozích systémů."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 18,
+    "question": "018. Jak se mají řešit vnitřní části zabezpečovacích zařízení větších rozměrů?",
+    "answers": [
+      "Musí být dělitelné na sekce s ohledem na instalaci do objektů a musí zohledňovat průchodnost dveří, schodišť atd.",
+      "Velké zabezpečovací zařízení může být navrženo jako jednolitý celek, nezávisle na omezeních prostoru instalace.",
+      "Vnitřní části větších zařízení by měly být navrženy tak, aby maximálně využívaly dostupný prostor, i když to komplikuje instalaci a údržbu."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 19,
+    "question": "019. Jaká je maximální povolená hmotnost výrobků, které musí být upraveny pro uchycení zdvihadlem nebo jinou mechanizací?",
+    "answers": [
+      "Výrobky s hmotností větší než 50 kg.",
+      "Všechny výrobky bez ohledu na hmotnost musí být přizpůsobeny pro uchycení zdvihadlem.",
+      "Pouze výrobky s hmotností nad 100 kg vyžadují upravy pro uchycení zdvihadlem nebo mechanizací."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 20,
+    "question": "020. Jaká je maximální hmotnost výměnných dílů zabezpečovacích zařízení včetně přepravních obalů?",
+    "answers": [
+      "Méně než 15 kg.",
+      "Všechny výměnné díly a obaly by měly mít hmotnost do 30 kg.",
+      "Neexistuje žádný limit hmotnosti, výměnné díly mohou mít libovolnou hmotnost."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 21,
+    "question": "021. Jaká bezpečnostní opatření musí být zahrnuta v krytech částí zabezpečovacích zařízení?",
+    "answers": [
+      "Kryty musí být vybaveny uzavíracími zařízeními, která zamezí přístupu k vnitřním částem a vyžadují speciální nářadí nebo klíč pro otevření.",
+      "Bezpečnostní opatření nejsou vyžadována, pokud jsou kryty dostatečně robustní.",
+      "Kryty by měly být transparentní, aby umožnily vizuální kontrolu bez nutnosti otevření."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 22,
+    "question": "022. Jaký je maximální povolený průměrný tlak vnitřních částí zabezpečovacích zařízení na konstrukci podlahy?",
+    "answers": [
+      "Nejvýše 5 kPa/m2.",
+      "Tlak na podlahu by neměl překročit 10 kPa/m2.",
+      "Neexistují žádné omezení tlaku na konstrukci podlahy."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 23,
+    "question": "023. Jaké faktory musí být zohledněny při umisťování venkovních částí zabezpečovacího zařízení?",
+    "answers": [
+      "Musí se zohlednit prostorová úprava průjezdného průřezu, manipulační a schůdný prostor, průchodnost těžké mechanizace a průjezdový prostor pozemních komunikací.",
+      "Venkovní části by měly být umístěny tak, aby byly co nejvíce viditelné a přístupné.",
+      "Hlavním faktorem je minimalizace nákladů na instalaci a údržbu, bez ohledu na ostatní prostorové požadavky."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 24,
+    "question": "024. Jaké jsou požadavky na umístění vodivých neživých částí zabezpečovacích zařízení v blízkosti trakčních zařízení?",
+    "answers": [
+      "Musí být umístěny mimo prostor ohrožení trolejovým vedením.",
+      "Mohou být umístěny bez omezení blízko trakčního vedení.",
+      "Musí být umístěny v minimální vzdálenosti 10 metrů od trolejového vedení."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 25,
+    "question": "025. Jaká bezpečnostní opatření musí být provedena pro části zabezpečovacího zařízení, které by mohly bránit bezpečnému pohybu osob?",
+    "answers": [
+      "Tyto části musí být opatřeny bezpečnostními sděleními a musí být upraveny podle technických norem a předpisů provozovatele dráhy.",
+      "Tyto části musí být zakryty bezpečnostním krytem, aby nebyly viditelné.",
+      "Tyto části mohou zůstat nezabezpečené, pokud jsou umístěny mimo dosah osob."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 26,
+    "question": "026. Jaké označení musí mít elektrické části zabezpečovacího zařízení na veřejně přístupných místech?",
+    "answers": [
+      "Musí být označeny bezpečnostními sděleními podle ČSN 33 2000-1 ed. 2.",
+      "Nemusí mít žádné speciální označení.",
+      "Musí být označeny varovnými symboly podle mezinárodních norem."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 27,
+    "question": "027. Jakým způsobem musí být označeny samostatné výrobky zabezpečovacího zařízení?",
+    "answers": [
+      "Musí být opatřeny nesnímatelně připevněnými výrobními štítky s nesmazatelnými nápisy, trvanlivými po celou dobu životnosti výrobků.",
+      "Opatřeny kódovým číslem pro snadnou identifikaci v databázi.",
+      "Musí mít pouze sériové číslo bez dalších informací."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 28,
+    "question": "028. Jaké požadavky musí zabezpečovací zařízení splňovat v souvislosti s ochranou před šířením požáru?",
+    "answers": [
+      "Musí splňovat požadavky na ochranu před šířením požáru ve smyslu ČSN EN 61010-1.",
+      "Požadavky na ochranu před požárem nejsou stanoveny.",
+      "Musí být vybaveny automatickým hasicím systémem."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 29,
+    "question": "029. Jaký stupeň ochrany krytem musí mít elektrická zařízení venkovních prvků?",
+    "answers": [
+      "Musí odpovídat stupni ochrany IP X4 podle ČSN EN 60529.",
+      "Musí mít minimálně stupeň ochrany IP X2.",
+      "Nejsou vyžadovány žádné speciální požadavky na ochranu krytem."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 30,
+    "question": "030. Jak by měla být zabezpečovací zařízení navržena, provedena a provozována vzhledem k jejich hlavní funkci?",
+    "answers": [
+      "Zabezpečovací zařízení musí být navržena, provedena a provozována tak, aby spolehlivě plnila svoji hlavní funkci nejen při všech provozních stavech, ale i při všech stavech způsobených uvažovanými poruchami a při respektování relevantních norem.",
+      "Zabezpečovací zařízení musí být navržena a provedena pro optimální výkon pouze ve standardních provozních stavech bez ohledu na poruchy.",
+      "Zabezpečovací zařízení by mělo být navrženo s důrazem na maximální úsporu energie, i když to omezuje jejich funkčnost v určitých stavech."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 31,
+    "question": "031. Na jakém principu musí být založen návrh zabezpečovacího zařízení, pokud jde o intenzitu nebezpečí?",
+    "answers": [
+      "Návrh zabezpečovacího zařízení musí být takový, aby intenzita nebezpečí jednotlivých funkcí byla menší nebo rovná tolerované intenzitě nebezpečí pro příslušnou funkci zařízení.",
+      "Návrh musí zajistit, že intenzita nebezpečí je maximální, aby byla zvýšena pozornost uživatelů.",
+      "Návrh se zaměřuje na estetiku zařízení bez zohlednění intenzity nebezpečí."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 32,
+    "question": "032. Jaké druhy poruch nejsou uvažovány při navrhování částí zabezpečovacích zařízení vzhledem k bezpečnosti železniční dopravy?",
+    "answers": [
+      "Nejsou uvažovány poruchy nepravděpodobné, nepředvídatelné, vzniklé v důsledku násilných úmyslných zásahů, působení vyšší moci, narušení nebo destrukce vozidly, nedodržení předepsaných postupů a nepříznivého působení od spolupracujících zařízení v rozporu s normami a předpisy.",
+      "Uvažovány jsou všechny druhy poruch, včetně těch vzniklých v důsledku chybného používání zařízení.",
+      "Uvažovány jsou pouze poruchy vzniklé v důsledku opotřebení materiálu."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 33,
+    "question": "033. Jaké jsou příklady poruch, které vznikají v důsledku působení přírodních sil nebo lidské činnosti?",
+    "answers": [
+      "Poruchy mohou vzniknout v důsledku působení vyšší moci (např. povodně, zemětřesení), násilných úmyslných zásahů (vandalismus, terorismus), narušení nebo destrukce vozidly a nevhodného působení vnějších vlivů.",
+      "Poruchy způsobené pouze chybami v lidské obsluze, bez vnějších přírodních nebo násilných vlivů.",
+      "Poruchy vzniklé výhradně v důsledku technického opotřebení, bez vlivu vnějších faktorů."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 34,
+    "question": "034. Co vyžadují ustanovení 5.2 a 5.3 a jak musí být doloženo jejich dodržení?",
+    "answers": [
+      "Dodržení ustanovení musí být doloženo rozborem důsledků uvažovaných poruch a způsob doložení musí odpovídat technickým předpisům odběratele.",
+      "Je vyžadováno pouze deklarativní potvrzení dodržení bez nutnosti konkrétního doložení.",
+      "Dodržení ustanovení musí být ověřeno nezávislým auditorem bez nutnosti doložení technických předpisů."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 35,
+    "question": "035. Jaké technické normy se používají k volbě způsobu ochrany u zabezpečovacího zařízení a jeho částí před úrazem elektrickým proudem?",
+    "answers": [
+      "Ochrana se volí podle ČSN 33 2000-4-41 ed.2.",
+      "Ochrana se volí podle ČSN 33 1001-5-22 ed.3.",
+      "Ochrana se volí podle ČSN 22 3002-8 ed.1."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 36,
+    "question": "036. Můžou mít elektrické obvody použité v zabezpečovacích zařízeních přímé spojení se silovými obvody?",
+    "answers": [
+      "Ne, nesmí mít přímé spojení se silovými obvody ve smyslu ČSN 33 0010.",
+      "Ano, mohou mít přímé spojení bez omezení.",
+      "Přímé spojení je povoleno pouze ve vysoce bezpečnostních zabezpečovacích zařízeních."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 37,
+    "question": "037. Jaké podmínky izolace musí splňovat obvody mn, které jsou uloženy společně s obvody nn?",
+    "answers": [
+      "Musí mít nejméně základní izolaci odpovídající zařízením nn.",
+      "Musí mít izolaci odpovídající zařízením nn a mnohonásobně vyšší pevnost izolace.",
+      "Izolace není vyžadována."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 38,
+    "question": "038. Jaké jsou požadavky na společný kabel nebo svazek vodičů obsahující obvody obou kategorií napětí mn a nn?",
+    "answers": [
+      "Musí být navržen s izolací každého vodiče a výslednou pevností podle ČSN EN 61558-1 ed. 2.",
+      "Společný kabel musí být bez izolace pro lepší chlazení.",
+      "Požadavky na izolaci nejsou specifikovány."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 39,
+    "question": "039. Co se považuje za \"uzavřené provozovny\" pro účely ochrany před úrazem elektrickým proudem?",
+    "answers": [
+      "Všechny uzamčené prostory s částmi zabezpečovacích zařízení, kam mají přístup jen pracovníci s elektrotechnickou kvalifikací.",
+      "Uzavřené provozovny zahrnují všechny prostory bez ohledu na přístupnost.",
+      "Uzavřené provozovny jsou jen ty, které mají zcela hermetické uzávěry."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 40,
+    "question": "040. Jaké speciální ustanovení se vztahují na přechodový zemní odpor neživých částí v kontextu normy?",
+    "answers": [
+      "Jeho hodnota nesmí být snižována, pokud vyhovuje podmínce článku 411.6.2 (Neživé části musí být uzemněny individuálně, po skupinách nebo společně.) a musí se přibližovat mezní hodnotě stanovené touto podmínkou pro správnou funkci kolejových obvodů a národního zabezpečovacího zařízení.",
+      "Jeho hodnota musí být vždy maximální, aby se zlepšila účinnost uzemnění.",
+      "Přechodový zemní odpor neexistuje v normách."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 41,
+    "question": "041. Jaký je minimální izolační odpor pro přístroje hlídající stav izolace?",
+    "answers": [
+      "Musí indikovat snížený izolační odpor, který nesmí být nižší než 1 kΩ na 1 V jmenovitého provozního napětí.",
+      "Minimální izolační odpor je 100 MΩ bez ohledu na napětí.",
+      "Izolační odpor není důležitý pro přístroje hlídající stav izolace."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 42,
+    "question": "042. Ověřování nových zařízení (8):",
+    "answers": [
+      "Provozovatel dráhy musí stanovit postupy a podmínky pro provozní ověření nových zařízení.",
+      "Postupy a podmínky stanoví výrobce nových zařízení.",
+      "Provozovatel dráhy nemá povinnost stanovit žádné postupy pro ověření nových zařízení."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 43,
+    "question": "043. Jaké typy zařízení se považují za \"nová zařízení\"?",
+    "answers": [
+      "Nové typy zabezpečovacích zařízení, nové typizované zapojení, nové typy zařízení pro kontrolu volnosti koleje, nové typy funkčních jednotek a nové systémové software.",
+      "Pouze nové zabezpečovací zařízení.",
+      "Pouze nový software."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 44,
+    "question": "044. Jakým způsobem se ověřují části zařízení v provozu, které nemají přímý vliv na bezpečnost železniční dopravy?",
+    "answers": [
+      "Bez dalších bezpečnostních opatření.",
+      "Musí být ověřeny nezávislým auditem.",
+      "Ověření není povinné pro části zařízení bez vlivu na bezpečnost."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 45,
+    "question": "045. Které části zařízení se v provozu ověřují za zvýšeného dozoru udržujících nebo i obsluhujících zaměstnanců?",
+    "answers": [
+      "Pouze hlavní části zabezpečovacího systému.",
+      "Zařízení podle 5.2, která nelze ověřovat žádným z uvedených způsobů.",
+      "Zařízení podle 5.2 zahrnující části zabezpečovacího systému, které musí spolehlivě fungovat v rámci všech provozních a poruchových stavů dle relevantních norem ČSN EN 50126, 50128, 50129, 50159-1 a 50159-2 a specifikací odběratele."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 46,
+    "question": "046. Co znamená ověřování zařízení při označení neplatnosti?",
+    "answers": [
+      "Ověřují se zařízení, která mohou být provozována souběžně s dosavadním zabezpečovacím zařízením a lze je z hlediska řízení provozu dráhy považovat za neplatná.",
+      "Ověřují se zařízení, která jsou mimo provoz a nemohou být používána.",
+      "Ověřují se pouze zařízení, která byla zakoupena v uplynulém roce."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 47,
+    "question": "047. Která zařízení se ověřují za zajištění bezpečnosti železniční dopravy jinými opatřeními?",
+    "answers": [
+      "Ověřují se všechny zařízení podle 5.2 bez výjimky.",
+      "Zařízení podle 5.2, která nelze ověřovat žádným z uvedených způsobů.",
+      "Ověřují se pouze zařízení, která mají přímý vliv na bezpečnost železniční dopravy."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 48,
+    "question": "048. Kdy jsou nová zařízení podle kapitoly 8 \"Návrh nových zařízení\" způsobilá pro používání v železničním provozu?",
+    "answers": [
+      "Pokud vyhovují normě ČSN 34 2600 ed.2 a pokud byla schválena podle platných předpisů.",
+      "Nová zařízení nejsou nikdy způsobilá pro používání.",
+      "Nová zařízení jsou způsobilá pouze po úplné rekonstrukci."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 49,
+    "question": "049. Co je definováno jako funkční jednotka v souvislosti s novými zařízeními?",
+    "answers": [
+      "Funkční jednotka je vždy celé zabezpečovací zařízení.",
+      "Funkční jednotka je jiný název pro nové zařízení.",
+      "Je to základní funkční část zařízení s typovým vnitřním zapojením, která je samostatným výrobkem, např. přestavník, světelné návěstidlo, výstražník, stykový transformátor, zabezpečovací relé, osazená deska plošných spojů apod."
+    ],
+    "correct": 0,
+    "explanation": "Podle ČSN 34 2600 ed.2",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 50,
+    "question": "050. Železniční zabezpečovací zařízení:",
+    "answers": [
+      "Nesmí být zdrojem EMC rušení, jehož úroveň překračuje meze stanovené v ČSN EN 50121 a musí být odolné ve smyslu této normy proti cizím elektromagnetickým vlivům.",
+      "Může být zdrojem EMC rušení, pokud to neovlivňuje bezpečnost železniční dopravy.",
+      "Musí být odolné pouze proti mechanickým vlivům, nikoli proti elektromagnetickým vlivům."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600 ed.2, čl.4.6)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 51,
+    "question": "051. Akustická návěst výstražného signálu zabezpečovacích zařízení:",
+    "answers": [
+      "Musí odpovídat technickým předpisům provozovatele dráhy. Hladiny hluků musí být v mezích stanovených Hygienickými předpisy, avšak to neplatí pro výstražné signály, kde musí být zajištěna vnímatelnost výstražného signálu.",
+      "Musí být slyšet pouze v blízkosti nádražní budovy.",
+      "Musí být nastavena na nejvyšší možnou hlasitost."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600 ed.2, čl.4.8)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 52,
+    "question": "052. Elektrické zařízení venkovních prvků zabezpečovacích zařízení:",
+    "answers": [
+      "Musí odpovídat ochraně krytem IP X4.",
+      "Musí odpovídat ochraně krytem IP 53.",
+      "Musí odpovídat ochraně krytem IP 4X."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600, čl. 4.22)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 53,
+    "question": "053. Elektrické obvody použité v zabezpečovacích zařízeních:",
+    "answers": [
+      "Nesmí mít přímé spojení se silovými obvody.",
+      "Musí mít přímé spojení se silovými obvody.",
+      "Mohou mít přímé spojení se silovými obvody."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600, čl. 6.2)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 54,
+    "question": "054. Železniční zabezpečovací zařízení se člení na:",
+    "answers": [
+      "staniční, traťová, přejezdová, vlaková",
+      "regionální, nákladní, osobní",
+      "hlavní, vedlejší, soukromá, veřejná"
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600, čl. 1.3)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 55,
+    "question": "055. Železniční zabezpečovací zařízení musí umožňovat:",
+    "answers": [
+      "Provozní výkonnost stanic a tratí, automatizaci řízení železničního provozu a plné využití traťové rychlosti.",
+      "Manuální řízení vlaků bez jakékoliv automatizace.",
+      "Omezení rychlosti vlaků na všech tratích."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600, čl. 4.2)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 56,
+    "question": "056. Přístroj hlídající stav izolace musí indikovat snížený izolační stav, který nesmí být nižší než:",
+    "answers": [
+      "1 kOhm / 1V",
+      "1 MOhm",
+      "5 MOhm"
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600, čl. 6.5bc)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 57,
+    "question": "057. Návěstní znaky a návěstní nátěry musí odpovídat:",
+    "answers": [
+      "Vyhlášce MD 173/1995 Sb. a ostatním předpisům SŽ. Ostatní světla, nátěry a předměty nesmí rušivě ovlivňovat vjem návěstí na dráze.",
+      "Vyhlášce MD 173/1995 Sb. a ostatním předpisům SŽ. Ostatní světla, nátěry a předměty nesmí rušivě ovlivňovat vjem návěstí na dráze.",
+      "Vyhlášce MD 173/1995 Sb. a ostatním předpisům SŽ. Ostatní světla, nátěry a předměty nesmí rušivě ovlivňovat vjem návěstí na dráze."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600 ed.2, čl.4.7)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 58,
+    "question": "058. Vodivé neživé části zabezpečovacích zařízení v blízkosti pevných trakčních zařízení:",
+    "answers": [
+      "Se mají umísťovat mimo prostor ohrožení trolejovým vedením.",
+      "Se mají umísťovat mimo prostor ohrožení trolejovým vedením.",
+      "Se mají umísťovat mimo prostor ohrožení trolejovým vedením."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600 ed.2, čl.4.17)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  },
+  {
+    "id": 59,
+    "question": "059. Nová zabezpečovací zařízení jsou způsobilá pro používání v železničním provozu pokud:",
+    "answers": [
+      "Pokud vyhovují této normě a pokud byla schválena podle platných předpisů.",
+      "Pokud vyhovují této normě a pokud byla schválena podle platných předpisů.",
+      "Pokud vyhovují této normě a pokud byla schválena podle platných předpisů."
+    ],
+    "correct": 0,
+    "explanation": "(ČSN 34 2600 ed.2, čl.9.4)",
+    "category": "_01_ČSN_34_2600_ed_2___ok"
+  }
+]

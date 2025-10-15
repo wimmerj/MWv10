@@ -1,0 +1,1118 @@
+[
+  {
+    "id": 1,
+    "question": "001. Jaké jsou hlavní požadavky normy TNŽ 34 2620?",
+    "answers": [
+      "Technické požadavky na zabezpečovací zařízení, jejich umístění, ovládání a diagnostiku.",
+      "Pouze požadavky na diagnostická zařízení.",
+      "Výhradně pravidla pro kontrolu volnosti úseků."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 2,
+    "question": "002. Na jaké dráhy se vztahuje norma TNŽ 34 2620?",
+    "answers": [
+      "Na celostátní, regionální dráhy a vlečky.",
+      "Pouze na celostátní dráhy.",
+      "Jen na vlečky."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 3,
+    "question": "003. Co je to železniční zabezpečovací zařízení dle TNŽ 34 2620?",
+    "answers": [
+      "Zařízení zajišťující bezpečnost kontrolou lidského činitele a automatizací dopravy.",
+      "Zařízení pouze pro diagnostiku železniční dopravy.",
+      "Zařízení výhradně pro kontrolu průjezdu drážních vozidel."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 4,
+    "question": "004. Co znamená zabezpečená jízda dle TNŽ 34 2620?",
+    "answers": [
+      "Jízda, při níž zabezpečovací zařízení splňuje předepsané podmínky a vydává dovolující návěst.",
+      "Jízda bez kontroly zabezpečovacího zařízení.",
+      "Každá jízda povolená ruční návěstí."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 5,
+    "question": "005. Jak je definována nezabezpečená jízda dle TNŽ 34 2620?",
+    "answers": [
+      "Jízda, při níž zabezpečovací zařízení nezajišťuje předepsané požadavky.",
+      "Jízda, která je vždy povolena přivolávací návěstí.",
+      "Jízda pouze při poruše zabezpečovacího zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 6,
+    "question": "006. Co je to závěr jízdní cesty?",
+    "answers": [
+      "Stav, kdy nelze změnit podmínky pro postavení jízdní cesty.",
+      "Stav, kdy je jízda vlaku povolena bez omezení.",
+      "Stav, kdy je zakázána jakákoliv manipulace se zabezpečovacím zařízením."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 7,
+    "question": "007. Co znamená závěr směru jízdy v mezistaničním úseku?",
+    "answers": [
+      "Stav, kdy nelze změnit směr jízdy v mezistaničním úseku.",
+      "Stav, kdy je jízda v mezistaničním úseku povolena obsluhujícím zaměstnancem.",
+      "Stav, kdy nelze postavit jízdní cestu v mezistaničním úseku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 8,
+    "question": "008. Jaký je absolutní význam návěsti „Stůj“?",
+    "answers": [
+      "Drážní vozidlo smí pokračovat v jízdě pouze po obdržení pokynu k další jízdě.",
+      "Drážní vozidlo smí pokračovat v jízdě bez dalšího pokynu.",
+      "Drážní vozidlo musí zůstat stát na místě bez výjimky."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 9,
+    "question": "009. Co znamená permisivní význam návěsti „Stůj“?",
+    "answers": [
+      "Drážní vozidlo smí pokračovat v jízdě po splnění podmínek provozovatele dráhy.",
+      "Drážní vozidlo smí pokračovat pouze na pokyn dispečera.",
+      "Drážní vozidlo nesmí pokračovat v jízdě za žádných okolností."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 10,
+    "question": "010. Co jsou dovolující návěsti?",
+    "answers": [
+      "Všechny návěsti, které dovolují jízdu kromě přivolávací návěsti.",
+      "Pouze návěsti, které dovolují jízdu vlaku na hlavní trati.",
+      "Návěsti, které dovolují posun bez ohledu na zabezpečení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 11,
+    "question": "011. Co jsou přivolávací návěsti?",
+    "answers": [
+      "Návěsti dovolující jízdu náhradním způsobem bez kontroly předepsaných požadavků.",
+      "Návěsti, které povolují jízdu pouze na vedlejší trati.",
+      "Návěsti, které zakazují jízdu bez výjimky."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 12,
+    "question": "012. Co znamená zabezpečení výhybek?",
+    "answers": [
+      "Zahrnuje zabezpečení výhybek i kolejových křižovatek se srdcovkami s pohyblivými částmi.",
+      "Zabezpečení pouze výhybek bez zahrnutí kolejových křižovatek.",
+      "Zabezpečení výhradně jednoduchých výhybek."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 13,
+    "question": "013. Co je místní přestavování výhybky?",
+    "answers": [
+      "Ovládání výhybky z místa v její blízkosti.",
+      "Přestavení výhybky pomocí dálkového ovládání.",
+      "Mechanické přestavení výhybky bez přestavníku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 14,
+    "question": "014. Jak se definuje nouzové ruční přestavení výhybky?",
+    "answers": [
+      "Přestavení výhybky pomocí náhradního mechanického zařízení.",
+      "Ruční přestavení výhybky bez použití přestavníku.",
+      "Přestavení výhybky za pomoci jiného vozidla."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 15,
+    "question": "015. Co je přídržná síla přestavníku?",
+    "answers": [
+      "Síla, která brání otevření výhybkového závěru při vnějších silách.",
+      "Síla potřebná k přestavení výhybky do nové polohy.",
+      "Síla, která zajišťuje uzamčení výhybky při jízdě."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 16,
+    "question": "016. Co je přímá boční ochrana?",
+    "answers": [
+      "Ochrana jízdy pomocí odvratné polohy výhybek nebo výkolejek.",
+      "Ochrana jízdy pouze pomocí zakazující návěsti.",
+      "Ochrana jízdy pomocí signalizace na sbíhajících se kolejích."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 17,
+    "question": "017. Co je nepřímá boční ochrana?",
+    "answers": [
+      "Ochrana jízdy pomocí zakazující návěsti na návěstidlech.",
+      "Ochrana pomocí odvratné polohy výhybek.",
+      "Ochrana jízdy pouze při ručním řízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 18,
+    "question": "018. Co je samovratný přestavník?",
+    "answers": [
+      "Zařízení, které samočinně vrací výhybku do přednostní polohy.",
+      "Zařízení, které umožňuje pouze ruční přestavení výhybky.",
+      "Zařízení, které blokuje výhybku v aktuální poloze."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 19,
+    "question": "019. Co znamená rozřez výhybky?",
+    "answers": [
+      "Najíždění vozidel do pohyblivých částí výhybky ze směru, do kterého není přestavena.",
+      "Přestavení výhybky při jízdě vozidel bez přestavníku.",
+      "Najíždění vozidel do výhybky pouze při její poruše."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 20,
+    "question": "020. Co je jednotné obslužné pracoviště?",
+    "answers": [
+      "Počítačové pracoviště splňující požadavky na sjednocení obsluhy a zobrazení situace.",
+      "Pracoviště pro manuální ovládání výhybek a návěstidel.",
+      "Pracoviště určené pouze pro nouzové obsluhy zabezpečovacích zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 21,
+    "question": "021. Co znamená nouzová obsluha?",
+    "answers": [
+      "Úkony nezbytné k ovládání zabezpečovacího zařízení při mimořádnostech.",
+      "Standardní obsluha zabezpečovacího zařízení při běžném provozu.",
+      "Ovládání zabezpečovacího zařízení bez dokumentovaných postupů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 22,
+    "question": "022. Co je výluka služby dopravních zaměstnanců?",
+    "answers": [
+      "Stav, kdy se dopravní služba nevykonává nebo je omezena.",
+      "Stav, kdy je dopravní služba vykonávána bez omezení.",
+      "Stav, kdy dopravní zaměstnanci vykonávají pouze administrativní činnost."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 23,
+    "question": "023. Co je výluka dopravní služby?",
+    "answers": [
+      "Výluka služby, při které vlaky nebo PMD jezdí.",
+      "Výluka služby, při které vlaky ani PMD nejezdí.",
+      "Výluka služby, při které se vykonává pouze posun."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 24,
+    "question": "024. Co znamená dopravní klid?",
+    "answers": [
+      "Stav, kdy vlaky ani PMD nejezdí.",
+      "Stav, kdy vlaky jezdí pouze v omezeném rozsahu.",
+      "Stav, kdy je dopravní služba vykonávána bez přítomnosti zaměstnanců."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 25,
+    "question": "025. Jak se dělí zabezpečovací zařízení podle úrovně zajištění a kontroly?",
+    "answers": [
+      "Na zařízení 1., 2. a 3. kategorie podle splnění bezpečnostních požadavků.",
+      "Na zařízení automatická, poloautomatická a manuální.",
+      "Na zařízení staniční, traťová a hybridní."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 26,
+    "question": "026. Co charakterizuje zabezpečovací zařízení 1. kategorie?",
+    "answers": [
+      "Za splnění většiny bezpečnostních požadavků odpovídají určení zaměstnanci.",
+      "Splnění všech bezpečnostních požadavků zajišťuje zabezpečovací zařízení.",
+      "Splnění bezpečnostních požadavků zajišťuje pouze ruční obsluha."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 27,
+    "question": "027. Co charakterizuje zabezpečovací zařízení 2. kategorie?",
+    "answers": [
+      "Určené bezpečnostní požadavky zajišťuje zařízení, ostatní zaměstnanci.",
+      "Zařízení nezajišťuje žádné bezpečnostní požadavky.",
+      "Zařízení zajišťuje pouze bezpečnost posunu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 28,
+    "question": "028. Co charakterizuje zabezpečovací zařízení 3. kategorie?",
+    "answers": [
+      "Splnění všech bezpečnostních požadavků zajišťuje zabezpečovací zařízení.",
+      "Zařízení zajišťuje pouze bezpečnost jízdy vlaku, nikoli posunu.",
+      "Zařízení zajišťuje bezpečnost pouze za přítomnosti zaměstnanců."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 29,
+    "question": "029. Co se stane, pokud zařízení nesplňuje závazné požadavky pro svou kategorii?",
+    "answers": [
+      "Zařadí se do nižší kategorie.",
+      "Zůstane ve své kategorii bez ohledu na nedostatky.",
+      "Zařadí se do speciální kategorie nevyhovujících zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 30,
+    "question": "030. Jak se třídí zabezpečovací zařízení podle způsobu provedení vzájemných závislostí?",
+    "answers": [
+      "Na mechanická, elektrická (reléová, elektronická) a hybridní.",
+      "Na manuální, automatická a poloautomatická.",
+      "Na staniční, traťová a kombinovaná."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 31,
+    "question": "031. Co charakterizuje mechanická zabezpečovací zařízení?",
+    "answers": [
+      "Mají závislosti zajišťující bezpečnost mechanicky nebo mechanicky a elektricky.",
+      "Mají závislosti zajišťující bezpečnost výhradně elektronicky.",
+      "Mají závislosti zajišťující bezpečnost pouze prostřednictvím relé."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 32,
+    "question": "032. Co charakterizuje reléová zabezpečovací zařízení?",
+    "answers": [
+      "Závislosti bezpečnosti jsou provedeny převážně prostřednictvím relé.",
+      "Závislosti bezpečnosti jsou provedeny výhradně mechanicky.",
+      "Závislosti bezpečnosti jsou provedeny pouze mikroelektronickými prvky."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 33,
+    "question": "033. Co charakterizuje elektronická zabezpečovací zařízení?",
+    "answers": [
+      "Závislosti bezpečnosti jsou provedeny převážně mikroelektronickými prvky.",
+      "Závislosti bezpečnosti jsou provedeny výhradně mechanicky.",
+      "Závislosti bezpečnosti jsou provedeny převážně prostřednictvím relé."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 34,
+    "question": "034. Co znamená označení hybridní zabezpečovací zařízení?",
+    "answers": [
+      "Obsahuje prvky reléových i elektronických stavědel.",
+      "Obsahuje výhradně mechanické ovládací prvky.",
+      "Obsahuje pouze prvky mechanických stavědel bez elektrického zprostředkování."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 35,
+    "question": "035. Jak se dělí stavědla zabezpečovacích zařízení podle rozsahu a úrovně ovládání?",
+    "answers": [
+      "Na ústřední, řídící, závislá a pomocná.",
+      "Na staniční, traťová, hybridní a manuální.",
+      "Na mechanická, elektrická, automatická a poloautomatická."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 36,
+    "question": "036. Co charakterizuje ústřední stavědla?",
+    "answers": [
+      "Z nich se staví jízdní cesty a ovládají zaústěná traťová zabezpečovací zařízení.",
+      "Z nich se vydávají povely závislým stavědlům a zajišťují závislosti.",
+      "Z nich se ovládá pouze určená skupina výhybek a návěstidel."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 37,
+    "question": "037. Co charakterizuje řídící stavědla?",
+    "answers": [
+      "Vydávají povely ke stavění jízdních cest a zajišťují závislosti překračující rámec jednoho stavědla.",
+      "Pouze staví jízdní cesty v jejich obvodu podle povelů ústředního stavědla.",
+      "Ovládají pouze nezabezpečené jízdy a nemají nadřazený charakter."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 38,
+    "question": "038. Co charakterizuje závislá stavědla?",
+    "answers": [
+      "Staví jízdní cesty v jejich obvodu podle povelů nebo souhlasů řídícího stavědla.",
+      "Slouží pouze k ovládání určené skupiny výhybek a návěstidel.",
+      "Zajišťují závislosti překračující rámec jednoho stavědla."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 39,
+    "question": "039. Co charakterizuje pomocná stavědla?",
+    "answers": [
+      "Ovládají určenou skupinu výhybek a návěstidel na základě souhlasu nadřazeného stavědla.",
+      "Zajišťují závislosti překračující rámec jednoho stavědla.",
+      "Staví jízdní cesty a ovládají zaústěná traťová zabezpečovací zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 40,
+    "question": "040. Jak se dělí návěstidla zabezpečovacího zařízení podle schopnosti měnit návěsti?",
+    "answers": [
+      "Na proměnná a neproměnná.",
+      "Na světelná, mechanická a kombinovaná.",
+      "Na stožárová, trpasličí a krakorcová."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 41,
+    "question": "041. Co charakterizuje proměnná návěstidla?",
+    "answers": [
+      "Ukazují různé návěsti a mohou být mechanická nebo světelná.",
+      "Stále ukazují jedinou návěst a obvykle upozorňují na proměnná návěstidla.",
+      "Jsou vždy mechanická a používají se pouze v 1. a 2. kategorii zabezpečovacích zařízení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 42,
+    "question": "042. Co charakterizuje neproměnná návěstidla?",
+    "answers": [
+      "Stále ukazují jedinou návěst a doplňují nebo nahrazují proměnná návěstidla.",
+      "Ukazují různé návěsti a mohou být mechanická nebo světelná.",
+      "Jsou vždy světelná a používají se pouze na hlavních tratích."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 43,
+    "question": "043. Jaké kombinace proměnných návěstidel je zakázáno ponechat v provozu?",
+    "answers": [
+      "Mechanická předvěst před světelným hlavním návěstidlem.",
+      "Mechanická předvěst před mechanickým hlavním návěstidlem.",
+      "Světelná předvěst před světelným hlavním návěstidlem."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 44,
+    "question": "044. Jak se dělí světelná návěstidla podle nosné konstrukce?",
+    "answers": [
+      "Na stožárová, trpasličí a krakorcová.",
+      "Na mechanická, světelná a kombinovaná.",
+      "Na proměnná a neproměnná."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 45,
+    "question": "045. Co charakterizuje krakorcová návěstidla?",
+    "answers": [
+      "Jsou umístěná na krakorcích, návěstních lávkách nebo obdobných konstrukcích.",
+      "Jsou umístěná na samostatném stožáru odpovídající výšky.",
+      "Jsou umístěná na základu a mají nízkou výšku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 46,
+    "question": "046. Jak se dělí hlavní návěstidla podle provozního určení?",
+    "answers": [
+      "Na vjezdová, odjezdová, cestová, oddílová a krycí.",
+      "Na mechanická, světelná, stožárová a trpasličí.",
+      "Na proměnná a neproměnná."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 47,
+    "question": "047. Co charakterizuje vjezdová návěstidla?",
+    "answers": [
+      "Dovolují vjezd vlaku do dopravny s kolejovým rozvětvením.",
+      "Řídí jízdy vlaků v obvodu dopravny s kolejovým rozvětvením.",
+      "Kryjí místo na širé trati a dovolují jízdu při splnění předepsaných podmínek."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 48,
+    "question": "048. Co charakterizuje odjezdová návěstidla?",
+    "answers": [
+      "Dovolují odjezd vlaku z dopravny s kolejovým rozvětvením.",
+      "Řídí jízdy vlaků v obvodu dopravny s kolejovým rozvětvením.",
+      "Kryjí místo na širé trati a dovolují jízdu při splnění předepsaných podmínek."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 49,
+    "question": "049. Co charakterizuje cestová návěstidla?",
+    "answers": [
+      "Řídí jízdy vlaků v obvodu dopravny s kolejovým rozvětvením.",
+      "Dovolují vjezd vlaku do dopravny s kolejovým rozvětvením.",
+      "Dovolují odjezd vlaku z dopravny s kolejovým rozvětvením."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 50,
+    "question": "050. Co charakterizuje oddílová návěstidla?",
+    "answers": [
+      "Řídí jízdu vlaků na širé trati.",
+      "Řídí jízdy vlaků v obvodu dopravny s kolejovým rozvětvením.",
+      "Kryjí místo na širé trati a dovolují jízdu při splnění předepsaných podmínek."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 51,
+    "question": "051. Co charakterizuje krycí návěstidla?",
+    "answers": [
+      "Kryjí místo na širé trati a dovolují jízdu přes ně při splnění předepsaných podmínek.",
+      "Řídí jízdu vlaků na širé trati.",
+      "Řídí jízdy vlaků v obvodu dopravny s kolejovým rozvětvením."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 52,
+    "question": "052. Jaké návěstidlo se přednostně používá jako hlavní návěstidlo a jeho předvěsti?",
+    "answers": [
+      "Stožárová návěstidla.",
+      "Trpasličí návěstidla.",
+      "Krakorcová návěstidla."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 53,
+    "question": "053. Jaká je minimální výška osy nejnižšího světla stožárového návěstidla nad temenem kolejnice?",
+    "answers": [
+      "Více než 3 metry.",
+      "Méně než 2 metry.",
+      "Přesně 2 metry."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 54,
+    "question": "054. Kdy je možné snížit výšku nejnižšího světla stožárového návěstidla pod 3 metry?",
+    "answers": [
+      "Pokud nelze jinak zajistit požadovanou viditelnost návěsti.",
+      "Pokud je návěstidlo umístěno v oblouku trati.",
+      "Pokud je rychlost v daném úseku nižší než 80 km/h."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 55,
+    "question": "055. Pro jaké účely se přednostně používají trpasličí návěstidla?",
+    "answers": [
+      "Pro seřaďovací a opakovací seřaďovací návěstidla.",
+      "Pro vjezdová a oddílová návěstidla.",
+      "Pro hlavní návěstidla na vysokorychlostních tratích."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 56,
+    "question": "056. Za jakých podmínek lze zřídit odjezdová a cestová návěstidla jako trpasličí?",
+    "answers": [
+      "Pokud před nimi není dovolena rychlost větší než 60 km/h.",
+      "Pokud jsou umístěny u hlavních tratí.",
+      "Pokud jsou použity pro skupinová návěstidla."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 57,
+    "question": "057. Kdy je možné provozovat zabezpečovací zařízení bez proměnných návěstidel?",
+    "answers": [
+      "Pokud je zajištěn bezpečný přenos informací o dovolení jízdy na vedoucí vozidlo.",
+      "Pokud jde o tratě s rychlostí nižší než 30 km/h.",
+      "Pokud jsou všechna návěstidla nahrazena trpasličími návěstidly."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 58,
+    "question": "058. Jak se označují návěstidla?",
+    "answers": [
+      "Označovacím štítkem a návěstním nátěrem nebo označovacím pásem.",
+      "Pouze označovacím štítkem s názvem návěstidla.",
+      "Pouze návěstním nátěrem stožáru."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 59,
+    "question": "059. Kde se umisťuje označovací štítek s názvem návěstidla?",
+    "answers": [
+      "Pod návěstní štít.",
+      "Nad návěstní štít.",
+      "Na boční stranu stožáru."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 60,
+    "question": "060. Jaký je maximální počet znaků v názvu návěstidla?",
+    "answers": [
+      "12 znaků.",
+      "10 znaků.",
+      "15 znaků."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 61,
+    "question": "061. Co mohou obsahovat názvy návěstidel a předvěstí?",
+    "answers": [
+      "Písmena, číslice a diakritická znaménka.",
+      "Pouze písmena a číslice.",
+      "Pouze písmena bez diakritiky."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 62,
+    "question": "062. Jak se doporučuje postupovat při názvech delších než 12 znaků?",
+    "answers": [
+      "Vhodným způsobem je zkrátit.",
+      "Použít pouze první 12 znaků.",
+      "Rozdělit název na dvě části."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 63,
+    "question": "063. Jaká je minimální výška očí strojvedoucího nad temenem kolejnice při posuzování viditelnosti návěstidla?",
+    "answers": [
+      "2 metry.",
+      "1,5 metru.",
+      "3 metry."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 64,
+    "question": "064. Jaká je minimální vzdálenost viditelnosti hlavních návěstidel a předvěstí ze stojícího vedoucího drážního vozidla?",
+    "answers": [
+      "100 metrů.",
+      "50 metrů.",
+      "150 metrů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 65,
+    "question": "065. Za jakých podmínek může být doba viditelnosti návěstí z jedoucího vozidla snížena na 7 sekund?",
+    "answers": [
+      "Pokud jsou před návěstidlem vzdálenostní upozorňovadla.",
+      "Pokud je návěstidlo v přímém úseku trati.",
+      "Pokud je rychlost vozidla nižší než 80 km/h."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 66,
+    "question": "066. Jaká je minimální viditelnost samostatných opakovacích předvěstí v dopravnách s kolejovým rozvětvením?",
+    "answers": [
+      "100 metrů, nebo 50 metrů, pokud brání viditelnosti jiné drážní vozidlo.",
+      "200 metrů, bez ohledu na překážky.",
+      "80 metrů, pokud je rychlost nižší než 60 km/h."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 67,
+    "question": "067. Jak se posuzuje viditelnost návěstidla v oblasti, kde se mění nejvyšší dovolená rychlost?",
+    "answers": [
+      "Podle změny rychlosti skokem nebo se zohledněním zrychlení/zpomalení.",
+      "Podle nejvyšší rychlosti na celé trati.",
+      "Podle průměrné rychlosti v daném úseku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 68,
+    "question": "068. Jaká je minimální vzdálenost čitelnosti neproměnných nesvítících částí návěstního znaku za denního osvětlení?",
+    "answers": [
+      "100 metrů.",
+      "50 metrů.",
+      "150 metrů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 69,
+    "question": "069. Jaká je minimální doba vnímání přenášených návěstí na vedoucí drážní vozidlo před hlavním návěstidlem?",
+    "answers": [
+      "7 sekund.",
+      "10 sekund.",
+      "5 sekund."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 70,
+    "question": "070. Jaká je minimální viditelnost návěstí návěstidel pro posun, pokud viditelnosti brání jiné drážní vozidlo?",
+    "answers": [
+      "50 metrů.",
+      "100 metrů.",
+      "30 metrů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 71,
+    "question": "071. Jaká je minimální viditelnost vzdálenostních upozorňovadel?",
+    "answers": [
+      "50 metrů.",
+      "100 metrů.",
+      "70 metrů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 72,
+    "question": "072. Do jaké vzdálenosti před návěstidlem musí být návěsti pozorovatelné ze stanoviště strojvedoucího?",
+    "answers": [
+      "10 metrů.",
+      "15 metrů.",
+      "5 metrů."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 73,
+    "question": "073. Jak často se musí kontrolovat viditelnost návěstidel v provozu?",
+    "answers": [
+      "Podle podmínek a četnosti stanovené provozovatelem dráhy.",
+      "Jednou za měsíc.",
+      "Jednou za půl roku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 74,
+    "question": "074. Jak musí být situována všechna návěstidla pro každou kolej?",
+    "answers": [
+      "Tak, aby nebyla možná záměna s návěstidly pro jiné koleje.",
+      "Tak, aby byla vždy umístěna vpravo od koleje.",
+      "Tak, aby byla vždy ve stejné výšce."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 75,
+    "question": "075. Kde se umísťují návěstidla na širé trati platná pro levou krajní kolej dvoukolejné trati při osové vzdálenosti menší než 10 m?",
+    "answers": [
+      "Vlevo vedle koleje, pro kterou platí.",
+      "Vpravo vedle koleje, pro kterou platí.",
+      "Na krakorcovém návěstidle nad kolejí."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 76,
+    "question": "076. Kde se umísťují návěstidla výhybek se samovratným přestavníkem?",
+    "answers": [
+      "Vpravo i vlevo vedle kolejí, pro které platí.",
+      "Pouze vlevo vedle koleje, pro kterou platí.",
+      "Pouze vpravo vedle koleje, pro kterou platí."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 77,
+    "question": "077. Jaká je maximální vzdálenost krakorcového návěstidla od osy koleje, pro kterou platí?",
+    "answers": [
+      "0,7 m.",
+      "1 m.",
+      "0,5 m."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 78,
+    "question": "078. Kde se umísťují krakorcová návěstidla, pokud hrozí záměna koleje, pro kterou platí?",
+    "answers": [
+      "Do vzdálenosti 0,7 m od osy koleje.",
+      "Vpravo od osy koleje.",
+      "Vlevo od osy koleje."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 79,
+    "question": "079. Jaké podmínky musí být splněny, aby mohla být návěstidla umístěna na opačné straně, než stanoví bod 4.4.2?",
+    "answers": [
+      "Musí být vhodnější z hlediska sledování návěstí a nesmí být do 10 m jiná kolej.",
+      "Musí být schválena bez dalších podmínek provozovatelem dráhy.",
+      "Musí být vždy umístěna na krakorcovém návěstidle."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 80,
+    "question": "080. Kde se zásadně zřizují opakovací seřaďovací a opakovací spádovištní návěstidla?",
+    "answers": [
+      "Na stejné straně jako návěstidlo, jehož návěst opakují.",
+      "Na opačné straně než návěstidlo, jehož návěst opakují.",
+      "Vždy mezi kolejemi."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 81,
+    "question": "081. Kdy je povoleno umístit skupinová návěstidla na opačné straně?",
+    "answers": [
+      "Pokud z konfigurace kolejiště vyplývá jasné vymezení skupiny kolejí.",
+      "Pokud je to výhodnější pro údržbu železničního svršku.",
+      "Pokud jsou koleje odděleny nástupištěm."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 82,
+    "question": "082. Kdy mohou být vjezdová, oddílová a krycí návěstidla na jednokolejných tratích umístěna vlevo?",
+    "answers": [
+      "Pokud tím dojde ke zlepšení podmínek pro sledování návěstidla.",
+      "Pokud není v souběhu jiná trať a vlevo je více místa.",
+      "Pokud to umožňuje konfigurace nástupišť."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 83,
+    "question": "083. Jaký prostor nesmí návěstidla narušovat?",
+    "answers": [
+      "Průjezdný průřez.",
+      "Volný schůdný prostor.",
+      "Prostor pro činnost mechanizačních prostředků."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 84,
+    "question": "084. Za jakých podmínek se hlavní návěstidla umísťují před trakční dělení?",
+    "answers": [
+      "Nejméně 100 m před začátkem trakčního dělení.",
+      "Nejméně 50 m před začátkem trakčního dělení.",
+      "Přesně 150 m před začátkem trakčního dělení."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 85,
+    "question": "085. Kde se umísťují vjezdová návěstidla do obvodu s pravidelným posunem?",
+    "answers": [
+      "Nejméně 50 m před označník nebo návěstidlo nahrazující označník.",
+      "Nejméně 100 m před označník nebo návěstidlo nahrazující označník.",
+      "Přímo u označníku nebo návěstidla nahrazujícího označník."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 86,
+    "question": "086. Jaká je minimální vzdálenost krycího návěstidla od místa, které kryje?",
+    "answers": [
+      "50 m.",
+      "100 m.",
+      "2,2 m."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 87,
+    "question": "087. Kde se umísťují návěstidla v dopravnách s kolejovým rozvětvením?",
+    "answers": [
+      "Nejméně 1 m před hrot výhybky nebo začátek svodného klínu.",
+      "Nejméně 5 m před hrot výhybky nebo začátek svodného klínu.",
+      "Nejméně 50 m před hrot výhybky nebo začátek svodného klínu."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 88,
+    "question": "088. Jaká je minimální vzdálenost návěstidla před přejezdem od krajnice vozovky?",
+    "answers": [
+      "3 m.",
+      "5 m.",
+      "2 m."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 89,
+    "question": "089. Jaká je maximální vzdálenost pro předvěstění návěsti hlavních návěstidel na širé trati?",
+    "answers": [
+      "Dvojnásobek zábrzdné vzdálenosti.",
+      "Trojnásobek zábrzdné vzdálenosti.",
+      "Pětinásobek zábrzdné vzdálenosti."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 90,
+    "question": "090. Jakým způsobem lze předvěstit návěsti hlavních návěstidel?",
+    "answers": [
+      "Návěstmi předchozích hlavních návěstidel, samostatnými předvěstmi nebo přenosem na vedoucí vozidlo.",
+      "Pouze návěstmi samostatných předvěstí.",
+      "Pouze přenosem na vedoucí vozidlo."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 91,
+    "question": "091. Jaká je doporučená maximální vzdálenost mezi hlavními návěstidly v obvodu jedné dopravny?",
+    "answers": [
+      "2000 m.",
+      "3000 m.",
+      "1000 m."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 92,
+    "question": "092. Kdy lze použít neproměnné návěstidlo s návěstí „Výstraha“?",
+    "answers": [
+      "V jednoduchých případech.",
+      "V případech, kdy není možné použít samostatnou předvěst.",
+      "Pouze na tratích bez autobloku."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  },
+  {
+    "id": 93,
+    "question": "093. Při jakých podmínkách může být vzdálenost mezi hlavními návěstidly větší než dvojnásobek zábrzdné vzdálenosti?",
+    "answers": [
+      "Při vlakových cestách v obvodu jedné dopravny.",
+      "Při použití autobloku.",
+      "Při použití krycích návěstidel na širé trati."
+    ],
+    "correct": 0,
+    "explanation": "()",
+    "category": "TNŽ_34_2620___ok"
+  }
+]
