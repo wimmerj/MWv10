@@ -1577,13 +1577,41 @@ function formatDisplayValue(val) {
         return "—"; // Em dash místo prázdných hodnot
     }
     
-    // Kontrola na datum
-    if (typeof val === 'string' && val.length >= 10 && val.includes('-')) {
+    // Kontrola na datum - rozšířené formáty
+    if (typeof val === 'string' && val.length >= 8) {
         try {
+            let date = null;
+            
             // Formát YYYY-MM-DD nebo YYYY-MM-DD HH:MM:SS
-            const datePart = val.split(' ')[0]; // Vezme jen datumovou část
-            const date = new Date(datePart);
-            if (!isNaN(date.getTime())) {
+            if (val.includes('-') && val.length >= 10) {
+                const datePart = val.split(' ')[0]; // Vezme jen datumovou část
+                date = new Date(datePart);
+            }
+            // Formát DD.MM.YYYY nebo DD/MM/YYYY
+            else if ((val.includes('.') || val.includes('/')) && val.length >= 8) {
+                const separator = val.includes('.') ? '.' : '/';
+                const parts = val.split(separator);
+                if (parts.length === 3) {
+                    // DD.MM.YYYY nebo DD/MM/YYYY
+                    const day = parseInt(parts[0], 10);
+                    const month = parseInt(parts[1], 10);
+                    const year = parseInt(parts[2], 10);
+                    if (day >= 1 && day <= 31 && month >= 1 && month <= 12 && year > 1900) {
+                        date = new Date(year, month - 1, day); // month je 0-indexovaný
+                    }
+                }
+            }
+            // Formát YYYYMMDD (8 číslic)
+            else if (/^\d{8}$/.test(val)) {
+                const year = parseInt(val.substring(0, 4), 10);
+                const month = parseInt(val.substring(4, 6), 10);
+                const day = parseInt(val.substring(6, 8), 10);
+                if (year > 1900 && month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+                    date = new Date(year, month - 1, day);
+                }
+            }
+            
+            if (date && !isNaN(date.getTime())) {
                 return date.toLocaleDateString('cs-CZ'); // Formát DD.MM.YYYY
             }
         } catch (e) {
@@ -1993,7 +2021,13 @@ document.getElementById('dataModal').addEventListener('click', function(event) {
 // Uzavření modalu při stisknutí Escape
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
-        closeModal();
+        // Zavři filtrový modal pokud je otevřený
+        if (isFilterModalOpen) {
+            closeFilterModal();
+        } else {
+            // Jinak zavři hlavní modal
+            closeModal();
+        }
     }
 });
 
@@ -3859,13 +3893,33 @@ function createFilteredDataTable(filteredData) {
         const tr = document.createElement('tr');
         tr.style.cursor = 'pointer';
         
-        // Hover efekt
+        // Podmíněné obarvení pro první sloupec (stejná logika jako v "Podrobnosti PZS")
+        let isGrayRow = false;
+        if (item.rowData && item.rowData.length > 0) {
+            const firstColumnValue = item.rowData[0] ? String(item.rowData[0]).trim() : '';
+            if (firstColumnValue !== 'S - Světelná PZZ') {
+                tr.classList.add('gray-row');
+                tr.style.backgroundColor = '#f0f0f0'; // Světle šedá barva - trvale
+                tr.title = 'Tento řádek neobsahuje světelnou PZZ a nemá podrobnosti'; // Tooltip
+                isGrayRow = true;
+            }
+        }
+        
+        // Hover efekt s ohledem na šedé řádky
         tr.addEventListener('mouseenter', function() {
-            this.style.backgroundColor = '#f5f5f5';
+            if (this.classList.contains('gray-row')) {
+                this.style.backgroundColor = '#e0e0e0';
+            } else {
+                this.style.backgroundColor = '#f5f5f5';
+            }
         });
         
         tr.addEventListener('mouseleave', function() {
-            this.style.backgroundColor = '';
+            if (this.classList.contains('gray-row')) {
+                this.style.backgroundColor = '#f0f0f0'; // Vrat šedou barvu
+            } else {
+                this.style.backgroundColor = '';
+            }
         });
         
         // Sloupec s názvem listu
@@ -3878,7 +3932,7 @@ function createFilteredDataTable(filteredData) {
         // Data sloupce
         item.rowData.forEach(cellValue => {
             const td = document.createElement('td');
-            td.textContent = cellValue || '';
+            td.textContent = formatDisplayValue(cellValue); // Použití nové funkce pro formátování
             tr.appendChild(td);
         });
         
