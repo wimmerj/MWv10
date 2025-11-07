@@ -3866,6 +3866,10 @@ function createFilteredDataTable(filteredData) {
     
     if (filteredData.length === 0) return table;
     
+    // Uložení původních dat pro řazení
+    table._originalData = [...filteredData];
+    table._sortState = {}; // Sledování směru řazení pro každý sloupec
+    
     // Vytvoř hlavičku (použij hlavičky z prvního řádku)
     const headers = filteredData[0].headers;
     const thead = document.createElement('thead');
@@ -3873,23 +3877,182 @@ function createFilteredDataTable(filteredData) {
     
     // Přidej sloupec pro název listu
     const sheetHeader = document.createElement('th');
-    sheetHeader.textContent = 'List';
+    sheetHeader.innerHTML = 'List <span class="sort-indicator"></span>';
     sheetHeader.style.backgroundColor = '#e3f2fd';
+    sheetHeader.style.cursor = 'pointer';
+    sheetHeader.style.userSelect = 'none';
+    sheetHeader.title = 'Klikněte pro seřazení (sestupně → vzestupně → původní)';
+    sheetHeader.setAttribute('data-column', 'sheet');
+    sheetHeader.addEventListener('click', () => sortFilteredTable(table, 'sheet'));
     headerRow.appendChild(sheetHeader);
     
-    headers.forEach(header => {
+    headers.forEach((header, index) => {
         const th = document.createElement('th');
-        th.textContent = header || '';
+        th.innerHTML = `${header || ''} <span class="sort-indicator"></span>`;
+        th.style.cursor = 'pointer';
+        th.style.userSelect = 'none';
+        th.title = 'Klikněte pro seřazení (sestupně → vzestupně → původní)';
+        th.setAttribute('data-column', index);
+        th.addEventListener('click', () => sortFilteredTable(table, index));
         headerRow.appendChild(th);
     });
     
     thead.appendChild(headerRow);
     table.appendChild(thead);
     
-    // Vytvoř tělo tabulky
+    // Vytvoř prázdné tělo tabulky
     const tbody = document.createElement('tbody');
+    table.appendChild(tbody);
     
-    filteredData.forEach((item, index) => {
+    // Naplň tělo tabulky daty pomocí pomocné funkce
+    regenerateFilteredTableBody(table, filteredData);
+    
+    return table;
+}
+
+// Popis filtru pro titulek
+function getFilterDescription(filterType, filterValue) {
+    switch (filterType) {
+        case 'contains': return `obsahuje "${filterValue}"`;
+        case 'equals': return `= "${filterValue}"`;
+        case 'startsWith': return `začíná na "${filterValue}"`;
+        case 'endsWith': return `končí na "${filterValue}"`;
+        case 'notEmpty': return 'není prázdné';
+        case 'isEmpty': return 'je prázdné';
+        default: return '';
+    }
+}
+
+// Zavření filtrovacího modalu
+function closeFilterModal() {
+    const filterModal = document.getElementById('filterModal');
+    if (filterModal) {
+        filterModal.style.display = 'none';
+    }
+    isFilterModalOpen = false;
+}
+
+// Vyčištění filtru
+function clearDataFilter() {
+    const columnSelect = document.getElementById('columnSelect');
+    const filterType = document.getElementById('filterType');
+    const filterValue = document.getElementById('filterValue');
+    
+    columnSelect.value = '';
+    filterType.value = 'contains';
+    filterValue.value = '';
+    
+    // Zavři filtr modal pokud je otevřený
+    closeFilterModal();
+    
+    setInfoLabel('Filtr dat vyčištěn');
+}
+
+// Řazení filtrované tabulky
+function sortFilteredTable(table, columnKey) {
+    const tbody = table.querySelector('tbody');
+    if (!tbody || !table._originalData) return;
+    
+    // Získej aktuální směr řazení pro tento sloupec
+    const currentSort = table._sortState[columnKey] || 'none';
+    let newSort;
+    
+    // Logika alternování: none -> desc -> asc -> none -> desc...
+    if (currentSort === 'none') {
+        newSort = 'desc';
+    } else if (currentSort === 'desc') {
+        newSort = 'asc';
+    } else {
+        newSort = 'none'; // Reset na původní pořadí
+    }
+    
+    // Aktualizuj stav řazení
+    table._sortState = {}; // Vyčisti všechny ostatní
+    table._sortState[columnKey] = newSort;
+    
+    let sortedData;
+    if (newSort === 'none') {
+        // Použij původní neseřazená data
+        sortedData = [...table._originalData];
+    } else {
+        // Seřaď data
+        sortedData = [...table._originalData].sort((a, b) => {
+            let valueA, valueB;
+            
+            if (columnKey === 'sheet') {
+                // Řazení podle názvu listu
+                valueA = a.sheetName || '';
+                valueB = b.sheetName || '';
+            } else {
+                // Řazení podle konkrétního sloupce dat
+                valueA = a.rowData[columnKey] || '';
+                valueB = b.rowData[columnKey] || '';
+            }
+            
+            // Převeď na řetězce pro porovnání
+            const strA = String(valueA).toLowerCase();
+            const strB = String(valueB).toLowerCase();
+            
+            // Pokus o numerické porovnání
+            const numA = parseFloat(valueA);
+            const numB = parseFloat(valueB);
+            
+            let comparison = 0;
+            if (!isNaN(numA) && !isNaN(numB)) {
+                // Numerické porovnání
+                comparison = numA - numB;
+            } else {
+                // Textové porovnání
+                comparison = strA.localeCompare(strB, 'cs-CZ');
+            }
+            
+            // Aplikuj směr řazení
+            return newSort === 'desc' ? -comparison : comparison;
+        });
+    }
+    
+    // Aktualizuj vizuální indikátory
+    updateSortIndicators(table, columnKey, newSort);
+    
+    // Regeneruj tělo tabulky
+    regenerateFilteredTableBody(table, sortedData);
+    
+    const sortMessage = newSort === 'none' ? 'reset na původní pořadí' : 
+                        newSort === 'desc' ? 'sestupně' : 'vzestupně';
+    console.log(`Tabulka seřazena podle sloupce ${columnKey} - ${sortMessage}`);
+}
+
+// Aktualizace vizuálních indikátorů řazení
+function updateSortIndicators(table, activeColumn, sortDirection) {
+    const headers = table.querySelectorAll('th');
+    
+    headers.forEach(th => {
+        const indicator = th.querySelector('.sort-indicator');
+        const column = th.getAttribute('data-column');
+        
+        if (column === String(activeColumn)) {
+            // Aktivní sloupec
+            if (sortDirection === 'none') {
+                indicator.textContent = '';
+                indicator.style.color = '';
+            } else {
+                indicator.textContent = sortDirection === 'desc' ? ' ▼' : ' ▲';
+                indicator.style.color = '#2196F3';
+            }
+        } else {
+            // Neaktivní sloupce
+            indicator.textContent = '';
+            indicator.style.color = '';
+        }
+    });
+}
+
+// Regenerace těla tabulky s novými daty
+function regenerateFilteredTableBody(table, newData) {
+    const tbody = table.querySelector('tbody');
+    tbody.innerHTML = ''; // Vymaž současný obsah
+    
+    newData.forEach((item, index) => {
         const tr = document.createElement('tr');
         tr.style.cursor = 'pointer';
         
@@ -3938,45 +4101,4 @@ function createFilteredDataTable(filteredData) {
         
         tbody.appendChild(tr);
     });
-    
-    table.appendChild(tbody);
-    return table;
-}
-
-// Popis filtru pro titulek
-function getFilterDescription(filterType, filterValue) {
-    switch (filterType) {
-        case 'contains': return `obsahuje "${filterValue}"`;
-        case 'equals': return `= "${filterValue}"`;
-        case 'startsWith': return `začíná na "${filterValue}"`;
-        case 'endsWith': return `končí na "${filterValue}"`;
-        case 'notEmpty': return 'není prázdné';
-        case 'isEmpty': return 'je prázdné';
-        default: return '';
-    }
-}
-
-// Zavření filtrovacího modalu
-function closeFilterModal() {
-    const filterModal = document.getElementById('filterModal');
-    if (filterModal) {
-        filterModal.style.display = 'none';
-    }
-    isFilterModalOpen = false;
-}
-
-// Vyčištění filtru
-function clearDataFilter() {
-    const columnSelect = document.getElementById('columnSelect');
-    const filterType = document.getElementById('filterType');
-    const filterValue = document.getElementById('filterValue');
-    
-    columnSelect.value = '';
-    filterType.value = 'contains';
-    filterValue.value = '';
-    
-    // Zavři filtr modal pokud je otevřený
-    closeFilterModal();
-    
-    setInfoLabel('Filtr dat vyčištěn');
 }

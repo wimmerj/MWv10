@@ -946,6 +946,27 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    transition: background-color 0.2s ease;
+}
+
+/* Styly pro řazení tabulky */
+.filter-table th[data-column] {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.filter-table th[data-column]:hover {
+    background-color: #e3f2fd;
+}
+
+.sort-indicator {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 4px;
+    transition: color 0.2s ease;
 }
 
 .no-results {
