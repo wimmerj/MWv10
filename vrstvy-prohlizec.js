@@ -1436,8 +1436,13 @@ function showExcelData(layerName) {
         
         console.log('Using headerRowIndex:', headerRowIndex, 'dataStartIndex:', dataStartIndex);
         
-        const relevantData = sheetData.slice(dataStartIndex).map(row => row && row.slice ? row.slice(1, 19) : []);
-        const headers = sheetData[headerRowIndex] ? sheetData[headerRowIndex].slice(1, 19) : [];
+        // Dynamicky načteme všechny sloupce (kromě prvního prázdného)
+        // Zjistíme maximální počet sloupců z hlavičkového řádku
+        const maxColumns = sheetData[headerRowIndex] ? sheetData[headerRowIndex].length : 0;
+        const relevantData = sheetData.slice(dataStartIndex).map(row => row && row.slice ? row.slice(1, maxColumns) : []);
+        const headers = sheetData[headerRowIndex] ? sheetData[headerRowIndex].slice(1, maxColumns) : [];
+        
+        console.log(`Načítáme ${maxColumns - 1} sloupců (index 1 až ${maxColumns - 1})`);
         
         // Filtrování prázdných řádků
         const filteredData = relevantData.filter(row => {
@@ -3252,8 +3257,11 @@ function performSearch() {
         // Najdi správné indexy hlaviček a dat (stejná logika jako showExcelData)
         const { headerRowIndex, dataStartIndex } = findHeaderAndDataIndices(sheetData);
         
-        // Získej hlavičky (slice 1,19 stejně jako showExcelData)
-        const headers = sheetData[headerRowIndex] ? sheetData[headerRowIndex].slice(1, 19) : [];
+        // Zjistíme maximální počet sloupců z hlavičkového řádku
+        const maxColumns = sheetData[headerRowIndex] ? sheetData[headerRowIndex].length : 0;
+        
+        // Získej hlavičky (dynamicky všechny sloupce kromě prvního)
+        const headers = sheetData[headerRowIndex] ? sheetData[headerRowIndex].slice(1, maxColumns) : [];
         
         // Najdi indexy sloupců "č.PZS" a "km"
         const pzsColumnIndex = findColumnIndex(headers, 'č.PZS');
@@ -3269,8 +3277,8 @@ function performSearch() {
             const rawRow = sheetData[rawRowIndex];
             if (!rawRow) continue;
             
-            // Použij stejné řezání sloupců jako showExcelData (slice 1,19)
-            const row = rawRow.slice(1, 19);
+            // Použij dynamické řezání sloupců (všechny kromě prvního)
+            const row = rawRow.slice(1, maxColumns);
             
             let found = false;
             let foundColumn = '';

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test zobrazení nových sloupců</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #2196F3;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 12px;
+        }
+        th {
+            background-color: #2196F3;
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+        .info {
+            padding: 10px;
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            margin-bottom: 20px;
+        }
+        .new-column {
+            background-color: #fff3cd !important;
+            font-weight: bold;
+        }
+        .table-container {
+            max-height: 600px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test zobrazení nových sloupců - Podrobnosti PZS</h1>
+        
+        <div class="info">
+            <strong>Status:</strong> <span id="status">Načítám data...</span><br>
+            <strong>Počet sloupců:</strong> <span id="columnCount">-</span><br>
+            <strong>Počet řádků:</strong> <span id="rowCount">-</span><br>
+            <strong>Nově přidané sloupce:</strong> Číslo PZ, Datum UTZ, Násl.UTZ
+        </div>
+        
+        <div class="table-container">
+            <table id="dataTable">
+                <thead id="tableHead"></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script>
+        // Načtení a zobrazení dat z JSON
+        async function loadData() {
+            try {
+                const response = await fetch('./02_Podrobnosti_PZS.json');
+                if (!response.ok) {
+                    throw new Error('Nepodařilo se načíst JSON soubor');
+                }
+                
+                const data = await response.json();
+                console.log('Načtená data:', data);
+                
+                const list1 = data.List1;
+                if (!list1 || list1.length === 0) {
+                    throw new Error('JSON neobsahuje data');
+                }
+                
+                // Hlavičky jsou v řádku s indexem 1
+                const headers = list1[1];
+                const dataRows = list1.slice(2); // Data začínají od indexu 2
+                
+                // Aktualizace informací
+                document.getElementById('status').textContent = 'Data úspěšně načtena ✓';
+                document.getElementById('status').style.color = 'green';
+                document.getElementById('columnCount').textContent = headers.length;
+                document.getElementById('rowCount').textContent = dataRows.length;
+                
+                // Vytvoření hlavičky tabulky
+                const thead = document.getElementById('tableHead');
+                const headerRow = document.createElement('tr');
+                
+                // Indexy nových sloupců (14, 15, 16)
+                const newColumnIndexes = [14, 15, 16];
+                
+                headers.forEach((header, index) => {
+                    if (header && header.trim()) { // Přeskočíme prázdné sloupce
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        
+                        // Zvýraznění nových sloupců
+                        if (newColumnIndexes.includes(index)) {
+                            th.className = 'new-column';
+                            th.title = 'Nově přidaný sloupec';
+                        }
+                        
+                        headerRow.appendChild(th);
+                    }
+                });
+                
+                thead.appendChild(headerRow);
+                
+                // Vytvoření těla tabulky (zobrazíme prvních 50 řádků)
+                const tbody = document.getElementById('tableBody');
+                const displayRows = dataRows.slice(0, 50);
+                
+                displayRows.forEach((row, rowIndex) => {
+                    const tr = document.createElement('tr');
+                    
+                    row.forEach((cell, cellIndex) => {
+                        if (headers[cellIndex] && headers[cellIndex].trim()) {
+                            const td = document.createElement('td');
+                            
+                            // Formátování hodnoty
+                            let displayValue = cell;
+                            if (cell === null || cell === undefined || cell === '') {
+                                displayValue = '—';
+                            } else if (typeof cell === 'string' && cell.includes('-') && cell.length >= 10) {
+                                // Datum
+                                try {
+                                    const date = new Date(cell.split(' ')[0]);
+                                    if (!isNaN(date.getTime())) {
+                                        displayValue = date.toLocaleDateString('cs-CZ');
+                                    }
+                                } catch (e) {}
+                            }
+                            
+                            td.textContent = displayValue;
+                            
+                            // Zvýraznění nových sloupců
+                            if (newColumnIndexes.includes(cellIndex)) {
+                                td.className = 'new-column';
+                            }
+                            
+                            tr.appendChild(td);
+                        }
+                    });
+                    
+                    tbody.appendChild(tr);
+                });
+                
+                console.log(`Zobrazeno ${displayRows.length} řádků z ${dataRows.length}`);
+                
+            } catch (error) {
+                console.error('Chyba při načítání dat:', error);
+                document.getElementById('status').textContent = 'Chyba: ' + error.message;
+                document.getElementById('status').style.color = 'red';
+            }
+        }
+        
+        // Načtení dat při načtení stránky
+        window.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
