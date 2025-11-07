@@ -1774,30 +1774,36 @@ function updateSecondTable(secondTable, selectedRowIndex, firstTableData, firstT
         
         sheet2Headers.forEach((header, index) => {
             const headerStr = String(header || '').trim().toLowerCase();
+            console.log(`Header ${index}: "${header}" -> "${headerStr}"`);
             if (headerStr === "hypertext") {
                 hypertextColIndex = index;
+                console.log(`Found hypertext column at index ${index}`);
             }
-            if (headerStr.includes('pzs') || headerStr.includes('číslo') || headerStr.includes('č.')) {
+            if (headerStr === 'č.pzs' || headerStr.includes('č.pzs')) {
                 pzsColIndex = index;
+                console.log(`Found PZS column by exact match at index ${index}`);
             }
         });
         
         console.log('hypertextColIndex:', hypertextColIndex);
         console.log('pzsColIndex in sheet2:', pzsColIndex);
         
-        // Pokud nenajdeme PZS sloupec, zkusíme různé indexy
+        // Pokud nenajdeme PZS sloupec přesným hledáním, zkusíme různé indexy
         if (pzsColIndex === -1) {
-            // Zkusíme obvyklé pozice
-            const possibleIndexes = [5, 6, 0, 1, 2]; // sloupec G (5), H (6), A (0), B (1), C (2)
+            // Zkusíme obvyklé pozice - podle struktury JSON je sloupec č.PZS na indexu 6
+            const possibleIndexes = [6, 5, 0, 1, 2]; // sloupec 6 je správný podle JSON struktury
             for (const idx of possibleIndexes) {
                 if (idx < sheet2Headers.length) {
                     console.log(`Trying index ${idx} with header "${sheet2Headers[idx]}"`);
                     // Zkusíme najít nějakou hodnotu podobnou PZS
-                    const sampleValue = sheet2DataRows.length > 0 && sheet2DataRows[0][idx] ? String(sheet2DataRows[0][idx]) : '';
-                    if (sampleValue.match(/P\d+/i)) {
-                        pzsColIndex = idx;
-                        console.log(`Found PZS-like values at index ${idx}`);
-                        break;
+                    if (sheet2DataRows.length > 0 && sheet2DataRows[0] && sheet2DataRows[0][idx]) {
+                        const sampleValue = String(sheet2DataRows[0][idx]);
+                        console.log(`Sample value at index ${idx}: "${sampleValue}"`);
+                        if (sampleValue.match(/P\d+/i)) {
+                            pzsColIndex = idx;
+                            console.log(`Found PZS-like values at index ${idx}`);
+                            break;
+                        }
                     }
                 }
             }
@@ -1807,10 +1813,28 @@ function updateSecondTable(secondTable, selectedRowIndex, firstTableData, firstT
         const visibleHeaders = sheet2Headers.filter((_, index) => index !== hypertextColIndex);
         
         // Získání hodnoty č.PZS z vybraného řádku první tabulky
-        const pzsColumnIndex = firstTableHeaders.findIndex(header => 
-            String(header || '').toLowerCase().includes('pzs') || 
-            String(header || '').toLowerCase().includes('č.')
+        let pzsColumnIndex = -1;
+        
+        // Nejdříve zkusíme přesné vyhledávání
+        pzsColumnIndex = firstTableHeaders.findIndex(header => 
+            String(header || '').toLowerCase() === 'č.pzs'
         );
+        
+        // Pokud nenajdeme přesnou shodu, zkusíme obecnější hledání
+        if (pzsColumnIndex === -1) {
+            pzsColumnIndex = firstTableHeaders.findIndex(header => 
+                String(header || '').toLowerCase().includes('pzs')
+            );
+        }
+        
+        // Fallback - pokud stále nenajdeme, zkusíme index 2 (podle JSON struktury)
+        if (pzsColumnIndex === -1) {
+            console.log('PZS column not found by header matching, trying index 2');
+            pzsColumnIndex = 2; // V prvním JSON souboru je č.PZS na indexu 2
+        }
+        
+        console.log('First table headers:', firstTableHeaders);
+        console.log('Found PZS column in first table at index:', pzsColumnIndex);
         
         console.log('pzsColumnIndex in first table:', pzsColumnIndex);
         
@@ -1855,10 +1879,14 @@ function updateSecondTable(secondTable, selectedRowIndex, firstTableData, firstT
                 const pzsValue = String(row[idx] || '').trim();
                 console.log(`Checking row ${index}, column ${idx}: "${pzsValue}" vs "${selectedPzsValue}"`);
                 
-                if (pzsValue === selectedPzsValue) {
+                // Porovnáváme jak přesnou shodu, tak i to, zda hledaná hodnota je součástí složeného PZS
+                const exactMatch = pzsValue === selectedPzsValue;
+                const partialMatch = pzsValue.includes(selectedPzsValue) && selectedPzsValue.length > 2;
+                
+                if (exactMatch || partialMatch) {
                     foundMatch = true;
                     matchCount++;
-                    console.log(`MATCH found at row ${index}, column ${idx}`);
+                    console.log(`MATCH found at row ${index}, column ${idx} - ${exactMatch ? 'exact' : 'partial'}`);
                     
                     const tr = document.createElement('tr');
                     
