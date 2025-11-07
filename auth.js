@@ -1,8 +1,18 @@
 // Autentizace pro přístup k pracovním nástrojům
 (function() {
-    const CORRECT_PASSWORD = 'ssztplz';
+    // Hash hesla (SHA-256) - původní heslo již není v plain textu
+    const CORRECT_PASSWORD_HASH = '0eede90eea0c77a6999b2eaa2275a438b0392f4118f7edd08c5b909bb498874c';
     const SESSION_KEY = 'worktools_authenticated';
     const SESSION_DURATION = 24 * 60 * 60 * 1000; // 24 hodin v milisekundách
+    
+    // Funkce pro výpočet SHA-256 hash
+    async function sha256(message) {
+        const msgBuffer = new TextEncoder().encode(message);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        return hashHex;
+    }
     
     function checkAuthentication() {
         const authData = localStorage.getItem(SESSION_KEY);
@@ -44,14 +54,17 @@
         document.getElementById('password-input').focus();
     }
     
-    function handleAuthSubmit(event) {
+    async function handleAuthSubmit(event) {
         event.preventDefault();
         
         const passwordInput = document.getElementById('password-input');
         const errorDiv = document.getElementById('auth-error');
         const enteredPassword = passwordInput.value;
         
-        if (enteredPassword === CORRECT_PASSWORD) {
+        // Porovnání hash hodnot místo plain textu
+        const enteredPasswordHash = await sha256(enteredPassword);
+        
+        if (enteredPasswordHash === CORRECT_PASSWORD_HASH) {
             setAuthenticated();
             showMainContent();
             errorDiv.textContent = '';
@@ -82,12 +95,14 @@
         }
         
         // Připojení event listeneru na formulář
-        document.getElementById('auth-form').addEventListener('submit', handleAuthSubmit);
+        document.getElementById('auth-form').addEventListener('submit', async (event) => {
+            await handleAuthSubmit(event);
+        });
         
         // Enter key pro rychlejší přihlášení
-        document.getElementById('password-input').addEventListener('keypress', function(event) {
+        document.getElementById('password-input').addEventListener('keypress', async function(event) {
             if (event.key === 'Enter') {
-                handleAuthSubmit(event);
+                await handleAuthSubmit(event);
             }
         });
     });
